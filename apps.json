@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "10",
+          "date": "2026-06-26T22:00:59Z",
+          "localizedDescription": "fix(M1): 修复启动秒崩 — toastOverlay/successOverlay 注入顺序错误  崩溃实证(EXC_BREAKPOINT → EnvironmentValues.subscript.getter → assertionFailure): .toastOverlay()/.successOverlay() 加在 .environment(toast/success) 之后(更外层), SwiftUI 环境从外向内传递,overlay 修饰符读 @Environment(ToastCenter/SuccessCenter) 时为空 → 首帧 assertion 崩溃。 修法:两个 overlay 挪到 .environment(...) 之前(更内层),被环境注入包住。 + .gitignore 忽�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 4481138,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "9",
           "date": "2026-06-26T21:22:53Z",
           "localizedDescription": "fix(ci): 发布前自动初始化空发布仓库(GitHub 不允许在空仓库建 Release)  git ls-remote 检测 e7-swift-dist 无 refs 时,推一个初始 README 提交到 main,之后建 Release/gh-pages 都正常。自愈,一劳永逸。  ",
