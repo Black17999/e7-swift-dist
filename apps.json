@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "15",
+          "date": "2026-06-27T20:47:58Z",
+          "localizedDescription": "docs(M3): 看板 — 批C 代码完成,待 Codemagic 验证  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 6449353,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "14",
           "date": "2026-06-27T20:29:18Z",
           "localizedDescription": "docs(M3): 看板 — M3 转 🟡 进行中,批A 验证通过 + 批B 待验  ",
