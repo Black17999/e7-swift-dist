@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "19",
+          "date": "2026-06-27T23:47:27Z",
+          "localizedDescription": "feat(M4): 批B-3 AddDebtSheet 新增债务 + 点亮债务 Tab1(MainTabView)+ 清理 ComingSoonView  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 7731736,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "18",
           "date": "2026-06-27T23:16:53Z",
           "localizedDescription": "feat(M4): 批A-4 DebtsStore 环境注入 + 登录/刷新/回边生命周期接线  ",
