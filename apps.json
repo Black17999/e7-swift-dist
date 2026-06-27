@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "17",
+          "date": "2026-06-27T21:48:10Z",
+          "localizedDescription": "fix(sync): 分页拉全 + 强制全量回填 — 修复历史 >1000 行只同步到一小部分  PostgREST 单次响应上限 1000;旧 pull 无分页/无排序,只拉到子集且把水位线推到末尾, 其余行被永久跳过。改:按 updated_at 升序 + range 分页拉到不足一页;水位线键名 →.v2 强制既有安装下次从 epoch 重新全量回填。transactions + categories 同改。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 6450564,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "16",
           "date": "2026-06-27T21:32:11Z",
           "localizedDescription": "fix(sync): user_id 统一小写 — 修复'数据库有记录但 App 全空 / 记录重开消失'  根因:Swift user.id.uuidString 是大写,Postgres uuid 列规范化为小写, 本地 GRDB user_id 字符串过滤大小写敏感 → 同步下来的小写行全部匹配不上。 影响 transactions + categories(同走 auth.userID 过滤)。  ",
