@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "14",
+          "date": "2026-06-27T20:29:18Z",
+          "localizedDescription": "docs(M3): 看板 — M3 转 🟡 进行中,批A 验证通过 + 批B 待验  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 6417397,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "13",
           "date": "2026-06-27T20:03:09Z",
           "localizedDescription": "feat(M3): 批A-3 StatisticsStore 环境注入 + 登录/刷新生命周期接线  ",
