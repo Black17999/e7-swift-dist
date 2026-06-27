@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "13",
+          "date": "2026-06-27T20:03:09Z",
+          "localizedDescription": "feat(M3): 批A-3 StatisticsStore 环境注入 + 登录/刷新生命周期接线  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 6301864,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "12",
           "date": "2026-06-27T18:05:13Z",
           "localizedDescription": "chore(ci): 手动 webhook 配好后验证自动触发  ",
