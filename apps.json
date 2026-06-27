@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "16",
+          "date": "2026-06-27T21:32:11Z",
+          "localizedDescription": "fix(sync): user_id 统一小写 — 修复'数据库有记录但 App 全空 / 记录重开消失'  根因:Swift user.id.uuidString 是大写,Postgres uuid 列规范化为小写, 本地 GRDB user_id 字符串过滤大小写敏感 → 同步下来的小写行全部匹配不上。 影响 transactions + categories(同走 auth.userID 过滤)。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 6448210,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "15",
           "date": "2026-06-27T20:47:58Z",
           "localizedDescription": "docs(M3): 看板 — 批C 代码完成,待 Codemagic 验证  ",
