@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "21",
+          "date": "2026-06-28T01:11:48Z",
+          "localizedDescription": "fix(M4): 债务不同步根因 — 同步分域隔离(单域失败不再中断全链)+ 清理重复 pending 分类(消除 categories 23505 毒化)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 7744345,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "20",
           "date": "2026-06-28T00:56:31Z",
           "localizedDescription": "fix(M4): 债务空态可下拉刷新(修复#2)+ 临时同步诊断(排查 DB 有 44 条但 App 不显示)  ",
