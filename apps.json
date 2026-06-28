@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "23",
+          "date": "2026-06-28T04:12:40Z",
+          "localizedDescription": "docs(M5): 看板 — 批C 主计算页+历史落码完成,M5 三批待 push 收官  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8104292,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "22",
           "date": "2026-06-28T02:14:26Z",
           "localizedDescription": "docs(M4): 看板 — 批C 详情页落码完成(e2359ad),M4 待 push 验 Codemagic+真机收官  ",
