@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "22",
+          "date": "2026-06-28T02:14:26Z",
+          "localizedDescription": "docs(M4): 看板 — 批C 详情页落码完成(e2359ad),M4 待 push 验 Codemagic+真机收官  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 7837442,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "21",
           "date": "2026-06-28T01:11:48Z",
           "localizedDescription": "fix(M4): 债务不同步根因 — 同步分域隔离(单域失败不再中断全链)+ 清理重复 pending 分类(消除 categories 23505 毒化)  ",
