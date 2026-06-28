@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "20",
+          "date": "2026-06-28T00:56:31Z",
+          "localizedDescription": "fix(M4): 债务空态可下拉刷新(修复#2)+ 临时同步诊断(排查 DB 有 44 条但 App 不显示)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 7742417,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "19",
           "date": "2026-06-27T23:47:27Z",
           "localizedDescription": "feat(M4): 批B-3 AddDebtSheet 新增债务 + 点亮债务 Tab1(MainTabView)+ 清理 ComingSoonView  ",
