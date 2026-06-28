@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "24",
+          "date": "2026-06-28T04:52:42Z",
+          "localizedDescription": "fix(UI): 真机首验修复 5 项  #1 记账/债务/统计页 navigationTitle 加 .inline → 标题与工具栏按钮同一行(原大标题模式标题在按钮下方) #2 统计分类排行:行布局重排(姓名 flex 截断 + 金额 fixedSize + 百分比定宽 44)→ 大额支出不再把右侧百分比挤出屏幕;排序本就降序(makeBreakdown) #4 债务卡片去掉 NavigationLink 右箭头 → 改 onTapGesture + .navigationDestination(item:)(DebtRecord 加 Hashable),点卡片仍 push 详�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8124026,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "23",
           "date": "2026-06-28T04:12:40Z",
           "localizedDescription": "docs(M5): 看板 — 批C 主计算页+历史落码完成,M5 三批待 push 收官  ",
