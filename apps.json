@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "1.0.0",
+          "buildVersion": "26",
+          "date": "2026-06-30T21:21:16Z",
+          "localizedDescription": "docs(M6): 静态信息三件套实现 plan(批 A · 6 task,原生简化分批 inline)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8123806,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0.0",
           "buildVersion": "25",
           "date": "2026-06-30T17:57:07Z",
           "localizedDescription": "fix(记账): 写入侧支出金额归一为负(对齐跨端「支出存负」约定)  根因:iOS 记一笔把用户录入的正数金额原样写库,而 transactions.amount 跨端约定为带符号 台账值(Flutter:支出负/收入正)。一旦在 iOS 记支出 → 正数写进共享生产库 → 安卓 Flutter 端聚合算错(iOS 自身因聚合已改 abs 不受影响,见 193fd3c)。  直连生产库核查:当前 0 条正数支出(357 条支出全为负),纯预防性修复,无需清历史数�",
