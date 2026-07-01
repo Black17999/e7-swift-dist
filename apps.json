@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "28",
+          "date": "2026-07-01T03:48:59Z",
+          "localizedDescription": "feat(M6): 我的页接入 AI 设置入口  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8280253,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "27",
           "date": "2026-07-01T01:23:09Z",
           "localizedDescription": "feat(M6): 我的页接入 使用说明/更新历史/关于 三入口 + 关于 sheet 导航  ",
