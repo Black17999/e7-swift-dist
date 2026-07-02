@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "29",
+          "date": "2026-07-02T18:07:02Z",
+          "localizedDescription": "feat(M6): AI 账单解析 AiQuickEntryService(简化schema + 60s→120s重试 + 水合)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8280253,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "28",
           "date": "2026-07-01T03:48:59Z",
           "localizedDescription": "feat(M6): 我的页接入 AI 设置入口  ",
