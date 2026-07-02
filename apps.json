@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "30",
+          "date": "2026-07-02T18:50:12Z",
+          "localizedDescription": "feat: 实现债务视图和用户资料视图，用于债务管理和用户个人资料界面  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8295947,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "29",
           "date": "2026-07-02T18:07:02Z",
           "localizedDescription": "feat(M6): AI 账单解析 AiQuickEntryService(简化schema + 60s→120s重试 + 水合)  ",
