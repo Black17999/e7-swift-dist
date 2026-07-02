@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "35",
+          "date": "2026-07-02T20:30:41Z",
+          "localizedDescription": "feat: 初始化应用入口点并实现带有设置架构的配置屏幕  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8674590,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "34",
           "date": "2026-07-02T20:04:52Z",
           "localizedDescription": "feat(stats): add return-to-today and settings buttons to statistics page navigation bar  ",
