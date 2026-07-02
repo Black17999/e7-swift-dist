@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "37",
+          "date": "2026-07-02T21:37:20Z",
+          "localizedDescription": "feat: implement DebtsView with search, sorting, and management actions  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8675495,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "36",
           "date": "2026-07-02T20:50:25Z",
           "localizedDescription": "feat: 实现具有搜索、排序和删除能力的DebtsView，并添加嵌入式搜索栏组件  ",
