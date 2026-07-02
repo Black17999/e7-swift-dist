@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "33",
+          "date": "2026-07-02T19:49:51Z",
+          "localizedDescription": "feat: initialize main app structure and configure global state stores and navigation styles  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8669140,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "32",
           "date": "2026-07-02T19:41:04Z",
           "localizedDescription": "feat: 实现核心应用架构和可重用的认证组件  ",
