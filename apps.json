@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "34",
+          "date": "2026-07-02T20:04:52Z",
+          "localizedDescription": "feat(stats): add return-to-today and settings buttons to statistics page navigation bar  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8675838,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "33",
           "date": "2026-07-02T19:49:51Z",
           "localizedDescription": "feat: initialize main app structure and configure global state stores and navigation styles  ",
