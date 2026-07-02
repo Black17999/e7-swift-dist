@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "32",
+          "date": "2026-07-02T19:41:04Z",
+          "localizedDescription": "feat: 实现核心应用架构和可重用的认证组件  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8666992,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "31",
           "date": "2026-07-02T19:23:29Z",
           "localizedDescription": "feat:实现应用入口点和债务管理功能，包含列表和搜索功能  ",
