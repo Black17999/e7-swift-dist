@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "39",
+          "date": "2026-07-03T14:18:27Z",
+          "localizedDescription": "fix(M6): FAB 点击判定改平方距比较,免 hypot 的 import 依赖  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8819741,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "38",
           "date": "2026-07-03T12:07:16Z",
           "localizedDescription": "chore(ui): 移除全局搜索框的自定义背景色设置  ",
