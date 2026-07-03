@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "38",
+          "date": "2026-07-03T12:07:16Z",
+          "localizedDescription": "chore(ui): 移除全局搜索框的自定义背景色设置  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8803199,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "37",
           "date": "2026-07-02T21:37:20Z",
           "localizedDescription": "feat: implement DebtsView with search, sorting, and management actions  ",
