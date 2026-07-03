@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "40",
+          "date": "2026-07-03T17:03:40Z",
+          "localizedDescription": "feat(M6): 我的页加皮肤设置入口(深色开关保留)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8834943,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "39",
           "date": "2026-07-03T14:18:27Z",
           "localizedDescription": "fix(M6): FAB 点击判定改平方距比较,免 hypot 的 import 依赖  ",
