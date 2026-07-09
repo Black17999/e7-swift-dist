@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "41",
+          "date": "2026-07-09T13:42:01Z",
+          "localizedDescription": "feat(M6): 我的页接入头像(真图显示 + 更换/查看/移除菜单 + 裁剪)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8921316,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "40",
           "date": "2026-07-03T17:03:40Z",
           "localizedDescription": "feat(M6): 我的页加皮肤设置入口(深色开关保留)  ",
