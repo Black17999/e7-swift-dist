@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "47",
+          "date": "2026-07-12T03:18:48Z",
+          "localizedDescription": "fix(home): ①英雄卡/日期条比例改回扁长长方形(撤上轮增高,数字保留略大) ②日期条进入默认锚到今天(defaultScrollAnchor(.trailing),弃易失效 onAppear) ③选中改精致圆角非死板方块  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8981600,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "46",
           "date": "2026-07-12T02:57:22Z",
           "localizedDescription": "feat(home): 5处视觉精修 — ①英雄卡放大(padding/字号/环) ②日期条放大 ③去圆点 ④选中改主色渐变立体胶囊+投影(有质感) +两端渐隐mask ⑤记录图标加圆角底座  ",
