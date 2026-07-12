@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "46",
+          "date": "2026-07-12T02:57:22Z",
+          "localizedDescription": "feat(home): 5处视觉精修 — ①英雄卡放大(padding/字号/环) ②日期条放大 ③去圆点 ④选中改主色渐变立体胶囊+投影(有质感) +两端渐隐mask ⑤记录图标加圆角底座  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8981534,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "45",
           "date": "2026-07-12T02:38:33Z",
           "localizedDescription": "feat(home): 单日视图三处精修 — ①当天记录收进 InsetGrouped 软卡(行内分隔+保留滑删) ②交易明细头加图标+笔数胶囊 ③日期条有记录的天加小圆点  ",
