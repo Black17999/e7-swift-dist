@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "43",
+          "date": "2026-07-12T01:05:50Z",
+          "localizedDescription": "refactor(home): #1 校准 — 英雄卡+日期条置顶固定于渐变区,记录区真原生 InsetGrouped 灰底分组(去 scrollContentBackground.hidden)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8972762,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "42",
           "date": "2026-07-11T23:47:56Z",
           "localizedDescription": "feat(home): RecordsView 组装首页(问候头+今日英雄卡+日期条跳转);去 bolt/系统标题;MainTabView 传 onProfileTap  ",
