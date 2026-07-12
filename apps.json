@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "45",
+          "date": "2026-07-12T02:38:33Z",
+          "localizedDescription": "feat(home): 单日视图三处精修 — ①当天记录收进 InsetGrouped 软卡(行内分隔+保留滑删) ②交易明细头加图标+笔数胶囊 ③日期条有记录的天加小圆点  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8978044,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "44",
           "date": "2026-07-12T01:27:24Z",
           "localizedDescription": "revert(home): #1 布局回退到滚动式(英雄卡+日期条随列表滚、渐变通铺、每笔一卡)— 修「头/卡/日期条挤一块」;保留 #2/#3/#4  ",
