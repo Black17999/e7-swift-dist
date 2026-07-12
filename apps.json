@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "48",
+          "date": "2026-07-12T03:32:27Z",
+          "localizedDescription": "fix(home): 英雄卡+日期条移出分组列表→贴头部满宽(pagePadding)浮于渐变;修「两边留白太多/离头部太远」;记录卡仍原生分组软卡  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8975963,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "47",
           "date": "2026-07-12T03:18:48Z",
           "localizedDescription": "fix(home): ①英雄卡/日期条比例改回扁长长方形(撤上轮增高,数字保留略大) ②日期条进入默认锚到今天(defaultScrollAnchor(.trailing),弃易失效 onAppear) ③选中改精致圆角非死板方块  ",
