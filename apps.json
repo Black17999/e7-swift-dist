@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "49",
+          "date": "2026-07-14T22:20:55Z",
+          "localizedDescription": "文档(设计工具): 添加项目设计上下文与评审工具文件  本次提交添加了E7记账iOS版的项目设计上下文文档，以及三个Claude专用的标准化设计评审工具文件，涵盖iOS设计评审、品牌系统使用和iOS金融界面开发规范，统一团队UI开发与评审流程标准。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8994888,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "48",
           "date": "2026-07-12T03:32:27Z",
           "localizedDescription": "fix(home): 英雄卡+日期条移出分组列表→贴头部满宽(pagePadding)浮于渐变;修「两边留白太多/离头部太远」;记录卡仍原生分组软卡  ",
