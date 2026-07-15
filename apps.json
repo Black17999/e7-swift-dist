@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "52",
+          "date": "2026-07-15T01:53:05Z",
+          "localizedDescription": "feat(DesignSystem, Records): 实现首页今日英雄卡重设计，完善设计系统组件  - 新增通用收支比例条组件CashFlowBar，支持自适应皮肤与无障碍适配 - 扩展AppShadow新增卡片浮起阴影token，适配深浅皮肤的差异化阴影与边缘高光 - 为AppCard新增elevation参数，默认值为.none不影响现有调用，支持快速配置卡片浮起层级 - 重构TodayHeroCard，优化信息层级，移除冗余的SavingsRateRing，适配新设计规范且",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9002986,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "51",
           "date": "2026-07-15T00:33:19Z",
           "localizedDescription": "docs: 新增E7第六阶段设计系统迁移最终审计报告  该报告记录了将21个页面迁移至Home设计系统后的完整审计结果，未涉及业务逻辑、数据模型、API、导航或状态管理等核心变更，仅调整UI与设计系统层面的代码，包含详细的审计结论、修改文件清单、架构优化点及潜在回归验证项。  ",
