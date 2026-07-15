@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "51",
+          "date": "2026-07-15T00:33:19Z",
+          "localizedDescription": "docs: 新增E7第六阶段设计系统迁移最终审计报告  该报告记录了将21个页面迁移至Home设计系统后的完整审计结果，未涉及业务逻辑、数据模型、API、导航或状态管理等核心变更，仅调整UI与设计系统层面的代码，包含详细的审计结论、修改文件清单、架构优化点及潜在回归验证项。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 8998082,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "49",
           "date": "2026-07-14T22:20:55Z",
           "localizedDescription": "文档(设计工具): 添加项目设计上下文与评审工具文件  本次提交添加了E7记账iOS版的项目设计上下文文档，以及三个Claude专用的标准化设计评审工具文件，涵盖iOS设计评审、品牌系统使用和iOS金融界面开发规范，统一团队UI开发与评审流程标准。  ",
