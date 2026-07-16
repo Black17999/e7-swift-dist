@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "58",
+          "date": "2026-07-16T20:00:51Z",
+          "localizedDescription": "style(HomeDateStrip): glass selection, inset fade, smoother scroll  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9029284,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "57",
           "date": "2026-07-16T19:49:58Z",
           "localizedDescription": "fix(home): restore GreetingHeader to fix Codemagic build  ",
