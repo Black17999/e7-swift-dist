@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "61",
+          "date": "2026-07-16T21:40:29Z",
+          "localizedDescription": "重构(记账界面): 精简问候头并将操作按钮移至原生导航栏  重构 GreetingHeader 组件为工具栏专用精简版，移除内置的分享和记一笔按钮。将分享、记一笔操作移至原生导航栏工具栏项承载，同时调整列表区段间距与区头排版，修复视觉空洞问题并优化布局细节。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9037528,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "60",
           "date": "2026-07-16T20:43:41Z",
           "localizedDescription": "refactor(records): 优化记账列表UI与空状态，完善可访问性  重构 RecordRowContent 适配原生iOS列表设计风格 使用 SwiftUI 标准 ContentUnavailableView 替换自定义空状态 添加交易时间副标题与待同步状态展示 完善无障碍标签与提示，统一使用设计系统间距常量 补充代码注释提升可维护性  ",
