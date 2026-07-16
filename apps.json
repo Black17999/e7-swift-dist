@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "60",
+          "date": "2026-07-16T20:43:41Z",
+          "localizedDescription": "refactor(records): 优化记账列表UI与空状态，完善可访问性  重构 RecordRowContent 适配原生iOS列表设计风格 使用 SwiftUI 标准 ContentUnavailableView 替换自定义空状态 添加交易时间副标题与待同步状态展示 完善无障碍标签与提示，统一使用设计系统间距常量 补充代码注释提升可维护性  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9038954,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "59",
           "date": "2026-07-16T20:17:10Z",
           "localizedDescription": "refactor(RecordsView): 调整主页布局，拆分固定问候头与滚动列表内容  调整RecordsView布局，将仪表盘从固定顶部移入列表首段随内容滚动，新增视图扩展统一仪表盘样式，更新两处组件的注释说明新布局。  ",
