@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "59",
+          "date": "2026-07-16T20:17:10Z",
+          "localizedDescription": "refactor(RecordsView): 调整主页布局，拆分固定问候头与滚动列表内容  调整RecordsView布局，将仪表盘从固定顶部移入列表首段随内容滚动，新增视图扩展统一仪表盘样式，更新两处组件的注释说明新布局。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9036386,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "58",
           "date": "2026-07-16T20:00:51Z",
           "localizedDescription": "style(HomeDateStrip): glass selection, inset fade, smoother scroll  ",
