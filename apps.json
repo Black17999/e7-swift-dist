@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "55",
+          "date": "2026-07-16T18:56:28Z",
+          "localizedDescription": "style: 首页日期选择条重设计与原生导航栏滚动优化  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9036017,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "54",
           "date": "2026-07-16T18:38:42Z",
           "localizedDescription": "feat(设计): 英雄卡高端重设计 — 渐变背景 + 3D装饰 + 固定高度  Phase 7.2: 英雄卡视觉升级，对标 Apple Wallet / Revolut 高端金融风格。  - 修复高度跳动：趋势行始终占位，空日显示灰色「暂无趋势」占位文字  - 新增卡片渐变背景：右上角淡主色对角线渐变（浅/深皮肤自适应）  - 新增装饰性 3D 图标：SF Symbol yensign.circle.fill，hierarchical 多层渲染  - 收支明细竖线分隔：Divider 分隔收入/�",
