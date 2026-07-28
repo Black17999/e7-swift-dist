@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "77",
+          "date": "2026-07-28T20:52:19Z",
+          "localizedDescription": "refactor(tabbar): 重构为真正的悬浮胶囊玻璃 Dock 栏  底部 TabBar 改为 RoundedRectangle(cornerRadius: 32) 悬浮胶囊形态，两侧留空 16pt、底部悬浮留空 12pt，彻底消除全屏遮罩感；完美保持 2+1+2 布局，中间 52pt 加大 (+) 无文字按钮精致融于悬浮 Dock 中。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9111499,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "76",
           "date": "2026-07-28T20:44:06Z",
           "localizedDescription": "refactor(layout): 恢复中央按钮高位悬浮感并更新头部分享图标  中央记一笔按钮加大至 52pt，向上悬浮 14pt 恢复高位悬浮 Floating Action 质感；去除中央按钮下方文字标签，保持 2+1+2 左右绝对对称；首页头部导航栏右侧分享图标更新为更现代利落的 paperplane.fill 图标。  ",
