@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "73",
+          "date": "2026-07-28T20:29:00Z",
+          "localizedDescription": "refactor(layout): 首页导航栏改回原生样式并重构底部 2+1+2 导航栏  首页头部导航栏恢复原生 Title E7记账，右侧仅保留分享按钮；底部 TabBar 采用 2+1+2 居中凸起方案，将记一笔设为中央浮雕按钮，可自任意 Tab 唤起 AddRecordView 面板。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9108246,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "72",
           "date": "2026-07-28T20:07:38Z",
           "localizedDescription": "refactor(records): 首页头部导航栏退回原生 toolbar  自定义 Header 的手动 .bar 磨砂联动在 SwiftUI 里有不可解的卡顿 （material 主线程重算）和下拉残留（onScrollGeometryChange 延迟）， 改为原生 toolbar 让系统自动管理磨砂滚动联动：  - HomeHeader 从 safeAreaInset 自定义 header 改为 toolbar topBarLeading item - 头像 44pt→32pt 适配 toolbar 高度，文字加 lineLimit+minimumScaleFactor 防截断 - 去掉 scrollProgress state �",
