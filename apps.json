@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "69",
+          "date": "2026-07-28T19:00:06Z",
+          "localizedDescription": "fix(records): 最低版本提升至 iOS 18.0，用官方 onScrollGeometryChange 替代 KVO  PreferenceKey + GeometryReader 和 UIViewRepresentable KVO 在 List 中均不可靠 直接提升 deploymentTarget 至 iOS 18.0，使用 Apple 官方 onScrollGeometryChange API 移除 ScrollOffsetObserver 组件，代码更简洁可靠 project.yml deploymentTarget.iOS: 17.0 → 18.0  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9110813,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "68",
           "date": "2026-07-28T18:51:43Z",
           "localizedDescription": "fix(records): 滚动监听改用 UIScrollView KVO，修复磨砂效果不触发  PreferenceKey + GeometryReader 在 List 中不可靠：List 的 cell 由 UIKit 管理， SwiftUI 不会在滚动时重新评估 cell 内的 GeometryReader，导致 scrollProgress 始终为 0 改用 UIViewRepresentable 直接监听 List 底层 UIScrollView.contentOffset (KVO) 新增 ScrollOffsetObserver 组件，在 makeUIView 中遍历 superview 找到 UIScrollView 移除 coordinateSpace + onPreferenceChange + Geome",
