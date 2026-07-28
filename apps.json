@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "81",
+          "date": "2026-07-28T21:38:50Z",
+          "localizedDescription": "style: 还原原生 TabBar 记一笔按钮、收紧交易明细与日期条间距及增加空态动画播放间隔  1. 收紧首页「交易明细」标题区头与日期条之间的垂直留白间距 2. 交易明细空状态 Lottie 动画播放单次完毕后，等待 2.5 秒再循环下一次动画 3. 还原底部导航栏「记一笔」为 100% 原生 iOS TabBar 节点，与其他按钮一致不加额外色彩背景  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10214934,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "80",
           "date": "2026-07-28T21:27:35Z",
           "localizedDescription": "style: 优化底部导航栏、债务滑删图标及首页空状态动画  1. 放大底部导航栏中间「记一笔」按钮至 52x52pt 主色渐变悬浮按钮 2. 债务列表及详情页右滑删除按钮移除文字，仅保留垃圾桶图标 3. 移除首页「交易明细」标题左侧紫色图标 4. 引入 Lottie 依赖并恢复交易明细无记录空状态动画  ",
