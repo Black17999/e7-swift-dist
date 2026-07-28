@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "70",
+          "date": "2026-07-28T19:11:40Z",
+          "localizedDescription": "fix(debts): 修复债务页滚动时分区头吸附到导航栏的问题  将「账单列表」和「已结清X人」从 Section header 改为普通 list row .listStyle(.plain) 会自动 pin section header 到顶部导致吸附 普通行不触发 pin 机制，随内容正常滚动  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9112897,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "69",
           "date": "2026-07-28T19:00:06Z",
           "localizedDescription": "fix(records): 最低版本提升至 iOS 18.0，用官方 onScrollGeometryChange 替代 KVO  PreferenceKey + GeometryReader 和 UIViewRepresentable KVO 在 List 中均不可靠 直接提升 deploymentTarget 至 iOS 18.0，使用 Apple 官方 onScrollGeometryChange API 移除 ScrollOffsetObserver 组件，代码更简洁可靠 project.yml deploymentTarget.iOS: 17.0 → 18.0  ",
