@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "67",
+          "date": "2026-07-28T18:41:11Z",
+          "localizedDescription": "fix(records): HomeHeader 改回顶部透明+滚动磨砂方案，用 .ultraThinMaterial  .bar 材质在 defaultDark 皮肤下偏灰，与 E7 深色 pageBg 分界明显（用户截图反馈） 恢复顶部完全透明（scrollProgress=0），让 pageBg 透出保持视觉统一 滚动时 .ultraThinMaterial 磨砂 + 品牌色渐显（用 opacity = scrollProgress 控制） 用 .ultraThinMaterial 替代 .bar，更轻量更适合深色背景下的磨砂感  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9116850,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "66",
           "date": "2026-07-28T18:32:01Z",
           "localizedDescription": "fix(records): HomeHeader 背景改用始终 .bar 磨砂，修复顶部透明导致内容透出眼花  原 scrollProgress=0 时背景完全透明，列表内容透过头部显示造成视觉混乱 改用 .bar 材质始终显示磨砂（模拟系统导航栏），品牌色随滚动渐显增强遮挡 与债务页等原生导航栏页面视觉统一  ",
