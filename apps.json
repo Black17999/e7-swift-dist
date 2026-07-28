@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "78",
+          "date": "2026-07-28T20:55:32Z",
+          "localizedDescription": "refactor(tabbar): 完全恢复至 commit 73d2c0a 的原生 iOS TabBar 结构与高度  移除所有自定义 FloatingTabBar 覆盖层，完全继承 73d2c0a 提交的原生 iOS 底部 Bar 高度、磨砂与 Safe Area 悬浮质感，仅在中间无缝插入原生 plus.circle.fill 按钮（2+1+2 布局）。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9095872,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "77",
           "date": "2026-07-28T20:52:19Z",
           "localizedDescription": "refactor(tabbar): 重构为真正的悬浮胶囊玻璃 Dock 栏  底部 TabBar 改为 RoundedRectangle(cornerRadius: 32) 悬浮胶囊形态，两侧留空 16pt、底部悬浮留空 12pt，彻底消除全屏遮罩感；完美保持 2+1+2 布局，中间 52pt 加大 (+) 无文字按钮精致融于悬浮 Dock 中。  ",
