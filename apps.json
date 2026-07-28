@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "84",
+          "date": "2026-07-28T22:33:22Z",
+          "localizedDescription": "fix(debts): 优化原生搜索框退出动画、点按空白退出及键盘收起自动同步状态  1. 统计卡片采用高度/透明度平滑折叠（非物理拔插），彻底消除 List 退出搜索时的卡顿与黑块闪烁 2. 点按空白列表区域（无搜索关键字）时自动收起键盘并退出搜索模式 3. 监听键盘收起通知，点键盘右下角向下收起箭头且无搜索关键字时，自动同步退出搜索状态并平滑推回取消按钮  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10222394,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "83",
           "date": "2026-07-28T22:17:07Z",
           "localizedDescription": "refactor(debts): 恢复原生 .searchable 并配置防遮挡与防黑块  1. 还原为 SwiftUI 原生 .searchable 框架 2. 通过 NativeSearchConfigurator 将 UISearchController.hidesNavigationBarDuringPresentation 设为 false，搜索时导航栏标题保持原位不上升遮挡 3. 将 obscuresBackgroundDuringPresentation 设为 false，完美解决键盘收起时的动画黑块 4. 取消按钮保持原生右侧平滑推入/退回过渡  ",
