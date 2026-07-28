@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "87",
+          "date": "2026-07-28T23:01:46Z",
+          "localizedDescription": "feat: 实现DebtsView以显示债务列表，并支持排序、筛选和管理操作  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10274334,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "86",
           "date": "2026-07-28T22:47:01Z",
           "localizedDescription": "fix(records): 修复 foregroundStyle 三元表达式类型不一致编译错误  - IncomeExpenseToggle: .secondary/.white 混用 Color 和 HierarchicalShapeStyle 导致类型推断失败 - AmountDisplay: .secondary 和 accent(Color) 混用同样的问题 - 统一用 Color.secondary / Color.white 显式标注类型  ",
