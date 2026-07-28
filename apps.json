@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "80",
+          "date": "2026-07-28T21:27:35Z",
+          "localizedDescription": "style: 优化底部导航栏、债务滑删图标及首页空状态动画  1. 放大底部导航栏中间「记一笔」按钮至 52x52pt 主色渐变悬浮按钮 2. 债务列表及详情页右滑删除按钮移除文字，仅保留垃圾桶图标 3. 移除首页「交易明细」标题左侧紫色图标 4. 引入 Lottie 依赖并恢复交易明细无记录空状态动画  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10214798,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "79",
           "date": "2026-07-28T21:09:28Z",
           "localizedDescription": "refactor(tabbar): 完全保留原生 iOS TabBar 位置并接入大号加号按键  移除所有自定义 FloatingTabBar，完全恢复 73d2c0a 之前的原生系统 TabBar 位置与高度，仅在 2+1+2 布局中央无缝接入 plus.circle.fill 大号加号按键（无下方文字），点击模态唤起记账 Sheet。  ",
