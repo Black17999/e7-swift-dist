@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "65",
+          "date": "2026-07-28T18:16:31Z",
+          "localizedDescription": "fix(records): 修复 onScrollGeometryChange iOS 18+ 可用性错误，改用 PreferenceKey 兼容 iOS 17  Codemagic 构建报错 onScrollGeometryChange 仅 iOS 18.0+ 可用，项目最低支持 iOS 17.0 改用 GeometryReader + PreferenceKey + onPreferenceChange 实现滚动偏移检测 在仪表盘 VStack background 放置 GeometryReader 测量 named coordinateSpace 偏移 新增 ScrollOffsetKey PreferenceKey，coordinateSpace + onPreferenceChange 联动 scrollProgress  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9117977,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "63",
           "date": "2026-07-28T09:26:26Z",
           "localizedDescription": "refactor(ci): 移除多余的 gh auth login，GH_TOKEN 环境变量已自动认证  ",
