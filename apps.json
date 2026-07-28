@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "71",
+          "date": "2026-07-28T19:28:29Z",
+          "localizedDescription": "fix(records): 修复首页头部磨砂背景下拉时的延伸残留  - 磨砂材质从 ultraThinMaterial 改为 bar，对齐债务/统计页原生 toolbar 质感 - 加条件渲染避免 material 在 opacity=0 时的渲染残留（用力下拉延伸磨砂 bug 根因） - 保留品牌色 overlay 调和深色皮肤下 bar 偏灰问题  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9113604,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "70",
           "date": "2026-07-28T19:11:40Z",
           "localizedDescription": "fix(debts): 修复债务页滚动时分区头吸附到导航栏的问题  将「账单列表」和「已结清X人」从 Section header 改为普通 list row .listStyle(.plain) 会自动 pin section header 到顶部导致吸附 普通行不触发 pin 机制，随内容正常滚动  ",
