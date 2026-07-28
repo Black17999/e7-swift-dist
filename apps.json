@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "82",
+          "date": "2026-07-28T21:53:41Z",
+          "localizedDescription": "style: 优化 TabBar 记一笔图标、消减 Tab 切换卡顿及重构债务页嵌入式搜索框  1. 底部导航栏中间「记一笔」按钮移除底部文字，SF Symbol 提至 28pt 大图标，原生未上色样式 2. 静态化 TabBar 图标表达式并延迟 selectedTab 回弹，消除标签页切换卡顿 3. 重构债务页面为页内嵌入式 SearchBar，取代 .searchable，点击不上升覆盖标题栏，取消按钮从右侧优雅推入/退回，无键盘回退黑块  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10231389,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "81",
           "date": "2026-07-28T21:38:50Z",
           "localizedDescription": "style: 还原原生 TabBar 记一笔按钮、收紧交易明细与日期条间距及增加空态动画播放间隔  1. 收紧首页「交易明细」标题区头与日期条之间的垂直留白间距 2. 交易明细空状态 Lottie 动画播放单次完毕后，等待 2.5 秒再循环下一次动画 3. 还原底部导航栏「记一笔」为 100% 原生 iOS TabBar 节点，与其他按钮一致不加额外色彩背景  ",
