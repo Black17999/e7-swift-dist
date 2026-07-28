@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "86",
+          "date": "2026-07-28T22:47:01Z",
+          "localizedDescription": "fix(records): 修复 foregroundStyle 三元表达式类型不一致编译错误  - IncomeExpenseToggle: .secondary/.white 混用 Color 和 HierarchicalShapeStyle 导致类型推断失败 - AmountDisplay: .secondary 和 accent(Color) 混用同样的问题 - 统一用 Color.secondary / Color.white 显式标注类型  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10276703,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "84",
           "date": "2026-07-28T22:33:22Z",
           "localizedDescription": "fix(debts): 优化原生搜索框退出动画、点按空白退出及键盘收起自动同步状态  1. 统计卡片采用高度/透明度平滑折叠（非物理拔插），彻底消除 List 退出搜索时的卡顿与黑块闪烁 2. 点按空白列表区域（无搜索关键字）时自动收起键盘并退出搜索模式 3. 监听键盘收起通知，点键盘右下角向下收起箭头且无搜索关键字时，自动同步退出搜索状态并平滑推回取消按钮  ",
