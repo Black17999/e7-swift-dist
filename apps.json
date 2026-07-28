@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "75",
+          "date": "2026-07-28T20:36:38Z",
+          "localizedDescription": "refactor(tabbar): 恢复 100% 原生 iOS 悬浮 TabBar 样式并保留 2+1+2 布局  移除自定义 View 覆盖层，完全切回 iOS 原生 TabView 悬浮磨砂质感；中间 Tab 项设为加号图标记一笔，点击自动触发 Sheet 弹窗并维持原 Tab 视图选择。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9095786,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "74",
           "date": "2026-07-28T20:31:52Z",
           "localizedDescription": "chore(git): 将 .workbuddy/ 目录加入 .gitignore  保留 5 个技能/记忆文档在本地磁盘，防止该本地工具目录被提交并推送到 GitHub 远端仓库。  ",
