@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "76",
+          "date": "2026-07-28T20:44:06Z",
+          "localizedDescription": "refactor(layout): 恢复中央按钮高位悬浮感并更新头部分享图标  中央记一笔按钮加大至 52pt，向上悬浮 14pt 恢复高位悬浮 Floating Action 质感；去除中央按钮下方文字标签，保持 2+1+2 左右绝对对称；首页头部导航栏右侧分享图标更新为更现代利落的 paperplane.fill 图标。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9107228,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "75",
           "date": "2026-07-28T20:36:38Z",
           "localizedDescription": "refactor(tabbar): 恢复 100% 原生 iOS 悬浮 TabBar 样式并保留 2+1+2 布局  移除自定义 View 覆盖层，完全切回 iOS 原生 TabView 悬浮磨砂质感；中间 Tab 项设为加号图标记一笔，点击自动触发 Sheet 弹窗并维持原 Tab 视图选择。  ",
