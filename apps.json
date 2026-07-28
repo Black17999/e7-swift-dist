@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "83",
+          "date": "2026-07-28T22:17:07Z",
+          "localizedDescription": "refactor(debts): 恢复原生 .searchable 并配置防遮挡与防黑块  1. 还原为 SwiftUI 原生 .searchable 框架 2. 通过 NativeSearchConfigurator 将 UISearchController.hidesNavigationBarDuringPresentation 设为 false，搜索时导航栏标题保持原位不上升遮挡 3. 将 obscuresBackgroundDuringPresentation 设为 false，完美解决键盘收起时的动画黑块 4. 取消按钮保持原生右侧平滑推入/退回过渡  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10218010,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "82",
           "date": "2026-07-28T21:53:41Z",
           "localizedDescription": "style: 优化 TabBar 记一笔图标、消减 Tab 切换卡顿及重构债务页嵌入式搜索框  1. 底部导航栏中间「记一笔」按钮移除底部文字，SF Symbol 提至 28pt 大图标，原生未上色样式 2. 静态化 TabBar 图标表达式并延迟 selectedTab 回弹，消除标签页切换卡顿 3. 重构债务页面为页内嵌入式 SearchBar，取代 .searchable，点击不上升覆盖标题栏，取消按钮从右侧优雅推入/退回，无键盘回退黑块  ",
