@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "66",
+          "date": "2026-07-28T18:32:01Z",
+          "localizedDescription": "fix(records): HomeHeader 背景改用始终 .bar 磨砂，修复顶部透明导致内容透出眼花  原 scrollProgress=0 时背景完全透明，列表内容透过头部显示造成视觉混乱 改用 .bar 材质始终显示磨砂（模拟系统导航栏），品牌色随滚动渐显增强遮挡 与债务页等原生导航栏页面视觉统一  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9118050,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "65",
           "date": "2026-07-28T18:16:31Z",
           "localizedDescription": "fix(records): 修复 onScrollGeometryChange iOS 18+ 可用性错误，改用 PreferenceKey 兼容 iOS 17  Codemagic 构建报错 onScrollGeometryChange 仅 iOS 18.0+ 可用，项目最低支持 iOS 17.0 改用 GeometryReader + PreferenceKey + onPreferenceChange 实现滚动偏移检测 在仪表盘 VStack background 放置 GeometryReader 测量 named coordinateSpace 偏移 新增 ScrollOffsetKey PreferenceKey，coordinateSpace + onPreferenceChange 联动 scrollProgress  ",
