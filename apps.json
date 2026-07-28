@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "72",
+          "date": "2026-07-28T20:07:38Z",
+          "localizedDescription": "refactor(records): 首页头部导航栏退回原生 toolbar  自定义 Header 的手动 .bar 磨砂联动在 SwiftUI 里有不可解的卡顿 （material 主线程重算）和下拉残留（onScrollGeometryChange 延迟）， 改为原生 toolbar 让系统自动管理磨砂滚动联动：  - HomeHeader 从 safeAreaInset 自定义 header 改为 toolbar topBarLeading item - 头像 44pt→32pt 适配 toolbar 高度，文字加 lineLimit+minimumScaleFactor 防截断 - 去掉 scrollProgress state �",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9110940,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "71",
           "date": "2026-07-28T19:28:29Z",
           "localizedDescription": "fix(records): 修复首页头部磨砂背景下拉时的延伸残留  - 磨砂材质从 ultraThinMaterial 改为 bar，对齐债务/统计页原生 toolbar 质感 - 加条件渲染避免 material 在 opacity=0 时的渲染残留（用力下拉延伸磨砂 bug 根因） - 保留品牌色 overlay 调和深色皮肤下 bar 偏灰问题  ",
