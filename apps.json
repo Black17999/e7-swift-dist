@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "68",
+          "date": "2026-07-28T18:51:43Z",
+          "localizedDescription": "fix(records): 滚动监听改用 UIScrollView KVO，修复磨砂效果不触发  PreferenceKey + GeometryReader 在 List 中不可靠：List 的 cell 由 UIKit 管理， SwiftUI 不会在滚动时重新评估 cell 内的 GeometryReader，导致 scrollProgress 始终为 0 改用 UIViewRepresentable 直接监听 List 底层 UIScrollView.contentOffset (KVO) 新增 ScrollOffsetObserver 组件，在 makeUIView 中遍历 superview 找到 UIScrollView 移除 coordinateSpace + onPreferenceChange + Geome",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 9120541,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "67",
           "date": "2026-07-28T18:41:11Z",
           "localizedDescription": "fix(records): HomeHeader 改回顶部透明+滚动磨砂方案，用 .ultraThinMaterial  .bar 材质在 defaultDark 皮肤下偏灰，与 E7 深色 pageBg 分界明显（用户截图反馈） 恢复顶部完全透明（scrollProgress=0），让 pageBg 透出保持视觉统一 滚动时 .ultraThinMaterial 磨砂 + 品牌色渐显（用 opacity = scrollProgress 控制） 用 .ultraThinMaterial 替代 .bar，更轻量更适合深色背景下的磨砂感  ",
