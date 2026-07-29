@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "92",
+          "date": "2026-07-29T21:37:06Z",
+          "localizedDescription": "refactor: 重构债务页搜索框为页内嵌入式 (方案 A)  将搜索框从导航栏 .searchable 下移至统计卡片下方，保持 List 结构 100% 静态，彻底消除卡片上下跳动、键盘回退黑块及动画卡顿。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10294285,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "91",
           "date": "2026-07-29T20:49:22Z",
           "localizedDescription": "fix: 修复 CustomNumberPad 构建错误 (替换不存在的 gridCellRows)  将 Grid 中的 gridCellRows(2) 替换为标准的 HStack/VStack 组合布局，实现「完成」键跨双行，解决 CI 编译报错问题。  ",
