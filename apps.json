@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "96",
+          "date": "2026-07-29T22:59:25Z",
+          "localizedDescription": "fix: skip welcome view on launch for logged-in users and eliminate home date strip lag  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10297734,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "95",
           "date": "2026-07-29T22:44:54Z",
           "localizedDescription": "refactor: 重构为 iOS 官方原生 UISearchBar (占位符设为「搜索姓名」与键盘退场自动收回取消按钮)  1. 采用 UIViewRepresentable 封装官方 UISearchBar(style: .minimal)，提示词统一为「搜索姓名」。\\n2. Delegate 内监听 keyboardWillHideNotification，收起键盘且无内容时自动平滑收回蓝色取消按钮。\\n3. 保留汉字全拼与首字母联想搜索（如输入 jiali/jl 匹配「佳丽」），与「账单列表」标题紧密贴合且零空",
