@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "94",
+          "date": "2026-07-29T22:06:14Z",
+          "localizedDescription": "feat: 债务页搜索升级 (支持中文拼音/首字母联想、36pt 紧凑外观与键盘自动重置)  1. 增加 CFStringTransform 拼音/首字母匹配引擎，输入 jiali/jl 即可实时高亮匹配「佳丽」。\\n2. 打造 36pt 精致紧凑型 DebtSearchBar，与「账单列表」标题紧密连结，消除脱节感。\\n3. 监听键盘退场自动失焦重置搜索框，并将无结果空状态下移至列表内部，消除重叠。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10298174,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "93",
           "date": "2026-07-29T21:47:11Z",
           "localizedDescription": "refactor: 替换为 iOS 官方原生 UISearchBar 并移至账单列表标题下方  使用 UIViewRepresentable 封装官方 UISearchBar(style: .minimal)，带有系统原生蓝色取消按钮动画；调整位置至「账单列表」标题下方，彻底解决样式、黑块及视效错位问题。  ",
