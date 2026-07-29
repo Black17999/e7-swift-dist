@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "91",
+          "date": "2026-07-29T20:49:22Z",
+          "localizedDescription": "fix: 修复 CustomNumberPad 构建错误 (替换不存在的 gridCellRows)  将 Grid 中的 gridCellRows(2) 替换为标准的 HStack/VStack 组合布局，实现「完成」键跨双行，解决 CI 编译报错问题。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10287931,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "89",
           "date": "2026-07-29T20:24:57Z",
           "localizedDescription": "fix: 修复 CustomNumberPad 的 UIKit 导入与 ScalePressStyle 语法以保证构建通过  ",
