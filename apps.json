@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "97",
+          "date": "2026-07-29T23:06:50Z",
+          "localizedDescription": "style: 微调原生 UISearchBar 为 30pt 超紧凑精致尺寸并调整标题间距  通过重写 UISearchBar 的 sizeThatFits 与内边距，实现真正小巧精致的 30pt 超紧凑系统搜索框，同时将「账单列表」标题间距调整至 12pt，保证呼吸感与视觉统一。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10297935,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "96",
           "date": "2026-07-29T22:59:25Z",
           "localizedDescription": "fix: skip welcome view on launch for logged-in users and eliminate home date strip lag  ",
