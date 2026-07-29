@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "89",
+          "date": "2026-07-29T20:24:57Z",
+          "localizedDescription": "fix: 修复 CustomNumberPad 的 UIKit 导入与 ScalePressStyle 语法以保证构建通过  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10303824,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "87",
           "date": "2026-07-28T23:01:46Z",
           "localizedDescription": "feat: 实现DebtsView以显示债务列表，并支持排序、筛选和管理操作  ",
