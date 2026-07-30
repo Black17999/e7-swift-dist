@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "112",
+          "date": "2026-07-30T15:27:53Z",
+          "localizedDescription": "chore(docs): 移除头像设计方案探索阶段遗留的原型与设计说明  - 删除 docs/profile-avatar-concept.html 交互原型 - 删除 docs/profile-avatar-design-spec.md 设计说明 - 二者为头像重构探索期产物，随方案回退一并清理  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10400616,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "111",
           "date": "2026-07-30T15:16:13Z",
           "localizedDescription": "fix(profile): 修复 ProfileView 中 ignoresSafeArea 语法错误导致 CI 编译失败  ",
