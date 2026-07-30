@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "108",
+          "date": "2026-07-30T14:23:54Z",
+          "localizedDescription": "feat(profile): 优化「我的」页面头像展示区域设计与交互动效  - 新增 ProfileHeroHeaderStyle 抽象 4 种主流头像展示风格模式与持久化支持 - 新增 ProfileHeaderView 组件，支持下拉弹性视差放大、双层毛玻璃动态模糊及多屏响应式适配 - 重构 ProfileView 接入 onScrollGeometryChange 滚动位置监听，支持上滑粘性导航栏标题与迷你头像 - 在 AppPrefsStore 与设置列表中加入头像风格持久化配置及实时选�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10400617,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "107",
           "date": "2026-07-30T14:14:07Z",
           "localizedDescription": "refactor(records): 重构记一笔页面与数字键盘布局  - 头部关闭按钮去色彩重构（新增 plain 样式）  - 收支切换胶囊中性浮雕样式与震动反馈  - 缩短金额展示区与顶部切换栏留白  - 分类网格重构为5列高密度布局并内嵌管理Tile  - 数字键盘核心重构为4列75%:25%全对称布局  ",
