@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "111",
+          "date": "2026-07-30T15:16:13Z",
+          "localizedDescription": "fix(profile): 修复 ProfileView 中 ignoresSafeArea 语法错误导致 CI 编译失败  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10363132,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "109",
           "date": "2026-07-30T14:40:11Z",
           "localizedDescription": "refactor(profile): 收敛「我的」页头像为动态模糊方案并清理旧实现  - 在 ProfileView 落地方案 D：动态模糊背景层 + 前景清晰头像，滚动驱动模糊加深与前景收缩淡出 - 修复 hero 全宽出血：将头像头部移出水平内边距 VStack，模糊背景铺满屏幕左右边缘 - 滚动超过阈值后导航栏淡入迷你头像与昵称，并尊重「减弱动态效果」无障碍设置 - 删除冗余的 ProfileHeaderView 与 ProfileHeroHeaderStyle�",
