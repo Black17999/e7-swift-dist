@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "106",
+          "date": "2026-07-30T13:44:22Z",
+          "localizedDescription": "feat(share): 优化海报弹窗分享按钮位置并修复微信图片分享传输格式  - 导航栏右上角分享按钮：在弹窗头部 navigationBar 放置 ShareLink 分享按钮，打开弹窗后无需滚动即可立即点击分享 - 微信图片分享格式修复：新增 ShareableImage (Transferable + UTType.png)，防止 iOS 系统将 URL 识别为公用文件（.file-url）传输，恢复为原生图片直接发送  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10324760,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "105",
           "date": "2026-07-30T13:28:58Z",
           "localizedDescription": "fix(share): 修复 SharePosterView 中非法的 lineBreakBehavior 修饰符引起的构建错误  ",
