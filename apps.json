@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "109",
+          "date": "2026-07-30T14:40:11Z",
+          "localizedDescription": "refactor(profile): 收敛「我的」页头像为动态模糊方案并清理旧实现  - 在 ProfileView 落地方案 D：动态模糊背景层 + 前景清晰头像，滚动驱动模糊加深与前景收缩淡出 - 修复 hero 全宽出血：将头像头部移出水平内边距 VStack，模糊背景铺满屏幕左右边缘 - 滚动超过阈值后导航栏淡入迷你头像与昵称，并尊重「减弱动态效果」无障碍设置 - 删除冗余的 ProfileHeaderView 与 ProfileHeroHeaderStyle�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10357235,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "108",
           "date": "2026-07-30T14:23:54Z",
           "localizedDescription": "feat(profile): 优化「我的」页面头像展示区域设计与交互动效  - 新增 ProfileHeroHeaderStyle 抽象 4 种主流头像展示风格模式与持久化支持 - 新增 ProfileHeaderView 组件，支持下拉弹性视差放大、双层毛玻璃动态模糊及多屏响应式适配 - 重构 ProfileView 接入 onScrollGeometryChange 滚动位置监听，支持上滑粘性导航栏标题与迷你头像 - 在 AppPrefsStore 与设置列表中加入头像风格持久化配置及实时选�",
