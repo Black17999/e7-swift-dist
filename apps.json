@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "102",
+          "date": "2026-07-30T11:07:21Z",
+          "localizedDescription": "fix(share): 1:1 对齐 Flutter 海报布局并修复债务算式换行  - 恢复 SharePosterView 标题/记录行尺寸与 Flutter _buildSection 完全一致：   标题字号 19、标题条 padding 14、徽章字号 14/padding 12×4、   记录行 margin 20×8、行内 padding 25×14 - 移除之前过度压缩导致的视觉比例失衡 - ShareReceipt.debtLine 恢复与 Flutter 逐字对齐（无可见空格） - 新增 debtLineBreakable，在运算符两侧插入零宽空格（U+200B）作为�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10323497,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "101",
           "date": "2026-07-30T10:49:16Z",
           "localizedDescription": "fix(share): 压缩分组标题高度并修复超长债务算式换行溢出  - 分组标题字号 19→17、徽章 14→13，标题条上下内边距 14→9，整体不再异常高大 - 记录行内边距 14→8，行间距改 VStack(spacing:4)，进账/支出记录行高下降约 40% - 债务算式在 + - * / x = 运算符两侧插入空格，超长数字串可按词自动折行，   单条债务人无论多少数字均完整显示、不再横向溢出或被截断  ",
