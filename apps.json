@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "100",
+          "date": "2026-07-30T10:17:39Z",
+          "localizedDescription": "feat(share): 分享海报支持按选中日期渲染并重构视图  - SharePanelSheet 新增 dateText 参数（默认今天），海报展示对应日期的账目 - RecordsView 将列表选中日期传入分享面板，确保海报数据正确 - SharePosterView 重构海报视觉布局（深色对角渐变、金色标题栏、分组卡片） - ShareReceipt 改进数据聚合逻辑与 ImageRenderer 高清 PNG 渲染，新增像素总量/长边双约束与 4.8MB 内存兜底降采样  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10322249,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "99",
           "date": "2026-07-30T08:38:06Z",
           "localizedDescription": "feat(share): 分享海报包含所有债务记录（包含已还清/结余为0的债务）  ",
