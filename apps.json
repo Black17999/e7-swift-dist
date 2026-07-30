@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "105",
+          "date": "2026-07-30T13:28:58Z",
+          "localizedDescription": "fix(share): 修复 SharePosterView 中非法的 lineBreakBehavior 修饰符引起的构建错误  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10323160,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "103",
           "date": "2026-07-30T11:31:42Z",
           "localizedDescription": "fix(share): 移除行高固定并修复超长债务算式自适应换行  - SharePosterView 记录行移除 fixedSize，行高随文案行数自然增长，   进账/支出/债务三类记录条高度一致、与 Flutter 原版 1:1 对齐 - ShareReceipt.debtLineBreakable 改用 wrapCalc 在运算符处显式换行(\\n)，   超长债务算式完整显示、不再溢出记录条被裁剪  ",
