@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "99",
+          "date": "2026-07-30T08:38:06Z",
+          "localizedDescription": "feat(share): 分享海报包含所有债务记录（包含已还清/结余为0的债务）  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10298647,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "98",
           "date": "2026-07-29T23:16:57Z",
           "localizedDescription": "style: 进一步压缩 UISearchBar 为 28pt 迷你极简高度并扩大标题间距至 18pt  1. 重写 sizeThatFits 将高度压缩至 28pt，搭配 12.5pt 字号，实现迷你精细视效。\\n2. 将「账单列表」标题与搜索框间距拉开至 18pt，提供更具层次感的舒缓留白。  ",
