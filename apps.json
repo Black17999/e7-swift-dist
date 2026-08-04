@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "125",
+          "date": "2026-08-04T23:22:19Z",
+          "localizedDescription": "feat(records): 记一笔页 UI 优化——分类图标/金额放大、数字键盘重构与玻璃质感  - 金额显示：数字 34→44pt、¥ 20→26pt，新增 inputAmount/inputCurrency 字号 token，长金额自动缩放防溢出 - 分类网格：图标 20→24、容器 44→48、行高 62→68，管理格同步放大，列数自适应保持不变 - 数字键盘：修复功能列固定 30pt 导致 ⌫/继续/完成键被压扁的问题，改为按数字键宽 0.8 比例动态计算 - 数�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10449997,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "124",
           "date": "2026-08-04T22:51:33Z",
           "localizedDescription": "feat(records): 备注框玻璃化、分类自适应列数、功能键窄化、Toggle 移入导航栏  - 备注改为内联 TextField 直接输入（删除弹窗中转），工具栏改玻璃胶囊悬浮风格 - 分类网格改为按屏幕宽度自适应列数（主流 5 列、窄屏 4 列），行距加大至 10 - 键盘右功能列宽度收窄至 30pt（约原 1/3），完成键文字缩小适配 - 收支 Toggle 移入导航栏 principal 位，移除页面标题，保持原生导航栏不变 - ",
