@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "118",
+          "date": "2026-08-04T20:01:14Z",
+          "localizedDescription": "feat(profile): 「我的」页头部重构为无缝渐变风格（晨雾蓝/深海墨蓝）  - SkinColors 新增头部渐变 token（headerGradTop/Mid/Bottom、headerText/SubText、headerBadgeStart/End），浅色/深色/极夜三皮肤各一套，色相锁定蓝色域无紫 - 新建 ProfileHeaderGradientView 无缝渐变头部组件：180° 垂直渐变覆盖状态栏/导航栏、底部渐隐到内容区同色、下拉弹性缩放、无吸顶收缩 - ProfileView 接入新组件，导航栏透�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10370361,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "117",
           "date": "2026-08-04T19:01:51Z",
           "localizedDescription": "fix(profile): 修复头部背景虚化滚动切割线，重构资料卡片布局  - 背景虚化层改用「顶部锚定 + 双向余量」策略，消除滚动时黑色断层 - scaleEffect(anchor: .top) 配合额外高度余量，任何滚动位置均无硬边切割 - 头像区域从底部对齐改为垂直居中对齐，视觉重心更平衡 - 头像尺寸微调（76/84/92pt），更符合现代 iOS 比例 - 模糊半径提升至 40、饱和度提升至 1.3，氛围感更强 - 底部渐变过�",
