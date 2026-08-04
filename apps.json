@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "116",
+          "date": "2026-08-04T18:17:51Z",
+          "localizedDescription": "fix(profile): 沉浸式头部渐变延伸到导航栏下方  - ScrollView 在 immersiveBleed 时忽略顶部 safe area，头部从屏幕顶部开始 - 新增 safeAreaTop 计算属性（窗口 safeAreaInsets.top + 44pt 导航栏高度） - ProfileHeaderView 新增 safeAreaTop 参数，headerHeight 从 210 增至 210+safeAreaTop - 背景渐变 frame 同步使用 210+safeAreaTop，确保覆盖导航栏区域 - 导航栏背景未滚动时透明（渐变穿透），滚动超过 80pt 后恢复不透�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10419965,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "115",
           "date": "2026-08-04T16:33:14Z",
           "localizedDescription": "fix: 修复 statsDashboard 使用 statsDashboardCornerRadius 替代 statsDashboardShape  - 移除 statsDashboardShape 计算属性（返回 AnyShape 导致 strokeBorder 编译错误） - 改用 statsDashboardCornerRadius 计算属性返回圆角半径 - statsDashboard 直接使用 RoundedRectangle(cornerRadius:) 确保 strokeBorder 可用  ",
