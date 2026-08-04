@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "120",
+          "date": "2026-08-04T20:46:43Z",
+          "localizedDescription": "fix(profile): 修复等级详情弹层构建错误与废弃代码警告  - 修复 ProfileTierDetailSheet 段位行前景色三目表达式类型推断错误：.primary 与 .primary.opacity(0.75) 类型不统一导致编译失败，改为显式 Color.primary - 清理 ProfileHeaderView（已废弃）中未使用的 bgHeight 局部变量，消除 unused 警告  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10418740,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "118",
           "date": "2026-08-04T20:01:14Z",
           "localizedDescription": "feat(profile): 「我的」页头部重构为无缝渐变风格（晨雾蓝/深海墨蓝）  - SkinColors 新增头部渐变 token（headerGradTop/Mid/Bottom、headerText/SubText、headerBadgeStart/End），浅色/深色/极夜三皮肤各一套，色相锁定蓝色域无紫 - 新建 ProfileHeaderGradientView 无缝渐变头部组件：180° 垂直渐变覆盖状态栏/导航栏、底部渐隐到内容区同色、下拉弹性缩放、无吸顶收缩 - ProfileView 接入新组件，导航栏透�",
