@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "130",
+          "date": "2026-08-05T08:56:24Z",
+          "localizedDescription": "chore(文档): 移除过时的设计提案与原型文件  - 删除 Hero 卡/记一笔页/ProfileHeader 等已实施或过期的提案与原型 - 删除 Phase6 审计与迁移计划等历史阶段文档  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10454762,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "129",
           "date": "2026-08-05T00:04:54Z",
           "localizedDescription": "fix(debts): 修复统计卡泛型 ViewBuilder 闭包逃逸编译错误  - statCard 的 value/sub 参数补标 @escaping(AppCard content 为逃逸存储属性,非逃逸参数被捕获导致报错)  ",
