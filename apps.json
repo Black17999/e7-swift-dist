@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "129",
+          "date": "2026-08-05T00:04:54Z",
+          "localizedDescription": "fix(debts): 修复统计卡泛型 ViewBuilder 闭包逃逸编译错误  - statCard 的 value/sub 参数补标 @escaping(AppCard content 为逃逸存储属性,非逃逸参数被捕获导致报错)  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10417785,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "125",
           "date": "2026-08-04T23:22:19Z",
           "localizedDescription": "feat(records): 记一笔页 UI 优化——分类图标/金额放大、数字键盘重构与玻璃质感  - 金额显示：数字 34→44pt、¥ 20→26pt，新增 inputAmount/inputCurrency 字号 token，长金额自动缩放防溢出 - 分类网格：图标 20→24、容器 44→48、行高 62→68，管理格同步放大，列数自适应保持不变 - 数字键盘：修复功能列固定 30pt 导致 ⌫/继续/完成键被压扁的问题，改为按数字键宽 0.8 比例动态计算 - 数�",
