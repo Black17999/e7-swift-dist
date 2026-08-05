@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "133",
+          "date": "2026-08-05T09:43:32Z",
+          "localizedDescription": "fix(债务): 修正搜索退出机制与加一笔按钮语义色  - 搜索框：监听键盘收起通知(keyboardWillHide)，向下箭头/点空白/滚动收键盘时同步退出搜索态并清空关键词 - 搜索框：点击列表空白区域直接退出搜索态(子视图点击优先不冲突)，return/Cancel 路径保留 - 详情页：移除上轮误加的金额输入「完成」按钮与 Hero 聚焦折叠效果，恢复页面不移动 - 加一笔按钮按语义分色：增加=红(expense)�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10453359,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "132",
           "date": "2026-08-05T09:28:38Z",
           "localizedDescription": "fix(债务): 优化预览上按钮/搜索态收起/键盘挤压  - 加一笔移除背景预览小字，操作结果金额直接上按钮（「加一笔 · ¥880」），数字滚动过渡 - 编辑单笔弹窗去掉结果预览行 - 债务列表搜索：键盘 return 同步收起搜索态并清空关键词（接入 isPresented 绑定） - 金额输入聚焦时 Hero 区紧凑化（隐藏 meta、压缩间距），保证大金额 44pt 字号恒定不被挤压 - 数字键盘工具栏新增「完成�",
