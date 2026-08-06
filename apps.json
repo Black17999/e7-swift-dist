@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "146",
+          "date": "2026-08-06T15:58:46Z",
+          "localizedDescription": "fix(distribution): 修复导入解析区间正则缺少捕获组导致全部账期报字段不完整  - rangePattern 原无捕获组,但 parseFields 按 group(1..4) 读取月/日 → 恒为 nil → 所有账期均失败 - 补齐 (\\d{1,2})月(\\d{1,2})日(?:到|-)(\\d{1,2})月(\\d{1,2})日 捕获组 - 验证改为直接从 Swift 源码提取全部正则的 Python 镜像回归(杜绝手抄漂移):17 期真实记录全部通过  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10574749,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "145",
           "date": "2026-08-06T15:47:53Z",
           "localizedDescription": "fix(distribution): 导入解析兼容全部历史格式变体并修复编译错误  - 修复 CI 编译错误:ImportedPeriod 缺 perShareholder 属性(预览行引用),补充精确计算属性 - 标题兼容「M月D日到M月D日房租总结」变体(开业初期记录) - 账期收入/实收金额后「元」可省略(如「共:9381(收入)」「(实收)23623-(房租)…」);实收优先匹配「(实收)X元-(…」防误取跨月房租数字 - 欠款提取改为整段搜索:兼容逗号分隔(�",
