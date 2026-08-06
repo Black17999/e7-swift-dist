@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "134",
+          "date": "2026-08-06T09:23:50Z",
+          "localizedDescription": "docs: 执行文档对齐三步(修事实+立规矩+补看板)  药方落地 —— 解决「文档落后导致 AI 输出被带偏」: 1. 修事实(活跃文档):    - CLAUDE.md / 00-OVERVIEW / 01-ARCHITECTURE:iOS 17.0 -> 18.0    - 去掉 Mantis 依赖声明(实际 M6 已砍,头像裁剪纯本地 ImageDownsampler+ImageRenderer)    - 05-FEATURE-INVENTORY:头像裁剪描述同步为纯本地,标注已砍 Mantis 2. 立规矩(CLAUDE.md 新增 Documentation discipline + HANDOFF 硬约束第 6 条):   ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10453359,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "133",
           "date": "2026-08-05T09:43:32Z",
           "localizedDescription": "fix(债务): 修正搜索退出机制与加一笔按钮语义色  - 搜索框：监听键盘收起通知(keyboardWillHide)，向下箭头/点空白/滚动收键盘时同步退出搜索态并清空关键词 - 搜索框：点击列表空白区域直接退出搜索态(子视图点击优先不冲突)，return/Cancel 路径保留 - 详情页：移除上轮误加的金额输入「完成」按钮与 Hero 聚焦折叠效果，恢复页面不移动 - 加一笔按钮按语义分色：增加=红(expense)�",
