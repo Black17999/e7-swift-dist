@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "162",
+          "date": "2026-08-06T21:45:13Z",
+          "localizedDescription": "fix(统计): 底条数字柱对齐、浅色去渐变与进度条对接微动效  - 底条改为标签在左、右侧数字柱：↓2% 与 ¥金额同竖轴（箭头对齐人民币符号） - 浅色仅主区叠 heroGradient，底条实色不透渐变；深色整卡渐变+半透明底条保留 - CashFlowBar：份额变化时绿/红向中长出，对接处轻闪一次；Reduce Motion 关闭  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10688694,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "161",
           "date": "2026-08-06T21:22:30Z",
           "localizedDescription": "fix(统计): 恢复结余卡高度并重整底条文案与填色  - 主区行距/内边距回到方案E初版，不再额外压矮 - 底条改为两行：支出 · ↓2% / ¥金额，环比与标签同行 - 浅色底条略加深(8%)、深色底条略减淡(5.5%)，改善双皮肤对比  ",
