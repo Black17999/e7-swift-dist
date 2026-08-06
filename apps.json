@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "160",
+          "date": "2026-08-06T21:07:01Z",
+          "localizedDescription": "fix(统计): 对齐首页结余卡宽度并优化方案E底条  - 统计页水平边距改回 pagePadding(16)，与首页 TodayHeroCard 同宽 - 主区内边距与行距收紧，整体略压矮 - 底条环比改到金额下方左对齐，不再与标签挤同一行 - 底条填色：浅色略加深、深色略提亮，改善双皮肤对比  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10684530,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "159",
           "date": "2026-08-06T20:51:57Z",
           "localizedDescription": "fix(统计): 修复结余元信息三元表达式类型错误  - 拆开 .quaternary 与 Color 的混用，避免 ShapeStyle 与 Color 三元不兼容导致编译失败  ",
