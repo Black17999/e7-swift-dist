@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "170",
+          "date": "2026-08-06T23:36:54Z",
+          "localizedDescription": "fix(统计): 结余主卡与灰托左右齐平同宽  - 两层同在 VStack 内 frame maxWidth infinity，禁止灰托水平扩边 - 主卡阴影改挂透明底板，避免阴影参与宽度协商导致约1mm bleed - 底托 fill 强制拉满同宽后再 clip 直顶形状  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703189,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "169",
           "date": "2026-08-06T23:17:42Z",
           "localizedDescription": "fix(records): 修复记一笔数字键盘占满整页  - CustomNumberPad 取消可扩展 ZStack，内容固定高度再铺玻璃背景 - AddRecordView 底部叠层改为 alignment.bottom，去掉会撑开高度的 Spacer - 键盘仅贴底条带，不再吃掉金额与分类区域  ",
