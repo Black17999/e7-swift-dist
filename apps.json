@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "153",
+          "date": "2026-08-06T18:39:10Z",
+          "localizedDescription": "feat(统计): 呼吸节奏、饼图图例与排行两级下钻  - 新增 AppSpacing.xl(40)/pagePaddingWide(20)，统计页大区块更疏 - 结余概览去胶囊噪音：洞察改纯文字行，Top3 改安静编号列表 - 饼图补旁侧分类图例（top5，可点联动） - 排行两级下钻：分类→备注归组（无备注=默认）→MM-dd 金额 - 日历日明细改浅面板 + 仅淡入，去掉 move 坠落动画 - 排行标题右侧改为「可下钻」操作提示  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10665386,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "152",
           "date": "2026-08-06T17:40:36Z",
           "localizedDescription": "refactor(统计): 统计页重构为全页 0 卡片原生观感  - 结余概览裸铺渐变背景，吸收收支/洞察/Top3（保留备注文案） - 账期控件收进导航栏 ‹ [账期▾] ›，删除 PeriodSelectorView 浮空胶囊 - 趋势/日历/构成/排行改用 StatsSection 裸分区，去掉 AppCard 堆叠 - 图表调色板换品牌调和多色阶（浅/深双皮肤各 10 档） - 日历 44pt 命中区 + fillSubtle 底板，点天改用 RecordRowContent 修卡中套卡 - 排行不",
