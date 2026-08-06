@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "142",
+          "date": "2026-08-06T14:32:29Z",
+          "localizedDescription": "fix(profile): 修复 AI 设置页等宽字体参数顺序导致的编译错误  - Font.system(_:design:weight:) 参数顺序为 design 在前、weight 在后,原写法顺序颠倒导致编译器误解析为 system(size:) 重载  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10501876,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "139",
           "date": "2026-08-06T13:31:46Z",
           "localizedDescription": "refactor(debts): 债务详情页输入区动画与聚焦描边优化  - 金额驱动动画统一挂到 HStack 父容器（easeOut 0.2s），输入框/按钮/   「加一笔 · ¥XX」数字滚动同步平滑过渡，去除按钮单独 extraBounce 回弹 - 聚焦描边改中性深灰（primary 0.35）而非品牌紫，克制有质感  ",
