@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "159",
+          "date": "2026-08-06T20:51:57Z",
+          "localizedDescription": "fix(统计): 修复结余元信息三元表达式类型错误  - 拆开 .quaternary 与 Color 的混用，避免 ShapeStyle 与 Color 三元不兼容导致编译失败  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10685128,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "157",
           "date": "2026-08-06T20:30:38Z",
           "localizedDescription": "fix(我的): 头部深色柔接与下拉钉顶 v2  - 基底/虚化罩渐变连续落到 pageTop→Mid→Bg，深色避免蓝带硬切近黑 - 底部柔接浅约 48pt / 深约 88pt 多段过渡，面板咬合加深 - 下拉时背景 offset:-pull 钉在屏顶，并加永久 headerGradTop 顶幕防露地板  ",
