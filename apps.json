@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "169",
+          "date": "2026-08-06T23:17:42Z",
+          "localizedDescription": "fix(records): 修复记一笔数字键盘占满整页  - CustomNumberPad 取消可扩展 ZStack，内容固定高度再铺玻璃背景 - AddRecordView 底部叠层改为 alignment.bottom，去掉会撑开高度的 Spacer - 键盘仅贴底条带，不再吃掉金额与分类区域  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10702268,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "168",
           "date": "2026-08-06T23:14:45Z",
           "localizedDescription": "fix(统计): 灰直顶叠压对齐主卡底圆角起转点  - stackOverlap 改为 cardCorner+2（≥R），直顶伸到竖边开始弯弧处 - 消除仅过弧最低点时左右底角月牙露底 - 埋入高度增加，可见底条 padding 仍保持矮 - 主卡阴影略收，减少弧下阴影带被误认为缝  ",
