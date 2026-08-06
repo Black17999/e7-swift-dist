@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "149",
+          "date": "2026-08-06T17:01:23Z",
+          "localizedDescription": "refactor(分账历史): 重构为原生 iOS 质感卡片流  - 容器由 List 套 AppCard 改为 ScrollView + LazyVStack，对齐债务/统计页 - 累计总结升级为 Hero 卡（浮起阴影、主色渐变、装饰图标、CashFlowBar） - 金额统一 MoneyText；账期行增加盈亏 Tag、状态图标与 chevron - 删除改为长按 contextMenu；空态补充「导入历史」操作 - DistributionPeriodRecord 补 id-only Hashable 供 navigationDestination - 分账主页历史/设置工具�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10599130,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "148",
           "date": "2026-08-06T16:27:08Z",
           "localizedDescription": "fix(distribution): 总收入提取改用位置定位,规避 ICU 上 [^=]* 跨段扫描不稳定  - 现象:真机装新包后第14期(2026-02)起「未识别到总收入公式」,该段文本含 +0(美团) 等零金额项,两种 Python 引擎可复现通过但真机 ICU 失败 - 总收入改直接取「(总收入)」前的数值(totalRevenuePattern),不再依赖 [^=]* 跨段扫描 - 收入项公式片段改为「(总收入) 位置往回找最近的 (收入)」定位,同理由位置驱动 - 解析",
