@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "152",
+          "date": "2026-08-06T17:40:36Z",
+          "localizedDescription": "refactor(统计): 统计页重构为全页 0 卡片原生观感  - 结余概览裸铺渐变背景，吸收收支/洞察/Top3（保留备注文案） - 账期控件收进导航栏 ‹ [账期▾] ›，删除 PeriodSelectorView 浮空胶囊 - 趋势/日历/构成/排行改用 StatsSection 裸分区，去掉 AppCard 堆叠 - 图表调色板换品牌调和多色阶（浅/深双皮肤各 10 档） - 日历 44pt 命中区 + fillSubtle 底板，点天改用 RecordRowContent 修卡中套卡 - 排行不",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10614080,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "151",
           "date": "2026-08-06T17:32:31Z",
           "localizedDescription": "perf: optimize SwiftUI animations, fix layout jank, update list header  统一 DebtsView 页面头部标题为「债务列表」，修正命名不一致问题 优化 DebtDetailView 金额输入区：使用输入状态而非金额驱动布局动画，避免输入数字时频繁布局卡顿；拆分动画触发范围防止不同步 优化 ProfileView 头像放大视图：禁用毛玻璃材质的透明度动画降低GPU负载，仅对压暗层和头像内容做淡入淡出；简化关闭逻辑，�",
