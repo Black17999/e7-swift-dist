@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "168",
+          "date": "2026-08-06T23:14:45Z",
+          "localizedDescription": "fix(统计): 灰直顶叠压对齐主卡底圆角起转点  - stackOverlap 改为 cardCorner+2（≥R），直顶伸到竖边开始弯弧处 - 消除仅过弧最低点时左右底角月牙露底 - 埋入高度增加，可见底条 padding 仍保持矮 - 主卡阴影略收，减少弧下阴影带被误认为缝  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703834,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "167",
           "date": "2026-08-06T23:04:51Z",
           "localizedDescription": "fix(records): 数字键盘改用不依赖 gridCellRows 的等宽布局  - 修复 CI 报错：some View 无 gridCellRows 成员 - 改用 HStack + containerRelativeFrame 四列 3:1 等宽 - 完成键固定跨 2 行高度，布局语义与定案 A 一致  ",
