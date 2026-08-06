@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "163",
+          "date": "2026-08-06T22:07:55Z",
+          "localizedDescription": "fix(统计): 浅色底条冷灰、进度条对撞动效与底条字号统一  - 浅色底条改为冷灰实色 #EEEFF1，去掉 black.opacity 偏暖黄问题；深色不变 - CashFlowBar：绿从左、红从右相向长出，交界处瞬时碰撞高光（非单侧滑扫） - 底条标签/环比/金额统一 footnote 档，金额仅 semibold，避免字号跳级  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10690803,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "162",
           "date": "2026-08-06T21:45:13Z",
           "localizedDescription": "fix(统计): 底条数字柱对齐、浅色去渐变与进度条对接微动效  - 底条改为标签在左、右侧数字柱：↓2% 与 ¥金额同竖轴（箭头对齐人民币符号） - 浅色仅主区叠 heroGradient，底条实色不透渐变；深色整卡渐变+半透明底条保留 - CashFlowBar：份额变化时绿/红向中长出，对接处轻闪一次；Reduce Motion 关闭  ",
