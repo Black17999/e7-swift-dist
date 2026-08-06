@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "156",
+          "date": "2026-08-06T20:13:02Z",
+          "localizedDescription": "fix(我的): 头部背景 A+B 柔接与虚化延伸  - 去掉 luminosity 假雾；有头像改为 blur(25) 写真底 + 品牌罩 - 无头像保留 header 晨雾/深海色雾，背景与下拉同步增高 - 底部柔接改为 40pt 渐隐到 pageTopGrad，数据面板咬入雾区 - 下拉时增加 headerGradTop 顶色垫层，减少露 PageBackground 地板色  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10675645,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "155",
           "date": "2026-08-06T20:08:21Z",
           "localizedDescription": "refactor(统计): 压扁结余软面并精简内部信息  - 内边距与行距由 md 改为 sm，整体更扁、少正方形感 - 收支改为单行紧凑双列，去掉大图标与三行堆叠 - 环比收入/支出行内展示；健康态上移到眉栏 - 元信息仅保留支出占比与日均；装饰 ¥ 缩小至 36pt  ",
