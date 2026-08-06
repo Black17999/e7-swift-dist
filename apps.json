@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "167",
+          "date": "2026-08-06T23:04:51Z",
+          "localizedDescription": "fix(records): 数字键盘改用不依赖 gridCellRows 的等宽布局  - 修复 CI 报错：some View 无 gridCellRows 成员 - 改用 HStack + containerRelativeFrame 四列 3:1 等宽 - 完成键固定跨 2 行高度，布局语义与定案 A 一致  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703703,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "165",
           "date": "2026-08-06T22:52:52Z",
           "localizedDescription": "fix(统计): 结余底托改为直顶伸进主卡底弧并压矮  - 底托 UnevenRoundedRectangle：上圆角 0（直顶）、下圆角 large，对齐画板 - 主卡保持四角圆角+浮起，直顶上探约 20pt 伸进底弧内侧 - 底托内容区收紧 padding，整体压矮避免与主卡比例失调 - 底色仍用 tertiarySystemFill（segmented 未选中轨）  ",
