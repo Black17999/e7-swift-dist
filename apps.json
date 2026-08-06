@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "147",
+          "date": "2026-08-06T16:16:00Z",
+          "localizedDescription": "feat(distribution): 导入解析失败原因细化到具体字段  - 预览失败行由笼统的「字段不完整」改为具体提示:未识别到账期区间/共X元(收入)/期初期末欠款/总收入公式/实收金额/股东每人应收应补 - parseFields 改为返回 (Fields?, FieldError?),失败时带上具体字段便于定位 - 用从 Swift 源码提取正则的方式回归 17 期真实记录(含 ICU 近似引擎)全部通过  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10576141,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "146",
           "date": "2026-08-06T15:58:46Z",
           "localizedDescription": "fix(distribution): 修复导入解析区间正则缺少捕获组导致全部账期报字段不完整  - rangePattern 原无捕获组,但 parseFields 按 group(1..4) 读取月/日 → 恒为 nil → 所有账期均失败 - 补齐 (\\d{1,2})月(\\d{1,2})日(?:到|-)(\\d{1,2})月(\\d{1,2})日 捕获组 - 验证改为直接从 Swift 源码提取全部正则的 Python 镜像回归(杜绝手抄漂移):17 期真实记录全部通过  ",
