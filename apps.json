@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "151",
+          "date": "2026-08-06T17:32:31Z",
+          "localizedDescription": "perf: optimize SwiftUI animations, fix layout jank, update list header  统一 DebtsView 页面头部标题为「债务列表」，修正命名不一致问题 优化 DebtDetailView 金额输入区：使用输入状态而非金额驱动布局动画，避免输入数字时频繁布局卡顿；拆分动画触发范围防止不同步 优化 ProfileView 头像放大视图：禁用毛玻璃材质的透明度动画降低GPU负载，仅对压暗层和头像内容做淡入淡出；简化关闭逻辑，�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10601117,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "150",
           "date": "2026-08-06T17:12:54Z",
           "localizedDescription": "重构 & 文档: 优化分销历史页面列表项布局，更新设计技能文档  调整DistributionHistoryView的账期行布局，移除左侧冗余的状态图标，将日期设为主行内容，盈亏标签下沉至副行，优化布局优先级以合理分配宽度，提升UI可读性，同时同步更新了页面的文档注释。 更新.claude/skills/目录下的三款设计技能文档，补充完善品牌系统、设计审核规则和金融UI实现规范，匹配当前代码库的设",
