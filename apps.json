@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "161",
+          "date": "2026-08-06T21:22:30Z",
+          "localizedDescription": "fix(统计): 恢复结余卡高度并重整底条文案与填色  - 主区行距/内边距回到方案E初版，不再额外压矮 - 底条改为两行：支出 · ↓2% / ¥金额，环比与标签同行 - 浅色底条略加深(8%)、深色底条略减淡(5.5%)，改善双皮肤对比  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10684806,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "160",
           "date": "2026-08-06T21:07:01Z",
           "localizedDescription": "fix(统计): 对齐首页结余卡宽度并优化方案E底条  - 统计页水平边距改回 pagePadding(16)，与首页 TodayHeroCard 同宽 - 主区内边距与行距收紧，整体略压矮 - 底条环比改到金额下方左对齐，不再与标签挤同一行 - 底条填色：浅色略加深、深色略提亮，改善双皮肤对比  ",
