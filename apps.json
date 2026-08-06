@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "165",
+          "date": "2026-08-06T22:52:52Z",
+          "localizedDescription": "fix(统计): 结余底托改为直顶伸进主卡底弧并压矮  - 底托 UnevenRoundedRectangle：上圆角 0（直顶）、下圆角 large，对齐画板 - 主卡保持四角圆角+浮起，直顶上探约 20pt 伸进底弧内侧 - 底托内容区收紧 padding，整体压矮避免与主卡比例失调 - 底色仍用 tertiarySystemFill（segmented 未选中轨）  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10693594,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "164",
           "date": "2026-08-06T22:23:08Z",
           "localizedDescription": "refactor(统计): 结余改为上下叠卡并用系统轨灰色底托  - 上层主卡完整四角圆角+浮起阴影，下层收支托盘同圆角叠压（参考叠层卡效果） - 浅色/深色底托统一 tertiarySystemFill，对齐 segmented 未选中背景灰 - 托盘顶缘延伸进主卡底弧，去掉硬拼接分隔线  ",
