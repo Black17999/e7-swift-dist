@@ -15,6 +15,15 @@
       "tintColor": "4355B9",
       "versions": [
         {
+          "version": "3.1.0",
+          "buildVersion": "137",
+          "date": "2026-08-06T12:51:39Z",
+          "localizedDescription": "chore(release): 版本号升级至 3.1.0  - project.yml: MARKETING_VERSION 3.0.0 → 3.1.0，CURRENT_PROJECT_VERSION 1 → 2 - AppChangelog: 新增 3.1.0 更新历史条目(原生手感 · 全面深化)，含记一笔原生化/原生 TabBar/债务拼音联想/债务详情原生平铺/沉浸视觉统一/头像点击全屏 6 条精华  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10470477,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "3.0.0",
           "buildVersion": "136",
           "date": "2026-08-06T11:41:25Z",
