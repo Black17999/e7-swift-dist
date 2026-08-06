@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "157",
+          "date": "2026-08-06T20:30:38Z",
+          "localizedDescription": "fix(我的): 头部深色柔接与下拉钉顶 v2  - 基底/虚化罩渐变连续落到 pageTop→Mid→Bg，深色避免蓝带硬切近黑 - 底部柔接浅约 48pt / 深约 88pt 多段过渡，面板咬合加深 - 下拉时背景 offset:-pull 钉在屏顶，并加永久 headerGradTop 顶幕防露地板  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10679185,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "156",
           "date": "2026-08-06T20:13:02Z",
           "localizedDescription": "fix(我的): 头部背景 A+B 柔接与虚化延伸  - 去掉 luminosity 假雾；有头像改为 blur(25) 写真底 + 品牌罩 - 无头像保留 header 晨雾/深海色雾，背景与下拉同步增高 - 底部柔接改为 40pt 渐隐到 pageTopGrad，数据面板咬入雾区 - 下拉时增加 headerGradTop 顶色垫层，减少露 PageBackground 地板色  ",
