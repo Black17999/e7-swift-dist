@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "171",
+          "date": "2026-08-06T23:40:38Z",
+          "localizedDescription": "fix(我的): 头部改用方案2头色长尾淡出  - 背景仅用 headerGrad*，底部长尾 alpha→0，不画 page 实色板 - 长尾浅约 96pt / 深约 112pt 缓收，透出 PageBackground - 有头像保持 blur(25)+header 色罩，与长尾同一 mask - 下拉背景 offset:-pull 钉顶，仅下拉时垫 headerGradTop  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703223,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "170",
           "date": "2026-08-06T23:36:54Z",
           "localizedDescription": "fix(统计): 结余主卡与灰托左右齐平同宽  - 两层同在 VStack 内 frame maxWidth infinity，禁止灰托水平扩边 - 主卡阴影改挂透明底板，避免阴影参与宽度协商导致约1mm bleed - 底托 fill 强制拉满同宽后再 clip 直顶形状  ",
