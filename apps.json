@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.0.0",
+          "buildVersion": "136",
+          "date": "2026-08-06T11:41:25Z",
+          "localizedDescription": "chore: 清理构建警告  - AppDatabase: 6 处 upsertLocal* 将可变 rec 移入 dbPool.write 闭包内，消除 Swift 6 并发捕获警告 - DebtDetailView: 排序 switch 删除被 (nil, _) 覆盖的冗余 (nil, nil) case  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10461106,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.0.0",
           "buildVersion": "134",
           "date": "2026-08-06T09:23:50Z",
           "localizedDescription": "docs: 执行文档对齐三步(修事实+立规矩+补看板)  药方落地 —— 解决「文档落后导致 AI 输出被带偏」: 1. 修事实(活跃文档):    - CLAUDE.md / 00-OVERVIEW / 01-ARCHITECTURE:iOS 17.0 -> 18.0    - 去掉 Mantis 依赖声明(实际 M6 已砍,头像裁剪纯本地 ImageDownsampler+ImageRenderer)    - 05-FEATURE-INVENTORY:头像裁剪描述同步为纯本地,标注已砍 Mantis 2. 立规矩(CLAUDE.md 新增 Documentation discipline + HANDOFF 硬约束第 6 条):   ",
