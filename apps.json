@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "150",
+          "date": "2026-08-06T17:12:54Z",
+          "localizedDescription": "重构 & 文档: 优化分销历史页面列表项布局，更新设计技能文档  调整DistributionHistoryView的账期行布局，移除左侧冗余的状态图标，将日期设为主行内容，盈亏标签下沉至副行，优化布局优先级以合理分配宽度，提升UI可读性，同时同步更新了页面的文档注释。 更新.claude/skills/目录下的三款设计技能文档，补充完善品牌系统、设计审核规则和金融UI实现规范，匹配当前代码库的设",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10598515,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "149",
           "date": "2026-08-06T17:01:23Z",
           "localizedDescription": "refactor(分账历史): 重构为原生 iOS 质感卡片流  - 容器由 List 套 AppCard 改为 ScrollView + LazyVStack，对齐债务/统计页 - 累计总结升级为 Hero 卡（浮起阴影、主色渐变、装饰图标、CashFlowBar） - 金额统一 MoneyText；账期行增加盈亏 Tag、状态图标与 chevron - 删除改为长按 contextMenu；空态补充「导入历史」操作 - DistributionPeriodRecord 补 id-only Hashable 供 navigationDestination - 分账主页历史/设置工具�",
