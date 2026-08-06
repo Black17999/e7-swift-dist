@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "154",
+          "date": "2026-08-06T19:49:50Z",
+          "localizedDescription": "refactor(统计): v5.5 结余轻软面与板块重排  - 叙事顺序改为：结余 → 分类构成 → 近12月趋势 → 收支日历 - 结余主数字用 AppCard 轻软面（大圆角/elevation.card/品牌晕），Top3「最大三笔」放软面外贴地 - 分类构成合并为标题外置 + 支出/收入切换；饼图与排行同段贴地，中间静默分隔 - 仅日历使用无阴影 inset（cardBg 色差读板），趋势继续贴地  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10669713,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "153",
           "date": "2026-08-06T18:39:10Z",
           "localizedDescription": "feat(统计): 呼吸节奏、饼图图例与排行两级下钻  - 新增 AppSpacing.xl(40)/pagePaddingWide(20)，统计页大区块更疏 - 结余概览去胶囊噪音：洞察改纯文字行，Top3 改安静编号列表 - 饼图补旁侧分类图例（top5，可点联动） - 排行两级下钻：分类→备注归组（无备注=默认）→MM-dd 金额 - 日历日明细改浅面板 + 仅淡入，去掉 move 坠落动画 - 排行标题右侧改为「可下钻」操作提示  ",
