@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "172",
+          "date": "2026-08-06T23:44:30Z",
+          "localizedDescription": "fix(统计): 灰托左右各收1pt消除放大可见bleed  - trayEdgeInset=1，灰直顶比白卡左右各窄约一根线 - 对齐 continuous 裁切光学边，解决放大时灰比白宽约1mm  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703645,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "171",
           "date": "2026-08-06T23:40:38Z",
           "localizedDescription": "fix(我的): 头部改用方案2头色长尾淡出  - 背景仅用 headerGrad*，底部长尾 alpha→0，不画 page 实色板 - 长尾浅约 96pt / 深约 112pt 缓收，透出 PageBackground - 有头像保持 blur(25)+header 色罩，与长尾同一 mask - 下拉背景 offset:-pull 钉顶，仅下拉时垫 headerGradTop  ",
