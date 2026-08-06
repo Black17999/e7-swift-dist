@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "148",
+          "date": "2026-08-06T16:27:08Z",
+          "localizedDescription": "fix(distribution): 总收入提取改用位置定位,规避 ICU 上 [^=]* 跨段扫描不稳定  - 现象:真机装新包后第14期(2026-02)起「未识别到总收入公式」,该段文本含 +0(美团) 等零金额项,两种 Python 引擎可复现通过但真机 ICU 失败 - 总收入改直接取「(总收入)」前的数值(totalRevenuePattern),不再依赖 [^=]* 跨段扫描 - 收入项公式片段改为「(总收入) 位置往回找最近的 (收入)」定位,同理由位置驱动 - 解析",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10575633,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "147",
           "date": "2026-08-06T16:16:00Z",
           "localizedDescription": "feat(distribution): 导入解析失败原因细化到具体字段  - 预览失败行由笼统的「字段不完整」改为具体提示:未识别到账期区间/共X元(收入)/期初期末欠款/总收入公式/实收金额/股东每人应收应补 - parseFields 改为返回 (Fields?, FieldError?),失败时带上具体字段便于定位 - 用从 Swift 源码提取正则的方式回归 17 期真实记录(含 ICU 近似引擎)全部通过  ",
