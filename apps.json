@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "206",
+          "date": "2026-08-07T22:32:56Z",
+          "localizedDescription": "fix(记一笔): Soft Elev 键盘浮层留白、圆角与槽高  键盘改为独立浮层 dock，左右外边距 12、键区内边距 12（屏边到键面 24pt）， 底部再抬 10pt；四角 continuous 圆角 16，修复贴边直角。备注/日期槽加高至 42， 工具栏行高 62，避免挤贴屏幕边缘。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10815531,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "205",
           "date": "2026-08-07T22:29:19Z",
           "localizedDescription": "fix(删除确认): 右滑删除弹窗闪没，改容器级挂载  iOS 26 点击 swipeActions 按钮后行 cell 随收起动画重建， 行级 confirmationDialog 被顶掉（记录消失又出现 + 弹窗闪没）。 4 个 swipe 删除页弹窗统一上移页面根；contextMenu 场景保留行级。  ",
