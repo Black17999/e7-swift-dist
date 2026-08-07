@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "205",
+          "date": "2026-08-07T22:29:19Z",
+          "localizedDescription": "fix(删除确认): 右滑删除弹窗闪没，改容器级挂载  iOS 26 点击 swipeActions 按钮后行 cell 随收起动画重建， 行级 confirmationDialog 被顶掉（记录消失又出现 + 弹窗闪没）。 4 个 swipe 删除页弹窗统一上移页面根；contextMenu 场景保留行级。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10815060,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "204",
           "date": "2026-08-07T22:20:10Z",
           "localizedDescription": "fix(债务): 搜索卸环回退单 ScrollView 并收敛贴顶  - 回退 A″ 环出滚动区方案，消除视口高度重分配怪病 - 单 ScrollView 保活环，高度零动画瞬切，进搜索不做 scrollTo - 退搜索一帧后无动画贴 contentTop，defaultScrollAnchor.top - 保留键盘∨/Cancel/Return 清词退搜索与空态硬切  ",
