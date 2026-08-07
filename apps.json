@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "201",
+          "date": "2026-08-07T21:53:19Z",
+          "localizedDescription": "fix(债务): 搜索卸环防卡顿与退出路径对齐  - 环高度瞬切，去掉中途 smooth 弹簧，消除上推顿挫 - 稳定顶锚 contentTop，进退搜索无动画 scrollTo 真顶 - 键盘∨/Return/点空白/Cancel 一律清词并退出搜索 - 空态 identity + 清词硬切，避免「未找到」鬼影  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10823460,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "200",
           "date": "2026-08-07T21:26:28Z",
           "localizedDescription": "feat(债务): 搜索态卸 Soft Ring，避免键盘挡住列表  - 搜索激活或过滤中保活折叠环（量高+淡出），列表上顶让出键盘区 - 布局用 smooth 弹簧、opacity 分层；回环静默终态，禁止 force 重播 trim - Return 保留关键词；Cancel/点空白清词；section 显示「N 个结果」 - 补充搜索卸环 UX 方案与落码概览文档  ",
