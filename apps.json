@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "191",
+          "date": "2026-08-07T15:05:01Z",
+          "localizedDescription": "fix(记录): v4.6 贴地浅轨修正 — 深色去银 + 动画减负 + 明细贴地  - 日期条深色槽:white 0.24(发银) → 中性灰 white 0.47 @ 0.26(≈画板 rgba 120,120,128,0.26) - pill 去 shadow:阴影挂动画 view 每帧重绘是卡顿元凶;去 scrollTo 动画(瞬时居中),   仅保留 pill offset 单弹簧 spring(0.4/0.2),transform 级无重绘 - 深色 pill 压暗(0.18→0.08),描边 0.14,不再银白 - 交易明细去卡片:insetGrouped → plain + 透明行 + hairline 分隔",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10740612,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "190",
           "date": "2026-08-07T14:36:22Z",
           "localizedDescription": "fix(记录): v4.5 复原画板 — 日期条动画重写 + 首页数字放大  - 日期条:弃用 matchedGeometryEffect(ScrollView+scrollTo 同帧抖动),   改独立 pill 层 + offset(x:) 弹簧动画(transform 级不触发布局) - pill 位移 spring(0.45/0.22),文字颜色短 easeOut(0.18),节奏分离防过冲 - 槽底色改自绘 white 0.10/0.24(贴画板 v4.3,替代偏深的 tertiarySystemFill) - 结余金额 34→44pt(局部,不动全局 heroAmount token) - 收/支卡片放大:标签 capt",
