@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "207",
+          "date": "2026-08-07T22:47:12Z",
+          "localizedDescription": "fix(ui): 债务搜索环优雅折叠与删除确认弹窗稳定  - 债务：ringFold 0…1 + smooth 折叠/展开，列表随高度自然上下，全程不 scrollTo - 删除：DeleteConfirmationModel/Host，swipe 只写引用不重算父 body，规避 iOS 26 行闪烁 - 接入记录/分类/债务详情/分账设置；记录列表 id 兜底排序降低 load 抖动  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10819248,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "206",
           "date": "2026-08-07T22:32:56Z",
           "localizedDescription": "fix(记一笔): Soft Elev 键盘浮层留白、圆角与槽高  键盘改为独立浮层 dock，左右外边距 12、键区内边距 12（屏边到键面 24pt）， 底部再抬 10pt；四角 continuous 圆角 16，修复贴边直角。备注/日期槽加高至 42， 工具栏行高 62，避免挤贴屏幕边缘。  ",
