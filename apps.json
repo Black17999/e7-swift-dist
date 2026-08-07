@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "174",
+          "date": "2026-08-07T00:10:40Z",
+          "localizedDescription": "fix(统计): 饼图隔离排行 withAnimation 避免连带闪白  - Chart 上 transaction 清空 animation，挡住 Ranking 点选传入的动画上下文  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10704207,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "173",
           "date": "2026-08-07T00:07:23Z",
           "localizedDescription": "fix(统计): 饼图点选去闪白，日历日明细对齐 cardBg  - 扇区外径恒定，选中只改 opacity；Charts 禁用 selectedCategory 几何动画 - dimOpacity 0.85→0.55 仅靠明度区分，避免 outerRadius 动画闪帧 - 日历点天面板底色改 theme.cardBg（与 AppCard/债务卡同系），去掉 fillSubtle 灰叠灰  ",
