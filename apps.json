@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "199",
+          "date": "2026-08-07T21:07:45Z",
+          "localizedDescription": "fix(债务): Soft Ring 进场可打断，避免切 Tab 卡顿  - 每次进入债务 Tab 仍重播进场 spring（保留高级感） - 以 AppRouter.selectedTab 为可见性真源，离开/退后台立刻钉终态 - animToken 作废延迟脉冲；force 归零用 disablesAnimations 防倒播 - spring 0.95→0.72，文案与端点脉冲略收紧  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10807528,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "198",
           "date": "2026-08-07T21:01:01Z",
           "localizedDescription": "fix(记录): 日期条 UI 窗口收窄为过去60天+今天+未来7天  - 首页日期条一次只生成约 68 格，避免最长约 372 格上屏卡顿 - 右端 F1 今天+7 硬顶不变；左端固定 today-60，不再跟最早记账日铺一年 - 重建 token 只跟自然日；选中日落在窗口外时收回今天 - 仅限 UI 格子数量；记账全量本地同步/统计不受影响  ",
