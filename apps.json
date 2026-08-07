@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "177",
+          "date": "2026-08-07T00:28:06Z",
+          "localizedDescription": "feat(统计): 饼图方案B只放大选中，排行与饼图解耦展开  - 饼图选中：外径 idle 0.94→selected 1.0 仅放大选中，未选不缩小，spring 丝滑过渡 - 未选轻压暗 0.72；中心文案瞬时切换，避免与扇区动画叠抖 - 排行下钻改为 expandedCategory 私有状态；点饼图/图例只高亮不自动展开 - 仅点排行分类行才展开备注归组与逐笔明细  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703287,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "176",
           "date": "2026-08-07T00:17:19Z",
           "localizedDescription": "fix(我的): 头部 P 钉层外置 + 虚化36/罩12%  - 背景 ProfileHeaderPinnedBackground 移出 Scroll，钉 ZStack，下拉只加高不露实色顶 - 去掉 headerGradTop 实色顶垫；长尾 alpha→0 仍在钉层底部 - 有头像 blur 36 + 外扩 96；深色罩顶 header 蓝黑 12%（降黑雾） - 前景 ProfileHeaderGradientView 仅占位与交互，随 Scroll 移动  ",
