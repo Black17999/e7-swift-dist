@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "208",
+          "date": "2026-08-07T22:59:26Z",
+          "localizedDescription": "fix(记一笔): 键盘改回原生 SwiftUI Soft Elev 面板  撤销浮层外扩与 Flutter 照搬布局；底部满宽 panel，顶圆角 card， 背景 ignoresSafeArea 吃底。水平 inset 仅 pagePadding 16；备注槽 44、 工具栏 64；键区定高 248。去掉 UIApplication 手算安全区。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10820930,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "207",
           "date": "2026-08-07T22:47:12Z",
           "localizedDescription": "fix(ui): 债务搜索环优雅折叠与删除确认弹窗稳定  - 债务：ringFold 0…1 + smooth 折叠/展开，列表随高度自然上下，全程不 scrollTo - 删除：DeleteConfirmationModel/Host，swipe 只写引用不重算父 body，规避 iOS 26 行闪烁 - 接入记录/分类/债务详情/分账设置；记录列表 id 兜底排序降低 load 抖动  ",
