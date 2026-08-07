@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "180",
+          "date": "2026-08-07T08:40:19Z",
+          "localizedDescription": "feat(分类): 管理列表排序改为常驻把手(B1)  - 分类管理去掉 EditButton/AppCard，insetGrouped + 常驻 editMode 右侧直接拖 - 分账设置股东/分配项同构；deleteDisabled，删除仍走左滑+二次确认 - 落点 selection 触感；footer 提示拖把手；点行/长按菜单兜底 - 编辑分类 sheet 去掉底部删除，统一在列表删 - 退出登录/移除头像/删债务文案收敛到 FeedbackMessages - 补充 category-reorder-ux-proposal 方案文档  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10719968,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "179",
           "date": "2026-08-07T07:39:27Z",
           "localizedDescription": "fix(统计): 分类构成饼图选中不再闪光  - 扇区外径固定，取消 idle/selected 半径差，避免 SectorMark 插值重绘闪白 - Chart 侧 animation(nil)，选中仅瞬时 dim 未选扇区 - 图例/扇区点击不再 withAnimation 驱动 Charts；图例行保留轻量 fade - 排行展开动画与 selectedCategory 写入拆开，防止动画事务传入饼图  ",
