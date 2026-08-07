@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "209",
+          "date": "2026-08-07T23:29:16Z",
+          "localizedDescription": "fix(记一笔): 修复键盘覆盖/顶圆角错位/左右溢出  - AddRecordView：底部 panel 容器移除 maxHeight:.infinity，背景只跟随 panel 内容高度，不再撑满全屏盖住主内容；顶圆角回到 panel 顶部  - CustomNumberPad：keypadContent 由 containerRelativeFrame(基于屏幕宽) 改为按列 frame(maxWidth:.infinity) 等宽布局，修复外层水平 padding 叠加导致左右溢出屏幕  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10821497,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "208",
           "date": "2026-08-07T22:59:26Z",
           "localizedDescription": "fix(记一笔): 键盘改回原生 SwiftUI Soft Elev 面板  撤销浮层外扩与 Flutter 照搬布局；底部满宽 panel，顶圆角 card， 背景 ignoresSafeArea 吃底。水平 inset 仅 pagePadding 16；备注槽 44、 工具栏 64；键区定高 248。去掉 UIApplication 手算安全区。  ",
