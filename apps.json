@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "197",
+          "date": "2026-08-07T20:35:55Z",
+          "localizedDescription": "feat(债务): M1 Soft Ring 顶部 + 列表去卡片化  - 新增 DebtsSummaryRing：完整灰轨环 + indigo 进度（未结/在册） - 中心总应收大数字 + 未结人数，底 pill 已清/均额，进场 trim spring - DebtsView 去掉双 AppCard 统计卡，改为 Soft Ring 汇总 - DebtCard 贴地 hairline 行，保留 … + 最近两笔 secondary 胶囊 - 纯应收叙事：总额 sum(max(result,0))，均额按在册人数 - 补充设计画板与落码说明文档  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10800997,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "196",
           "date": "2026-08-07T20:19:42Z",
           "localizedDescription": "feat(记录): 日期条 E 全宽强虚化 + F1 今天居中/后7天硬顶  - 浅槽改为全宽贴边，去掉内收 16 与圆角缩回 - 左右页色 vignette fade=44（外侧杀伤区 + 软过渡） - 数据窗口 earliest…today…today+7，未来日满色不降灰 - 去掉 trailing 锚点，进场/切日 scrollTo 居中 - 未来日空态文案区分；附边缘虚化与可滑体验画板  ",
