@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "196",
+          "date": "2026-08-07T20:19:42Z",
+          "localizedDescription": "feat(记录): 日期条 E 全宽强虚化 + F1 今天居中/后7天硬顶  - 浅槽改为全宽贴边，去掉内收 16 与圆角缩回 - 左右页色 vignette fade=44（外侧杀伤区 + 软过渡） - 数据窗口 earliest…today…today+7，未来日满色不降灰 - 去掉 trailing 锚点，进场/切日 scrollTo 居中 - 未来日空态文案区分；附边缘虚化与可滑体验画板  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10783871,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "195",
           "date": "2026-08-07T18:47:22Z",
           "localizedDescription": "fix(ui): 全 App 统一隐藏滚动指示器  - 所有 ScrollView / List / Form 统一 .scrollIndicators(.hidden) - 覆盖主 Tab、分账、分类、我的二级页与各类 Sheet - 消除记录/债务/我的页拖动时右侧细条，与统计页一致  ",
