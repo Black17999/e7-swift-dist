@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "198",
+          "date": "2026-08-07T21:01:01Z",
+          "localizedDescription": "fix(记录): 日期条 UI 窗口收窄为过去60天+今天+未来7天  - 首页日期条一次只生成约 68 格，避免最长约 372 格上屏卡顿 - 右端 F1 今天+7 硬顶不变；左端固定 today-60，不再跟最早记账日铺一年 - 重建 token 只跟自然日；选中日落在窗口外时收回今天 - 仅限 UI 格子数量；记账全量本地同步/统计不受影响  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10801212,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "197",
           "date": "2026-08-07T20:35:55Z",
           "localizedDescription": "feat(债务): M1 Soft Ring 顶部 + 列表去卡片化  - 新增 DebtsSummaryRing：完整灰轨环 + indigo 进度（未结/在册） - 中心总应收大数字 + 未结人数，底 pill 已清/均额，进场 trim spring - DebtsView 去掉双 AppCard 统计卡，改为 Soft Ring 汇总 - DebtCard 贴地 hairline 行，保留 … + 最近两笔 secondary 胶囊 - 纯应收叙事：总额 sum(max(result,0))，均额按在册人数 - 补充设计画板与落码说明文档  ",
