@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "195",
+          "date": "2026-08-07T18:47:22Z",
+          "localizedDescription": "fix(ui): 全 App 统一隐藏滚动指示器  - 所有 ScrollView / List / Form 统一 .scrollIndicators(.hidden) - 覆盖主 Tab、分账、分类、我的二级页与各类 Sheet - 消除记录/债务/我的页拖动时右侧细条，与统计页一致  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10779036,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "194",
           "date": "2026-08-07T17:19:57Z",
           "localizedDescription": "fix(记录): 首页页边恢复 16 + 浅色图标软面加强可见度  - Hero / 日期条 / 明细水平边 sm(12) → pagePadding(16)，与统计页对齐 - 浅色 iconTile fill white 0.72→0.92、rim 0.06→0.10（贴地渐变上更见平台） - 深色图标底座保持原档  ",
