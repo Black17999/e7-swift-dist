@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "188",
+          "date": "2026-08-07T13:44:29Z",
+          "localizedDescription": "fix(记录): 日期条周标签 tertiary 改为 Color(.tertiaryLabel)  - .tertiary 为 ShapeStyle 版本,返回类型 Color 时编译失败 - 改用 UIKit 语义色 Color(.tertiaryLabel),行为一致  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10739274,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "186",
           "date": "2026-08-07T12:39:11Z",
           "localizedDescription": "fix(通用): 删除确认弹窗锚点跟随触发位置  - 新增 View.deleteConfirmation 通用修饰符,弹窗锚定到触发视图本身,行级 isThis gate 防 ForEach 叠窗 - CategoriesView/RecordsView/DebtsView/DistributionHistoryView 删除弹窗从父容器下放到行 - DistributionSettingsView 股东/分账项删除弹窗下放到行 - DebtDetailView 单条删除下放到历史行,整债删除挂到编辑菜单 - ProfileView 退出登录挂到退出行,移除头像挂到编辑页按钮",
