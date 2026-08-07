@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "183",
+          "date": "2026-08-07T11:49:06Z",
+          "localizedDescription": "fix(记录): 移除编译不过的 sharedBackgroundVisibility  - 该符号在当前 Codemagic Xcode SDK 编译期不存在，#available 无法救编译 - leading 品牌块维持 HStack + onTapGesture 非按钮方案，天然不触发 iOS 26 玻璃壳  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10718837,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "181",
           "date": "2026-08-07T11:16:30Z",
           "localizedDescription": "feat(记录): 首页品牌导航 + 贴地内容重构  - toolbar leading 接入 HomeHeader（头像 + 上问候 / 下 @id），去掉居中标题，trailing 保留分享 - TodayHeroCard 去掉 AppCard 浮起与装饰图标，结余/收支贴页面渐变，趋势并入副文 - 日期条选中改为 indigo 实心；明细区头降为 secondary + 纯文字笔数，列表为唯一软面 - 补充高保真方案画板 docs/design-mocks/records-home-redesign*.html  ",
