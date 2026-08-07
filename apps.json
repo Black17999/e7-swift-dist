@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "200",
+          "date": "2026-08-07T21:26:28Z",
+          "localizedDescription": "feat(债务): 搜索态卸 Soft Ring，避免键盘挡住列表  - 搜索激活或过滤中保活折叠环（量高+淡出），列表上顶让出键盘区 - 布局用 smooth 弹簧、opacity 分层；回环静默终态，禁止 force 重播 trim - Return 保留关键词；Cancel/点空白清词；section 显示「N 个结果」 - 补充搜索卸环 UX 方案与落码概览文档  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10819775,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "199",
           "date": "2026-08-07T21:07:45Z",
           "localizedDescription": "fix(债务): Soft Ring 进场可打断，避免切 Tab 卡顿  - 每次进入债务 Tab 仍重播进场 spring（保留高级感） - 以 AppRouter.selectedTab 为可见性真源，离开/退后台立刻钉终态 - animToken 作废延迟脉冲；force 归零用 disablesAnimations 防倒播 - spring 0.95→0.72，文案与端点脉冲略收紧  ",
