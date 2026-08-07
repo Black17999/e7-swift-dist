@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "192",
+          "date": "2026-08-07T15:57:09Z",
+          "localizedDescription": "fix(记录): 首页 v4.7 微调 — 结余内收 + 明细放大 + 日期条视口固定槽  - 今日结余/结余数字右移 xs，眼睛左移 xs（只动点名三项） - 交易明细标题升至 sectionTitle + primary - 明细行略放大：图标 22/44、分类 body、金额 body、行上下 xs - 日期条浅槽固定视口 + 内容 clip 同圆角，修左右硬裁切 - 槽内呼吸加大，深色浅描边勾轮廓  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10743597,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "191",
           "date": "2026-08-07T15:05:01Z",
           "localizedDescription": "fix(记录): v4.6 贴地浅轨修正 — 深色去银 + 动画减负 + 明细贴地  - 日期条深色槽:white 0.24(发银) → 中性灰 white 0.47 @ 0.26(≈画板 rgba 120,120,128,0.26) - pill 去 shadow:阴影挂动画 view 每帧重绘是卡顿元凶;去 scrollTo 动画(瞬时居中),   仅保留 pill offset 单弹簧 spring(0.4/0.2),transform 级无重绘 - 深色 pill 压暗(0.18→0.08),描边 0.14,不再银白 - 交易明细去卡片:insetGrouped → plain + 透明行 + hairline 分隔",
