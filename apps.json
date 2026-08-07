@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "175",
+          "date": "2026-08-07T00:14:20Z",
+          "localizedDescription": "refactor(统计): 收支日历去卡壳贴地  - 去掉 calendarInset AppCard，网格与分类/趋势同为贴地 - 点天明细改 fillSubtle 浅 inset，不再套第二层 cardBg - 全页表面焦点仅保留结余叠卡  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10703853,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "174",
           "date": "2026-08-07T00:10:40Z",
           "localizedDescription": "fix(统计): 饼图隔离排行 withAnimation 避免连带闪白  - Chart 上 transaction 清空 animation，挡住 Ranking 点选传入的动画上下文  ",
