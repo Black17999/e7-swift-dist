@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "179",
+          "date": "2026-08-07T07:39:27Z",
+          "localizedDescription": "fix(统计): 分类构成饼图选中不再闪光  - 扇区外径固定，取消 idle/selected 半径差，避免 SectorMark 插值重绘闪白 - Chart 侧 animation(nil)，选中仅瞬时 dim 未选扇区 - 图例/扇区点击不再 withAnimation 驱动 Charts；图例行保留轻量 fade - 排行展开动画与 selectedCategory 写入拆开，防止动画事务传入饼图  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10708422,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "178",
           "date": "2026-08-07T00:31:03Z",
           "localizedDescription": "fix(我的): 头部改回 R 强糊轻罩，取消钉层  - 去掉 ProfileHeaderPinnedBackground，背景回 Scroll 内随内容滚动 - 有头像 blur 40 + 外扩 96，深色罩顶 12% header 蓝黑 - 下拉顶垫 ProfileHeaderPullStretchPad 用同款虚化取样，非实色 - 保留头色长尾 alpha→0，不画 page 实色板  ",
