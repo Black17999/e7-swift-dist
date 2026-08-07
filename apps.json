@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "176",
+          "date": "2026-08-07T00:17:19Z",
+          "localizedDescription": "fix(我的): 头部 P 钉层外置 + 虚化36/罩12%  - 背景 ProfileHeaderPinnedBackground 移出 Scroll，钉 ZStack，下拉只加高不露实色顶 - 去掉 headerGradTop 实色顶垫；长尾 alpha→0 仍在钉层底部 - 有头像 blur 36 + 外扩 96；深色罩顶 header 蓝黑 12%（降黑雾） - 前景 ProfileHeaderGradientView 仅占位与交互，随 Scroll 移动  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10702482,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "175",
           "date": "2026-08-07T00:14:20Z",
           "localizedDescription": "refactor(统计): 收支日历去卡壳贴地  - 去掉 calendarInset AppCard，网格与分类/趋势同为贴地 - 点天明细改 fillSubtle 浅 inset，不再套第二层 cardBg - 全页表面焦点仅保留结余叠卡  ",
