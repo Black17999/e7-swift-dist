@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "204",
+          "date": "2026-08-07T22:20:10Z",
+          "localizedDescription": "fix(债务): 搜索卸环回退单 ScrollView 并收敛贴顶  - 回退 A″ 环出滚动区方案，消除视口高度重分配怪病 - 单 ScrollView 保活环，高度零动画瞬切，进搜索不做 scrollTo - 退搜索一帧后无动画贴 contentTop，defaultScrollAnchor.top - 保留键盘∨/Cancel/Return 清词退搜索与空态硬切  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10830710,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "203",
           "date": "2026-08-07T22:15:26Z",
           "localizedDescription": "feat(记一笔): Soft Elev 数字键盘样式与底行 00 0 .  浅色采用 A Soft Elev 实体床+白键抬升，深色采用 D5 Soft Card （床贴 card、键/槽浅白 fill）。备注栏与键盘共用 keyboardSurface， 内嵌备注/日期槽；底行改为计算器习惯序 00 0 .。 同步设计画板与品牌 skill token 说明。  ",
