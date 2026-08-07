@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "194",
+          "date": "2026-08-07T17:19:57Z",
+          "localizedDescription": "fix(记录): 首页页边恢复 16 + 浅色图标软面加强可见度  - Hero / 日期条 / 明细水平边 sm(12) → pagePadding(16)，与统计页对齐 - 浅色 iconTile fill white 0.72→0.92、rim 0.06→0.10（贴地渐变上更见平台） - 深色图标底座保持原档  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10751285,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "193",
           "date": "2026-08-07T17:01:16Z",
           "localizedDescription": "fix(记录): v4.7.x 日期条切日流畅 + 选中文案 + 图标中性底座  - 日期条：DayItem 预构建缓存，切日不重建；本地 snappy 驱动 pill - 列表切日 disablesAnimations，避免 List 大 diff 假卡 ~1s - BeijingDate 静态缓存 Calendar/DateFormatter - 选中态：头顶星期 indigo，日号不染紫 - 明细图标：方案 C 中性软面 44 方块，去掉收绿/支红语义底 - 画板：贴地浅/深双栏对照 record-icon-tile-options  ",
