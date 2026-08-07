@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "189",
+          "date": "2026-08-07T14:16:46Z",
+          "localizedDescription": "fix(记录): 首页 A″ v4.4 微调 — 眉栏/用户名加粗 + 日期条去阴影修 pill  - 眉栏「今日/当日结余」:footnote 13 → headline 17 bold + primary - 导航用户名:@id 15 semibold → title3 20 bold(与 36 头像相称) - 日期条移除两端渐变 mask(贴地浅槽两侧不再像阴影) - 修复选中 pill 未包住中文星期:cell 高度 46→50,日号 36→34,内容不再溢出挤压 - 浅槽 52→56 / 圆角 16→18 / pill 13→14,节奏更饱满  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10738000,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "188",
           "date": "2026-08-07T13:44:29Z",
           "localizedDescription": "fix(记录): 日期条周标签 tertiary 改为 Color(.tertiaryLabel)  - .tertiary 为 ShapeStyle 版本,返回类型 Color 时编译失败 - 改用 UIKit 语义色 Color(.tertiaryLabel),行为一致  ",
