@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "203",
+          "date": "2026-08-07T22:15:26Z",
+          "localizedDescription": "feat(记一笔): Soft Elev 数字键盘样式与底行 00 0 .  浅色采用 A Soft Elev 实体床+白键抬升，深色采用 D5 Soft Card （床贴 card、键/槽浅白 fill）。备注栏与键盘共用 keyboardSurface， 内嵌备注/日期槽；底行改为计算器习惯序 00 0 .。 同步设计画板与品牌 skill token 说明。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10832862,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "202",
           "date": "2026-08-07T22:08:55Z",
           "localizedDescription": "fix(债务): 搜索环移出滚动区，消除蹦跳与顶锚错位  - Soft Ring 放到 ScrollView 上方，折叠不再拖 contentOffset - 短 smooth 0.28 柔和收放，去掉瞬切「蹦」感 - 进搜索不 scrollTo；退搜索双帧后贴 listHeader - 保留键盘∨/Cancel 清词退搜索与空态硬切  ",
