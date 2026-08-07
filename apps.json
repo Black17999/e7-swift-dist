@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "181",
+          "date": "2026-08-07T11:16:30Z",
+          "localizedDescription": "feat(记录): 首页品牌导航 + 贴地内容重构  - toolbar leading 接入 HomeHeader（头像 + 上问候 / 下 @id），去掉居中标题，trailing 保留分享 - TodayHeroCard 去掉 AppCard 浮起与装饰图标，结余/收支贴页面渐变，趋势并入副文 - 日期条选中改为 indigo 实心；明细区头降为 secondary + 纯文字笔数，列表为唯一软面 - 补充高保真方案画板 docs/design-mocks/records-home-redesign*.html  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10719094,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "180",
           "date": "2026-08-07T08:40:19Z",
           "localizedDescription": "feat(分类): 管理列表排序改为常驻把手(B1)  - 分类管理去掉 EditButton/AppCard，insetGrouped + 常驻 editMode 右侧直接拖 - 分账设置股东/分配项同构；deleteDisabled，删除仍走左滑+二次确认 - 落点 selection 触感；footer 提示拖把手；点行/长按菜单兜底 - 编辑分类 sheet 去掉底部删除，统一在列表删 - 退出登录/移除头像/删债务文案收敛到 FeedbackMessages - 补充 category-reorder-ux-proposal 方案文档  ",
