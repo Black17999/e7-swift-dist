@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "185",
+          "date": "2026-08-07T12:16:48Z",
+          "localizedDescription": "feat(记录): 导航头像/文字方案 A 落地  - 头像 32→36pt，与右侧原生按钮相称 - @用户名 footnote13 semibold 主角，问候 caption12 secondary 配角 - 行距 1→2 消除挤感；新增 AppTypography.footnoteSemibold token  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10724233,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "184",
           "date": "2026-08-07T12:01:48Z",
           "localizedDescription": "fix(记录): iOS 26 正确去掉 leading 共享玻璃壳  - sharedBackgroundVisibility 必须挂在 ToolbarItem 上（ToolbarContent 扩展），挂内容 View 无效 - #if compiler(>=6.2) 编译期保护：Xcode 26 才解析该符号，旧工具链走空分支，修复 Codemagic 编译失败  ",
