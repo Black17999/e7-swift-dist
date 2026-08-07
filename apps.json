@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "202",
+          "date": "2026-08-07T22:08:55Z",
+          "localizedDescription": "fix(债务): 搜索环移出滚动区，消除蹦跳与顶锚错位  - Soft Ring 放到 ScrollView 上方，折叠不再拖 contentOffset - 短 smooth 0.28 柔和收放，去掉瞬切「蹦」感 - 进搜索不 scrollTo；退搜索双帧后贴 listHeader - 保留键盘∨/Cancel 清词退搜索与空态硬切  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10825581,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "201",
           "date": "2026-08-07T21:53:19Z",
           "localizedDescription": "fix(债务): 搜索卸环防卡顿与退出路径对齐  - 环高度瞬切，去掉中途 smooth 弹簧，消除上推顿挫 - 稳定顶锚 contentTop，进退搜索无动画 scrollTo 真顶 - 键盘∨/Return/点空白/Cancel 一律清词并退出搜索 - 空态 identity + 清词硬切，避免「未找到」鬼影  ",
