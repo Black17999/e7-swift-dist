@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "216",
+          "date": "2026-08-08T11:33:54Z",
+          "localizedDescription": "fix(记一笔): 返修键盘叠层与避让，恢复数字键点击  键区置于备注裙边之上；GeometryReader 锁高 + UIKit 抑制 ScrollView inset； 去掉多余 bottomSafe，备注继续粘性跟系统键盘曲线。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10842029,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "215",
           "date": "2026-08-08T09:38:07Z",
           "localizedDescription": "fix(记一笔): 三层叠放备注粘性跟键盘，金额分类不再被顶  对齐 Flutter：主内容/备注+下延缝/键区独立钉位；双层 ignoresSafeArea(.keyboard)； 用系统键盘 duration/curve 驱动 offset，去掉升起瞬移，收起同步回落。  ",
