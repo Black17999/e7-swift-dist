@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "256",
+          "date": "2026-08-08T19:39:07Z",
+          "localizedDescription": "fix(债务搜索): 彻底解决收环渲染残留与搜索词过滤退搜索列表行重叠 Bug  - 背景与现象：点搜索框收环时环内文字/胶囊有 1 秒画面拖影残留；搜索框输入过滤词后点关闭退出时全量债务人数据滑入产生 1~2 秒行重叠 - 根因分析：snapToRest 写死 contentVisible = true 保持全不透明产生拖影；过滤搜索退出时 9 个新行逐个交叉淡入与展环动画在 ForEach 竞态 - 具体改动：DebtsSummaryRing 收拢�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10857814,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "255",
           "date": "2026-08-08T19:30:47Z",
           "localizedDescription": "fix(债务搜索): 彻底根治 List 顶格空白、进搜索环拖影与退搜索列表人员重叠 Bug  - 背景与现象：进入搜索时列表顶格留有 44pt 空白且环有 1s 画面快照拖影；退出搜索时全量债务人数据滑入与展环动画同帧拉扯产生 1~2s 拖影重叠 - 根因分析：List 行单元格 44pt 最小高限制；.transition(.move) 产生销毁快照；全量数据恢复与展环动画在 List 交叉插值 - 具体改动：采用 if !shouldFoldRing + tra",
