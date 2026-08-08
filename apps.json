@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "227",
+          "date": "2026-08-08T14:21:17Z",
+          "localizedDescription": "fix(记一笔): 金额区顶距改用 geo.safeAreaInsets，修复 keyWindow 读取失效  - 上版读 UIApplication/window 的 safeAreaInsets 在 fullScreenCover 场景   取到 0（keyWindow 不可靠）→ 金额区仅下移 12pt 且仍在导航栏遮挡区内，   实机无感（用户反馈位置未变） - 改在 GeometryReader 内用 geo.safeAreaInsets.top（SwiftUI 布局同源值）   + 44（inline 导航栏）+ md(16)：内容延伸状态栏后取值状态栏高、在安全区内   取�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10835294,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "226",
           "date": "2026-08-08T14:16:29Z",
           "localizedDescription": "fix(records): 日期条羽化蒙版改挂视口容器修复虚化失效  上一版把 mask 挂在 ScrollView 上，蒙版按内容坐标系布局（约 3200pt 宽），两端渐变被甩到内容尽头，视口内只剩全不透明区导致虚化完全失效。改为挂到视口容器 ZStack（尺寸=视口）上，两端 44pt 渐变正好落在视口边缘，虚化恢复；浅槽两端也随之羽化融入背景。  ",
