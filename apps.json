@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "215",
+          "date": "2026-08-08T09:38:07Z",
+          "localizedDescription": "fix(记一笔): 三层叠放备注粘性跟键盘，金额分类不再被顶  对齐 Flutter：主内容/备注+下延缝/键区独立钉位；双层 ignoresSafeArea(.keyboard)； 用系统键盘 duration/curve 驱动 offset，去掉升起瞬移，收起同步回落。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10833368,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "214",
           "date": "2026-08-08T09:01:24Z",
           "localizedDescription": "fix(记一笔): 同帧弹回业务Tab，修复关页白屏与顶端闪烁  放弃 Binding 吞 tag2（会与 UITabBar 脱节导致卡空白）；改为同帧无动画回切 + PageBackground 占位 + dismiss 自愈。  ",
