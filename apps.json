@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "214",
+          "date": "2026-08-08T09:01:24Z",
+          "localizedDescription": "fix(记一笔): 同帧弹回业务Tab，修复关页白屏与顶端闪烁  放弃 Binding 吞 tag2（会与 UITabBar 脱节导致卡空白）；改为同帧无动画回切 + PageBackground 占位 + dismiss 自愈。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10829860,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "213",
           "date": "2026-08-08T08:52:33Z",
           "localizedDescription": "feat(记一笔键盘): 升级面板反光、金额字号与按键响应  本提交把【记一笔】键盘的视觉层级、视觉重量、按压跟手感三件事一起收敛。  ① 顶端边缘反光线（AddRecordView.swift）    - 新增 file-private Shape TopEdgeHairline：0.5pt 顶水平线，左圆角终点到右圆角起点    - 浅色 white.opacity(0.55) / 深色 white.opacity(0.06)，在加深后的床色上明显    - 阴影从 black.opacity(0.06) 收到 0.04，让 hairline 跳出，",
