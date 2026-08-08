@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "228",
+          "date": "2026-08-08T14:26:31Z",
+          "localizedDescription": "fix(records): 日期条羽化加深，边缘约 1 格不可见只留中间 7 天  fade 44→56（约 1.2 格），蒙版曲线从线性改为幂曲线 ≈t³：前 0.5 段压到 alpha≤0.13（视口边缘露出的半格几乎完全隐藏），后 0.5 段快速爬升到全清晰，曲线连续无硬切。默认今天居中态只露出中间约 7 天，滚动时任意边缘日格同样自然淡没；首尾 pad 同步跟随 56。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10836202,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "227",
           "date": "2026-08-08T14:21:17Z",
           "localizedDescription": "fix(记一笔): 金额区顶距改用 geo.safeAreaInsets，修复 keyWindow 读取失效  - 上版读 UIApplication/window 的 safeAreaInsets 在 fullScreenCover 场景   取到 0（keyWindow 不可靠）→ 金额区仅下移 12pt 且仍在导航栏遮挡区内，   实机无感（用户反馈位置未变） - 改在 GeometryReader 内用 geo.safeAreaInsets.top（SwiftUI 布局同源值）   + 44（inline 导航栏）+ md(16)：内容延伸状态栏后取值状态栏高、在安全区内   取�",
