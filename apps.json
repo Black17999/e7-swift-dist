@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "232",
+          "date": "2026-08-08T15:11:46Z",
+          "localizedDescription": "fix(记一笔): 补回主内容键盘隔离罩并探针抬回键盘底部留白  去 GeometryReader 根治金额遮挡后，引入两处副作用，本次一并修复：  1. 点备注框时金额+分类被系统键盘避让顶推滚出屏幕    → 给 mainContentLayer 单独加 .ignoresSafeArea(.keyboard)，恢复原    GeometryReader 的隔离罩作用，金额坐标钉死不动。  2. 数字键盘整体贴到 Home 条，底部约 45pt 留白丢失    → ZStack 的 .ignoresSafeArea(.keyboard)",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10831851,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "231",
           "date": "2026-08-08T14:47:40Z",
           "localizedDescription": "fix(债务搜索): 键盘收起改三路信号覆盖滑动收起，展开动画调慢对标原生  ",
