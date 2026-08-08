@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "235",
+          "date": "2026-08-08T15:36:09Z",
+          "localizedDescription": "fix(债务搜索): 回归 iOS HIG 原生搜索规范，移除键盘强行退搜索与 scrollTo 抢页，修复搜索框丢失与滑动卡死  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10829258,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "234",
           "date": "2026-08-08T15:21:00Z",
           "localizedDescription": "chore: 停止追踪 .claude/docs/deliverables/HANDOFF 本地辅助资料  ",
