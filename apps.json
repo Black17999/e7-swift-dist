@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "217",
+          "date": "2026-08-08T11:49:37Z",
+          "localizedDescription": "fix(记一笔): 移除全窗 ScrollView 污染，退出后底层顶栏不再错位  删除 KeyboardAvoidanceSuppressor 对 window 全树改 inset； 保留备注粘性三层；分类网格仅本地 scrollDismissesKeyboard(.never)。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10836870,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "216",
           "date": "2026-08-08T11:33:54Z",
           "localizedDescription": "fix(记一笔): 返修键盘叠层与避让，恢复数字键点击  键区置于备注裙边之上；GeometryReader 锁高 + UIKit 抑制 ScrollView inset； 去掉多余 bottomSafe，备注继续粘性跟系统键盘曲线。  ",
