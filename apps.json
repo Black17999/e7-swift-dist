@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "211",
+          "date": "2026-08-08T00:05:17Z",
+          "localizedDescription": "fix(债务搜索): 移除键盘监听，修复搜索卸环卡死与详情页闪烁  - 移除 keyboardWillHideNotification 监听：滑动列表/导航 push 收键盘不再误触发   exitSearchFully，避免与 ringFold 动画事务竞争导致环卡死或详情页进场闪环 - 移除冗余的 onChange(of: isSearchActive) 与环境变量、UIKit 依赖 - 环 chrome 加 geometryGroup()：高度动画时环内部不重排，减少 LazyVStack 抖动 - 搜索态仅由 shouldFoldRing 单一驱动，",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10824686,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "210",
           "date": "2026-08-07T23:54:52Z",
           "localizedDescription": "fix(删除确认): swipe 删除二次确认后卡死/崩溃，延迟 present 等收起  iOS 26 上 swipeActions 点删除立即 present confirmationDialog 会打断 swipe 收起动画，取消后行卡住，再右滑另一行触发 List 状态冲突崩溃。 DeleteConfirmationHost 改为 pending 赋值后延迟 300ms 再 present， 让 swipe 先收完；4 个调用页零改动全受益。  ",
