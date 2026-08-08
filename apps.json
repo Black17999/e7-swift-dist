@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "218",
+          "date": "2026-08-08T12:39:10Z",
+          "localizedDescription": "fix(记一笔): 金额顶部间距与光标高度收紧 + 分类行间距舒展  - AddRecordView 金额 hero 顶部 padding xxs(4) → md(16)，与导航栏底形成呼吸感   （CategoryGridPage 内部 ScrollView 兜底，小屏不溢出） - AmountDisplay 光标 54 → 46，对齐 SF Pro Display 数字 cap height (0.72 × 64)，   不再按字号行高（0.84）套算导致光标明显超出数字本身 - CategoryGridPage 行间距 12 → 16 (AppSpacing.md)，行间更舒展不易视觉疲劳",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10837486,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "217",
           "date": "2026-08-08T11:49:37Z",
           "localizedDescription": "fix(记一笔): 移除全窗 ScrollView 污染，退出后底层顶栏不再错位  删除 KeyboardAvoidanceSuppressor 对 window 全树改 inset； 保留备注粘性三层；分类网格仅本地 scrollDismissesKeyboard(.never)。  ",
