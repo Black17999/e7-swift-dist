@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "252",
+          "date": "2026-08-08T19:01:40Z",
+          "localizedDescription": "fix(债务搜索): 优化原生 List 架构下条件渲染与 List 动画，解决留白、僵硬展环与导航栏顶遮 Bug  - 背景与现象：在原生 List 架构下，搜索状态离搜索框留有巨大空白，退出搜索展环动画僵硬，且滑动后退搜索环被推进导航栏 - 根因分析：Section 占位与 List 内部硬编码 minHeight 留白，未在 List 容器层级声明平滑 Animation，且 proxy.scrollTo 强制顶格越界 - 具体改动：改用 if !shouldFoldRing ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10860533,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "251",
           "date": "2026-08-08T18:45:01Z",
           "localizedDescription": "fix(债务搜索): 修复原生 List 架构下折叠留白与退搜索展环弹簧动画  - 背景与现象：重构为原生 List 架构后，点击搜索框列表离搜索框留有巨大空白，且退出搜索时展环动画失去原本 0.45s 优雅弹簧手感 - 根因分析：summaryRingChrome 内部硬编码了 minHeight: 280 导致 List 强行保留占位，且 scrollTo 带有硬顶格 anchor: .top - 具体改动：将 minHeight/maxHeight 与 List 行 padding 改为 shouldFoldRing 动态�",
