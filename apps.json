@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "219",
+          "date": "2026-08-08T13:10:09Z",
+          "localizedDescription": "fix(记一笔): 金额不再被导航栏遮挡，光标与数字中心对齐同高  - resolvedHeight 仅在系统键盘升起时启用锁高；首帧/转场不再用过大锁高顶对齐，   避免金额区顶进导航栏被遮挡（实机反馈） - 金额区顶部间距 md(16) → lg(24)，明确下移留呼吸 - 光标 46 → 40，并与数字改为中心对齐；告别 firstTextBaseline 导致光标贴基线   往上伸、顶端仍高于数字 ink 的观感 - 分类行间距 16 保持不动",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10838295,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "218",
           "date": "2026-08-08T12:39:10Z",
           "localizedDescription": "fix(记一笔): 金额顶部间距与光标高度收紧 + 分类行间距舒展  - AddRecordView 金额 hero 顶部 padding xxs(4) → md(16)，与导航栏底形成呼吸感   （CategoryGridPage 内部 ScrollView 兜底，小屏不溢出） - AmountDisplay 光标 54 → 46，对齐 SF Pro Display 数字 cap height (0.72 × 64)，   不再按字号行高（0.84）套算导致光标明显超出数字本身 - CategoryGridPage 行间距 12 → 16 (AppSpacing.md)，行间更舒展不易视觉疲劳",
