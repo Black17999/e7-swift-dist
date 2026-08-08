@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "246",
+          "date": "2026-08-08T17:10:16Z",
+          "localizedDescription": "fix(build): 修复4个视图因移除全屏overlay残留多余大括号导致的构建失败  背景与现象：CloudMagic 构建打包失败（status code 65），报错信息指出 CategoriesView.swift, DebtDetailView.swift, DistributionSettingsView.swift, RecordsView.swift 四个文件顶层存在 Extraneous '}' at top level 语法错误。  根因分析：在上一次移除外层全屏 DeleteConfirmationHost overlay 块时，遗留了未配对的多余闭合大括号 }，导致 View 结构�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10846137,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "244",
           "date": "2026-08-08T16:49:30Z",
           "localizedDescription": "fix(records): 修复滑动删除取消后记录消失及二次删除闪退崩溃  背景与现象：在首页记录明细及各分类/债务/分配列表中，右滑点击删除按钮弹出二次确认弹窗后，若点击空白取消，记录会从界面上消失且不恢复显示；此时若右滑第二条记录再次点击删除，整个 APP 会崩溃闪退；重启 APP 后记录依然正常保存。  根因分析：在 SwiftUI List 的 .swipeActions 内使用 Button(role: .destructive) 会�",
