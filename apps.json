@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "234",
+          "date": "2026-08-08T15:21:00Z",
+          "localizedDescription": "chore: 停止追踪 .claude/docs/deliverables/HANDOFF 本地辅助资料  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10836924,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "233",
           "date": "2026-08-08T15:14:55Z",
           "localizedDescription": "fix(债务搜索): 键盘收起显式动画展开环并重置列表滚动置顶，修复收键盘硬切与滑动后环无法还原  ",
