@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "243",
+          "date": "2026-08-08T16:44:54Z",
+          "localizedDescription": "refactor(records): 采用 iOS 原生键盘 Toolbar 架构重构记一笔页面，彻底消除抖动与背景推升  详细说明：`n- 背景与现象：点击备注框时，之前的动态 Padding 方案与 iOS 系统默认的 View 推升产生动画冲突，导致过程出现弹抖。`n- 根因分析：手动算 Offset/Padding 会与系统的避让逻辑打架。参照主流记账 APP 实现，应当将备注栏挂载为系统键盘的 inputAccessoryView 附着视图，此时 iOS 系统会天�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10835799,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "242",
           "date": "2026-08-08T16:37:27Z",
           "localizedDescription": "fix(git): 取消 .agents 目录追踪并补齐 .gitignore 忽略规则  详细说明： - 背景与现象：1) .agents/ 配置目录被误提交到了远程 Git 仓库；2) GitHub 识别到 .agents/skills/huashu-design-master/ 内部的大量 HTML 原型示范文件，导致 GitHub 仓库语言统计中 HTML 比例异常偏高。 - 根因分析：.agents/ 为 Agent 本地运行及技能配置目录（含大量 HTML 演示页面），不应进入 iOS 源码仓库追踪。.gitignore 之前遗漏�",
