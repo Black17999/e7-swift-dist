@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "255",
+          "date": "2026-08-08T19:30:47Z",
+          "localizedDescription": "fix(债务搜索): 彻底根治 List 顶格空白、进搜索环拖影与退搜索列表人员重叠 Bug  - 背景与现象：进入搜索时列表顶格留有 44pt 空白且环有 1s 画面快照拖影；退出搜索时全量债务人数据滑入与展环动画同帧拉扯产生 1~2s 拖影重叠 - 根因分析：List 行单元格 44pt 最小高限制；.transition(.move) 产生销毁快照；全量数据恢复与展环动画在 List 交叉插值 - 具体改动：采用 if !shouldFoldRing + tra",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10857611,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "254",
           "date": "2026-08-08T19:24:39Z",
           "localizedDescription": "fix(债务搜索): 合并 List Section 彻底消除搜索顶格空白，完美解决 3 大搜索交互问题  - 背景与现象：进入搜索时债务列表离搜索框留有一段空白间距 - 根因分析：双 Section 结构导致 List 即使在首行高度为 0 时依然强制保留 Section 间距盒 - 具体改动：合并 List 为单 Section 布局，搜索收缩时列表头与行瞬间无缝贴合搜索框正下方  ",
