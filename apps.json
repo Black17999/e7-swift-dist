@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "253",
+          "date": "2026-08-08T19:17:17Z",
+          "localizedDescription": "fix(债务搜索): 消除进搜索环拖影与退搜索列表重叠 Bug  - 背景与现象：点搜索框进入搜索时环有将近 1 秒拖影；搜完某债务人点关闭退出搜索时列表各行发生 1~2 秒拖影重叠 - 根因分析：if 物理拔除引发系统销毁过渡镜像残留；退搜索时数据全量恢复与展环动画在 List 同帧交错竞争 - 具体改动：废弃 if 物理销毁改用纯高度声明式平滑收缩消除环拖影；对债务列表行解绑 search 导",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10860667,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "252",
           "date": "2026-08-08T19:01:40Z",
           "localizedDescription": "fix(债务搜索): 优化原生 List 架构下条件渲染与 List 动画，解决留白、僵硬展环与导航栏顶遮 Bug  - 背景与现象：在原生 List 架构下，搜索状态离搜索框留有巨大空白，退出搜索展环动画僵硬，且滑动后退搜索环被推进导航栏 - 根因分析：Section 占位与 List 内部硬编码 minHeight 留白，未在 List 容器层级声明平滑 Animation，且 proxy.scrollTo 强制顶格越界 - 具体改动：改用 if !shouldFoldRing ",
