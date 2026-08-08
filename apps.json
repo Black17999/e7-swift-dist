@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "220",
+          "date": "2026-08-08T13:19:30Z",
+          "localizedDescription": "fix(记一笔): 锁回金额 64pt 字号，光标中心对齐；金额区再下移  - 金额仍用 inputAmount 64pt；去掉内层嵌套 + minimumScaleFactor，改 .fixedSize   防止布局挤压把数字缩小（实机反馈字体变小） - 光标保持与数字中心对齐、高度 48（对齐可视数字体，不改字号） - 金额顶部间距 24 → 40（lg+md），离导航栏更远  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10837941,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "219",
           "date": "2026-08-08T13:10:09Z",
           "localizedDescription": "fix(记一笔): 金额不再被导航栏遮挡，光标与数字中心对齐同高  - resolvedHeight 仅在系统键盘升起时启用锁高；首帧/转场不再用过大锁高顶对齐，   避免金额区顶进导航栏被遮挡（实机反馈） - 金额区顶部间距 md(16) → lg(24)，明确下移留呼吸 - 光标 46 → 40，并与数字改为中心对齐；告别 firstTextBaseline 导致光标贴基线   往上伸、顶端仍高于数字 ink 的观感 - 分类行间距 16 保持不动",
