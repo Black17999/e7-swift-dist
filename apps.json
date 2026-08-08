@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "225",
+          "date": "2026-08-08T14:12:45Z",
+          "localizedDescription": "fix(债务搜索): 键盘收起且无字自动退搜索，环折叠改声明式根治不展开  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10835270,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "224",
           "date": "2026-08-08T14:08:13Z",
           "localizedDescription": "fix(records): 首页日期条边缘虚化改为 mask 透明羽化  删掉叠层贴色块（pageMidGrad vignette），改为 ScrollView mask 线性渐变：内容滚到视口边缘自然淡出，透出真实页面背景。消除贴色色差导致的\\\"黑块\\\"观感与进场\\\"先亮后黑\\\"问题，三种皮肤下均自洽。fade 44 / 首尾 pad / pill 行为不变。  ",
