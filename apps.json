@@ -15,6 +15,15 @@
       "tintColor": "4355B9",
       "versions": [
         {
+          "version": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600001e600c0 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0.0.0",
+          "buildVersion": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600002fb0870 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0",
+          "date": "2026-08-08T22:47:44Z",
+          "localizedDescription": "fix(ci): 加固订阅源更新步骤，添加逐行调试与容错降级",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 324,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "3.1.0",
           "buildVersion": "258",
           "date": "2026-08-08T20:11:28Z",
