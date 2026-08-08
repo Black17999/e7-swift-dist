@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "240",
+          "date": "2026-08-08T16:26:13Z",
+          "localizedDescription": "docs(agents): 规范 Git 提交格式，要求 Commit 必须包含中文详细正文  详细规范： - 背景：提高 Git 历史日志可读性与复盘效率 - 格式：采用 Conventional Commit 规范，包含首行标题与多行详细正文（背景现象、根因分析、具体改动点） - 更新文档：.agents/AGENTS.md 及 .agents/workflows/commit-push.md  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10833650,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "239",
           "date": "2026-08-08T16:18:24Z",
           "localizedDescription": "fix(records): 修复记一笔页面点击备注框时分类金额被推飞及备注框消失的问题  ",
