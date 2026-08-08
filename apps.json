@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "223",
+          "date": "2026-08-08T14:03:23Z",
+          "localizedDescription": "fix(记一笔): 金额区顶距改动态安全区，彻底避开导航栏遮挡  - 真因：NavigationStack 内容延伸到状态栏后，导航栏 overlay 盖在内容上；   固定 padding（40/48）从内容顶=屏幕顶算起，顶部一直被「状态栏高+44」   导航区盖住，且机型不同遮挡量不同 - 新增 navAreaHeight = window.safeAreaInsets.top + 44（参考 ProfileView.safeAreaTop），   金额区 padding.top = navAreaHeight + md(16)：任何机型完整位于导航栏",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10833322,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "222",
           "date": "2026-08-08T13:48:46Z",
           "localizedDescription": "fix(记一笔): 金额区遮挡根治（去锁高）+ 字号降两级  - resolvedHeight 恒用当前可用高度：键盘升起若 Geo 高被压缩，旧锁高   max(locked, current) 让 ZStack 超高 + bottom 对齐，顶部溢出顶进导航栏，   top 对齐的金额区被栏盖住（实机反馈）；高度收缩由 Spacer 与分类   ScrollView 吸收，金额坐标不动 - 删锁高死代码：lockedContentHeight / captureHeightIfNeeded / onAppear·onChange 捕获 - 金额字号降两级�",
