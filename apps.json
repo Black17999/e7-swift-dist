@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "221",
+          "date": "2026-08-08T13:36:04Z",
+          "localizedDescription": "fix(记一笔): 修复头部关闭按钮点击不灵敏  - 移除 Button(role: .close)：iOS 26 系统对 close role 特殊拦截，fullScreenCover 下偶发按下有反馈但 action 不触发 - 移除 .buttonStyle(.plain)：命中区域收缩到裸 Image(~20pt)，点偏即失效；恢复系统默认导航栏反光反馈 - label 显式 44x44 frame + contentShape(Rectangle())，符合 HIG 触控目标，点按必命中  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10836213,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "220",
           "date": "2026-08-08T13:19:30Z",
           "localizedDescription": "fix(记一笔): 锁回金额 64pt 字号，光标中心对齐；金额区再下移  - 金额仍用 inputAmount 64pt；去掉内层嵌套 + minimumScaleFactor，改 .fixedSize   防止布局挤压把数字缩小（实机反馈字体变小） - 光标保持与数字中心对齐、高度 48（对齐可视数字体，不改字号） - 金额顶部间距 24 → 40（lg+md），离导航栏更远  ",
