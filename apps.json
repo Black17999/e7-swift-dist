@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "239",
+          "date": "2026-08-08T16:18:24Z",
+          "localizedDescription": "fix(records): 修复记一笔页面点击备注框时分类金额被推飞及备注框消失的问题  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10833652,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "238",
           "date": "2026-08-08T16:07:25Z",
           "localizedDescription": "fix(债务搜索): 设置 searchable 展现模式为 displayMode.always 锁定导航栏，解决滑动后退搜索搜索框隐藏 Bug  ",
