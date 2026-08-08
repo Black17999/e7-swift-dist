@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "242",
+          "date": "2026-08-08T16:37:27Z",
+          "localizedDescription": "fix(git): 取消 .agents 目录追踪并补齐 .gitignore 忽略规则  详细说明： - 背景与现象：1) .agents/ 配置目录被误提交到了远程 Git 仓库；2) GitHub 识别到 .agents/skills/huashu-design-master/ 内部的大量 HTML 原型示范文件，导致 GitHub 仓库语言统计中 HTML 比例异常偏高。 - 根因分析：.agents/ 为 Agent 本地运行及技能配置目录（含大量 HTML 演示页面），不应进入 iOS 源码仓库追踪。.gitignore 之前遗漏�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10832949,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "241",
           "date": "2026-08-08T16:29:09Z",
           "localizedDescription": "fix(records): 彻底修复记一笔点击备注框时分类与金额区域被顶推的 Bug  详细说明： - 背景与现象：点击备注框后备注栏正常呈现，但顶部的金额展示区与分类网格依然被向上顶推进导航栏。 - 根因分析：1) 主内容层底部的 closedPanelHeight(312pt) 边距为固定值，系统键盘弹起(302pt)时导致空间重复扣除(扣除614pt)，可用高度由 388pt 骤降至 86pt，强行将内容挤出顶端；2) 分类 ScrollView 未�",
