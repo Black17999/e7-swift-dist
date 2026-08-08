@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "251",
+          "date": "2026-08-08T18:45:01Z",
+          "localizedDescription": "fix(债务搜索): 修复原生 List 架构下折叠留白与退搜索展环弹簧动画  - 背景与现象：重构为原生 List 架构后，点击搜索框列表离搜索框留有巨大空白，且退出搜索时展环动画失去原本 0.45s 优雅弹簧手感 - 根因分析：summaryRingChrome 内部硬编码了 minHeight: 280 导致 List 强行保留占位，且 scrollTo 带有硬顶格 anchor: .top - 具体改动：将 minHeight/maxHeight 与 List 行 padding 改为 shouldFoldRing 动态�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10863863,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "250",
           "date": "2026-08-08T18:25:30Z",
           "localizedDescription": "refactor(debts): 重构债务列表为原生 List 支持侧滑操作并擦除侧滑按钮中文标识  详细说明： - 背景与现象：债务列表卡片此前使用 ScrollView + VStack 组合布局，导致无法触发 SwiftUI List 专属的 swipeActions 侧滑编辑/删除交互，只能通过长按唤出删除菜单；同时侧滑按钮带有底部中文 label，视觉不够简洁。 - 根因分析：SwiftUI 的 .swipeActions 修饰符为 List 控件专属 API，在 ScrollView 中不生�",
