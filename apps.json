@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "244",
+          "date": "2026-08-08T16:49:30Z",
+          "localizedDescription": "fix(records): 修复滑动删除取消后记录消失及二次删除闪退崩溃  背景与现象：在首页记录明细及各分类/债务/分配列表中，右滑点击删除按钮弹出二次确认弹窗后，若点击空白取消，记录会从界面上消失且不恢复显示；此时若右滑第二条记录再次点击删除，整个 APP 会崩溃闪退；重启 APP 后记录依然正常保存。  根因分析：在 SwiftUI List 的 .swipeActions 内使用 Button(role: .destructive) 会�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10837101,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "243",
           "date": "2026-08-08T16:44:54Z",
           "localizedDescription": "refactor(records): 采用 iOS 原生键盘 Toolbar 架构重构记一笔页面，彻底消除抖动与背景推升  详细说明：`n- 背景与现象：点击备注框时，之前的动态 Padding 方案与 iOS 系统默认的 View 推升产生动画冲突，导致过程出现弹抖。`n- 根因分析：手动算 Offset/Padding 会与系统的避让逻辑打架。参照主流记账 APP 实现，应当将备注栏挂载为系统键盘的 inputAccessoryView 附着视图，此时 iOS 系统会天�",
