@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "249",
+          "date": "2026-08-08T17:47:04Z",
+          "localizedDescription": "fix(build): 恢复被误删的editingRecord/editingEntry及noteFocused焦点定义  背景与现象：CloudMagic 远程构建失败，编译日志报错 cannot find 'editingRecord' / 'editingEntry' / 'noteFocused' in scope。  根因分析：在上轮重构 @State deleteModel 时，误删除了同位置的 editingRecord (RecordsView) 与 editingEntry (DebtDetailView) 状态声明；同时 AddRecordView 中缺少 noteFocused FocusState 声明。  具体改动：恢复上述三处状态与 FocusSt",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10850179,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "246",
           "date": "2026-08-08T17:10:16Z",
           "localizedDescription": "fix(build): 修复4个视图因移除全屏overlay残留多余大括号导致的构建失败  背景与现象：CloudMagic 构建打包失败（status code 65），报错信息指出 CategoriesView.swift, DebtDetailView.swift, DistributionSettingsView.swift, RecordsView.swift 四个文件顶层存在 Extraneous '}' at top level 语法错误。  根因分析：在上一次移除外层全屏 DeleteConfirmationHost overlay 块时，遗留了未配对的多余闭合大括号 }，导致 View 结构�",
