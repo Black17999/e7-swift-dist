@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "258",
+          "date": "2026-08-08T20:11:28Z",
+          "localizedDescription": "refactor(债务搜索): 将 SummaryRing 从 List 剥离至外层 VStack 头部，彻底打破 List 单元格限制根治 3 大搜索 Bug  - 背景与现象：进入搜索时债务列表离搜索框留有 44pt 空白；点搜索框出现 1s 销毁快照画面拖影；输入姓名过滤后退搜索产生 1~2s 列表人员重叠 - 根因分析：环放在 List 单元格内导致 44pt 最小高限制、UIKit Cell 销毁快照残留以及全量数据恢复时的 9 行交叉淡入竞态 - 具体改动",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10862728,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "257",
           "date": "2026-08-08T20:00:57Z",
           "localizedDescription": "fix(债务搜索): 终极解构 List 单元格快照与动画作用域，彻底根治 2 大搜索交互 Bug  - 背景与现象：进入搜索时环有 1 秒快照画面拖影；在搜索框中输入姓名过滤后点关闭时列表 9 个新行产生 1~2 秒交叉淡入重叠 - 根因分析：if 条件物理删除触发了 UIKit 底层 1 秒 Cell 销毁 Snapshot 镜像；List 顶层挂载的 animation 强行将过滤数据恢复过程变成了 9 行交叉淡入 - 具体改动：废弃 if 物理�",
