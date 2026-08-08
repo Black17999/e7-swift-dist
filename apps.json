@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "241",
+          "date": "2026-08-08T16:29:09Z",
+          "localizedDescription": "fix(records): 彻底修复记一笔点击备注框时分类与金额区域被顶推的 Bug  详细说明： - 背景与现象：点击备注框后备注栏正常呈现，但顶部的金额展示区与分类网格依然被向上顶推进导航栏。 - 根因分析：1) 主内容层底部的 closedPanelHeight(312pt) 边距为固定值，系统键盘弹起(302pt)时导致空间重复扣除(扣除614pt)，可用高度由 388pt 骤降至 86pt，强行将内容挤出顶端；2) 分类 ScrollView 未�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10832949,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "240",
           "date": "2026-08-08T16:26:13Z",
           "localizedDescription": "docs(agents): 规范 Git 提交格式，要求 Commit 必须包含中文详细正文  详细规范： - 背景：提高 Git 历史日志可读性与复盘效率 - 格式：采用 Conventional Commit 规范，包含首行标题与多行详细正文（背景现象、根因分析、具体改动点） - 更新文档：.agents/AGENTS.md 及 .agents/workflows/commit-push.md  ",
