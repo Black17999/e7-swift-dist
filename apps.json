@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "238",
+          "date": "2026-08-08T16:07:25Z",
+          "localizedDescription": "fix(债务搜索): 设置 searchable 展现模式为 displayMode.always 锁定导航栏，解决滑动后退搜索搜索框隐藏 Bug  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10833090,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "237",
           "date": "2026-08-08T15:58:40Z",
           "localizedDescription": "fix(债务搜索): 移除 scrollTo 硬对齐 anchor，修复退搜索时导航栏搜索框被顶起隐藏 Bug  ",
