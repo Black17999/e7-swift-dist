@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "250",
+          "date": "2026-08-08T18:25:30Z",
+          "localizedDescription": "refactor(debts): 重构债务列表为原生 List 支持侧滑操作并擦除侧滑按钮中文标识  详细说明： - 背景与现象：债务列表卡片此前使用 ScrollView + VStack 组合布局，导致无法触发 SwiftUI List 专属的 swipeActions 侧滑编辑/删除交互，只能通过长按唤出删除菜单；同时侧滑按钮带有底部中文 label，视觉不够简洁。 - 根因分析：SwiftUI 的 .swipeActions 修饰符为 List 控件专属 API，在 ScrollView 中不生�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10864100,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "249",
           "date": "2026-08-08T17:47:04Z",
           "localizedDescription": "fix(build): 恢复被误删的editingRecord/editingEntry及noteFocused焦点定义  背景与现象：CloudMagic 远程构建失败，编译日志报错 cannot find 'editingRecord' / 'editingEntry' / 'noteFocused' in scope。  根因分析：在上轮重构 @State deleteModel 时，误删除了同位置的 editingRecord (RecordsView) 与 editingEntry (DebtDetailView) 状态声明；同时 AddRecordView 中缺少 noteFocused FocusState 声明。  具体改动：恢复上述三处状态与 FocusSt",
