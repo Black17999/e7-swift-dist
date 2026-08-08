@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "224",
+          "date": "2026-08-08T14:08:13Z",
+          "localizedDescription": "fix(records): 首页日期条边缘虚化改为 mask 透明羽化  删掉叠层贴色块（pageMidGrad vignette），改为 ScrollView mask 线性渐变：内容滚到视口边缘自然淡出，透出真实页面背景。消除贴色色差导致的\\\"黑块\\\"观感与进场\\\"先亮后黑\\\"问题，三种皮肤下均自洽。fade 44 / 首尾 pad / pill 行为不变。  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10832574,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "223",
           "date": "2026-08-08T14:03:23Z",
           "localizedDescription": "fix(记一笔): 金额区顶距改动态安全区，彻底避开导航栏遮挡  - 真因：NavigationStack 内容延伸到状态栏后，导航栏 overlay 盖在内容上；   固定 padding（40/48）从内容顶=屏幕顶算起，顶部一直被「状态栏高+44」   导航区盖住，且机型不同遮挡量不同 - 新增 navAreaHeight = window.safeAreaInsets.top + 44（参考 ProfileView.safeAreaTop），   金额区 padding.top = navAreaHeight + md(16)：任何机型完整位于导航栏",
