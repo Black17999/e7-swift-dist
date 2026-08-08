@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "230",
+          "date": "2026-08-08T14:44:29Z",
+          "localizedDescription": "fix(记一笔): 备注改单行回车即收键盘并移除键盘完成按钮，金额区去 GeometryReader 防遮挡  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10827377,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "229",
           "date": "2026-08-08T14:34:04Z",
           "localizedDescription": "fix(债务搜索): 键盘收起同步退搜索，环与键盘同帧展开，修复滑动后环不回来  ",
