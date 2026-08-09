@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "14",
+          "date": "2026-08-09T13:13:14Z",
+          "localizedDescription": "chore: update bitrise stack to xcode-26.x  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10720826,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "13",
           "date": "2026-08-09T13:05:52Z",
           "localizedDescription": "ci(bitrise): 升级 Xcode 编译 Stack 至 osx-xcode-16.2.x 与 CodeMagic 精确对齐  - 背景与现象：解决由于 Stack 编译器版本降级导致的部分 iOS 18 高阶 UI 特性未完整编译问题  - 根因分析：将 Bitrise Stack 从 osx-xcode-16.0.x 升级至 osx-xcode-16.2.x  - 具体改动：更新 bitrise.yml 配置文件中 meta.bitrise.io.stack 为 osx-xcode-16.2.x  ",
