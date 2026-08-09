@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "6",
+          "date": "2026-08-09T09:58:08Z",
+          "localizedDescription": "fix(records): 修复 CustomNumberPad 表达式 Swift 编译器类型推导超时  - 背景与现象：Bitrise 构建时在 CustomNumberPad.swift:36 报类型推导超时编译错误  - 根因分析：Swift 编译器对连续加减乘除算术表达式在 Release 模式下推导超时  - 具体改动：将 static let keypadContentHeight 的算术表达式预计算化简为常数 248  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10719286,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "4",
           "date": "2026-08-09T09:25:24Z",
           "localizedDescription": "chore(ci): 测试 Bitrise 自动触发构建  - 背景与现象：验证 Bitrise Webhook 与 Push 触发规则是否生效  - 根因分析：空提交测试  - 具体改动：添加测试 empty commit  ",
