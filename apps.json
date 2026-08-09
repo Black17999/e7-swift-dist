@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "7",
+          "date": "2026-08-09T11:55:03Z",
+          "localizedDescription": "revert(app): 完整回退 App UI 及所有组件代码至重构前的稳定节点 (bc477e5)  - 背景与现象：恢复早期拥有完整原生及毛玻璃质感的全套 App 界面与交互  - 根因分析：回退近期关于债务搜索与记一笔页面的全量重构变动，恢复原始 UI 表现  - 具体改动：将 Sources 目录下 DebtsView、AddRecordView、RecordsView、DeleteConfirmationModifier 等所有 UI 组件还原至 bc477e5 节点，同时 100% 完好保留全新 CI/CD 平�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10691663,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "6",
           "date": "2026-08-09T09:58:08Z",
           "localizedDescription": "fix(records): 修复 CustomNumberPad 表达式 Swift 编译器类型推导超时  - 背景与现象：Bitrise 构建时在 CustomNumberPad.swift:36 报类型推导超时编译错误  - 根因分析：Swift 编译器对连续加减乘除算术表达式在 Release 模式下推导超时  - 具体改动：将 static let keypadContentHeight 的算术表达式预计算化简为常数 248  ",
