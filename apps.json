@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "12",
+          "date": "2026-08-09T13:03:51Z",
+          "localizedDescription": "ci(bitrise): 重新配置 Bitrise 自动化构建并优化 Swift 编译效率  - 背景与现象：基于稳定 0c91157 节点 App 源码，重新部署 Bitrise 自动化构建配置  - 根因分析：预先修掉 CustomNumberPad.swift 中的编译推导超时行，保证 Bitrise 构建 100% 一次通过  - 具体改动：   1. 重新添加根目录 bitrise.yml 配置文件   2. 添加 .github/workflows/ios-build.yml 与 docs/06-CI-CD-GUIDE.md   3. 修复 CustomNumberPad.swift 常数定义规避",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10720830,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "10",
           "date": "2026-08-09T12:33:29Z",
           "localizedDescription": "ci(bitrise): 重新配置 Bitrise 自动化构建并优化 Swift 编译效率  - 背景与现象：基于稳定 0c91157 节点 App 源码，重新部署 Bitrise 自动化构建配置  - 根因分析：预先修掉 CustomNumberPad.swift 中的编译推导超时行，保证 Bitrise 构建 100% 一次通过  - 具体改动：   1. 重新添加根目录 bitrise.yml 配置文件   2. 添加 .github/workflows/ios-build.yml 与 docs/06-CI-CD-GUIDE.md   3. 修复 CustomNumberPad.swift 常数定义规避",
