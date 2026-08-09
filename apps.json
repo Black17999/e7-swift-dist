@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "35",
+          "date": "2026-08-09T07:50:12Z",
+          "localizedDescription": "docs(ci): 记录 GitHub Actions 完美构建成功方案与避坑指南",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10374554,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "34",
           "date": "2026-08-09T07:43:43Z",
           "localizedDescription": "fix(records): 修复 CustomNumberPad 表达式编译器类型推导超时",
