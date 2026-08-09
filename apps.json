@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "8",
+          "date": "2026-08-09T12:14:11Z",
+          "localizedDescription": "revert(app): 全量重置 App 所有源码与视图布局至 0c91157 节点  - 背景与现象：精准还原用户指定的 0c91157 节点 App 源码文件与布局样式  - 根因分析：全量覆写 Sources 目录下所有 App 视图与核心组件，同时独立保留 CI/CD 新配置与文档  - 具体改动：将 Sources 目录下全部业务组件重置归位为 0c91157 提交，保留 bitrise.yml / codemagic.yaml / 06-CI-CD-GUIDE.md  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10719292,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "7",
           "date": "2026-08-09T11:55:03Z",
           "localizedDescription": "revert(app): 完整回退 App UI 及所有组件代码至重构前的稳定节点 (bc477e5)  - 背景与现象：恢复早期拥有完整原生及毛玻璃质感的全套 App 界面与交互  - 根因分析：回退近期关于债务搜索与记一笔页面的全量重构变动，恢复原始 UI 表现  - 具体改动：将 Sources 目录下 DebtsView、AddRecordView、RecordsView、DeleteConfirmationModifier 等所有 UI 组件还原至 bc477e5 节点，同时 100% 完好保留全新 CI/CD 平�",
