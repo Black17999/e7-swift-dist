@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "17",
+          "date": "2026-08-09T13:49:31Z",
+          "localizedDescription": "ci: 空提交触发 Bitrise 构建（Stack 已切换为 Always latest stable / Xcode 26）  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10864858,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "16",
           "date": "2026-08-09T13:37:33Z",
           "localizedDescription": "fix(ci): 修正 Bitrise stack 标识符为 osx-xcode-26.0.x  - 背景与现象：Bitrise 构建出的 IPA 无 Liquid Glass 效果，排查构建日志发现   实际使用的是 Xcode 16.0 (iOS 18.0 SDK) 而非 Xcode 26 - 根因分析：Bitrise stack 标识符必须带小版本号（osx-xcode-26.0.x），   之前写的 osx-xcode-26.x 是无效标识符，Bitrise 静默 fallback 到   机器预装的默认 Xcode 16.0 - 具体改动：stack 从 osx-xcode-26.x 改为 osx-xcode-26.0.x  ",
