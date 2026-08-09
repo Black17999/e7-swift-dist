@@ -15,6 +15,15 @@
       "tintColor": "4355B9",
       "versions": [
         {
+          "version": "3.1.0",
+          "buildVersion": "34",
+          "date": "2026-08-09T07:43:43Z",
+          "localizedDescription": "fix(records): 修复 CustomNumberPad 表达式编译器类型推导超时",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10374553,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600000a64870 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0.0.0",
           "buildVersion": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600000678090 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0",
           "date": "2026-08-08T22:56:27Z",
