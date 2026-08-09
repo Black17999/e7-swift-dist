@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "20",
+          "date": "2026-08-09T15:43:52Z",
+          "localizedDescription": "fix(build): 修正记一笔键盘动画 API 名 easeInEaseOut → easeInOut  问题现象: - 上一提交推送后 Bitrise 构建仍失败:   AddRecordView.swift:206 error: type 'Animation' has no member 'easeInEaseOut'  根因: - SwiftUI.Animation 的静态成员名是 easeInOut(duration:),   并不存在 easeInEaseOut 成员——后者是 UIKit/CoreAnimation 概念   (UIView.AnimationOptions / CAMediaTimingFunction); - 上一轮误判为\\\"隐式成员表达式在 Xcode 26 的 Optional 上下�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10855980,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "17",
           "date": "2026-08-09T13:49:31Z",
           "localizedDescription": "ci: 空提交触发 Bitrise 构建（Stack 已切换为 Always latest stable / Xcode 26）  ",
