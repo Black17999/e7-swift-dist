@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "16",
+          "date": "2026-08-09T13:37:33Z",
+          "localizedDescription": "fix(ci): 修正 Bitrise stack 标识符为 osx-xcode-26.0.x  - 背景与现象：Bitrise 构建出的 IPA 无 Liquid Glass 效果，排查构建日志发现   实际使用的是 Xcode 16.0 (iOS 18.0 SDK) 而非 Xcode 26 - 根因分析：Bitrise stack 标识符必须带小版本号（osx-xcode-26.0.x），   之前写的 osx-xcode-26.x 是无效标识符，Bitrise 静默 fallback 到   机器预装的默认 Xcode 16.0 - 具体改动：stack 从 osx-xcode-26.x 改为 osx-xcode-26.0.x  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10720525,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "15",
           "date": "2026-08-09T13:28:10Z",
           "localizedDescription": "fix(glass): 移除 UIKit appearance 覆盖恢复 iOS 26 Liquid Glass 渲染  - 背景与现象：Bitrise 用 Xcode 26 构建的 IPA 安装后 TabBar/NavigationBar 呈现旧式平铺磨砂   风格而非 iOS 26 Liquid Glass 玻璃胶囊风格 - 根因分析：E7App.init() 中 UITabBar.appearance().tintColor 和   UINavigationBar.appearance().tintColor 两行 UIKit appearance proxy 覆盖阻断了   iOS 26 系统自动 Liquid Glass 材质渲染管线，导致系统退化为旧式外观 - 具体改",
