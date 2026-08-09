@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "4",
+          "date": "2026-08-09T09:25:24Z",
+          "localizedDescription": "chore(ci): 测试 Bitrise 自动触发构建  - 背景与现象：验证 Bitrise Webhook 与 Push 触发规则是否生效  - 根因分析：空提交测试  - 具体改动：添加测试 empty commit  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10715869,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "3",
           "date": "2026-08-09T09:01:01Z",
           "localizedDescription": "docs(ci): 记录 GitHub Actions 完美构建成功方案与避坑指南  - 完整更新 docs/06-CI-CD-GUIDE.md 指南：固化 iOS 18.0 部署目标与 set -o pipefail 管道安全规范 - 更新项目 Memory：记录 20+ CI 循环修复的 3 重根因与后续配置防沉没规则  ",
