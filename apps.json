@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "25",
+          "date": "2026-08-10T12:48:11Z",
+          "localizedDescription": "fix(records): 修复 NoteTextField 参数类型无法从 FocusState.Binding 隐式转换问题  背景与现象： - 1. CI / Bitrise 打包编译时在 AddRecordView.swift:346 报错 error: cannot convert value of type 'FocusState<Bool>.Binding' to expected argument type 'Binding<Bool>'  根因分析： - 1. noteFocused 属性为 @FocusState 装饰，在 SwiftUI 中  类型为 FocusState<Bool>.Binding，无法隐式转换为 NoteTextField 所需的 Binding<Bool>  具体改动： - 1. 使用 Bind",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10858365,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "23",
           "date": "2026-08-10T12:06:38Z",
           "localizedDescription": "fix(records): 修复记一笔页面系统键盘收起复位与精准贴合防顶推问题  背景与现象： - 1. 回收系统键盘时备注栏悬停半空无法降回原位； - 2. 键盘弹出后备注栏与系统键盘顶部间存在约 34pt 缝隙； - 3. 点击备注框时金额区与分类图标区随之被往上推移。  根因分析： - 1. keyboardFrameEndUserInfoKey 在键盘回收时 height 仍保持全高，导致 keyboardHeight 未归零； - 2. noteRise 上浮公式未扣除底�",
