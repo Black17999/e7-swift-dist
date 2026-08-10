@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "22",
+          "date": "2026-08-10T11:45:49Z",
+          "localizedDescription": "fix(我的): 取消头部背景顶部与底部的黑色雾感  静态时顶部导航栏区与底部虚化边缘各有一层灰黑雾(往下滚动后消失), 来源为背景合成中的两处深色层次: - 移除 Layer 4 系统玻璃罩(.ultraThinMaterial + 主题遮罩):叠在深色   背景上即灰黑雾感,顶部大片纯背景区最明显(注释保留,可随时恢复) - 长尾渐隐从 128/112pt 压缩到 24/20pt:原长尾是深色背景 alpha 淡出   到深色页面底的底部黑雾带;�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10855083,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "21",
           "date": "2026-08-10T09:46:39Z",
           "localizedDescription": "fix(债务): 搜索时列表未贴住搜索框,延迟滚顶至布局定型  进搜索分支原本在环折叠与系统搜索栏展开动画进行中就立即 scrollTo, 滚动终点按旧布局计算,导致列表停在半空、与搜索框之间露白。 改为进搜索后先不抢 offset,延迟约 0.4s(环折叠 0.34s + 搜索栏展开 落定)再 scrollTo(topAnchorID, .top),一次算准贴住搜索栏; 延迟期间若已退搜索则放弃滚动,交给退搜索分支处理。同步更正 文件�",
