@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "21",
+          "date": "2026-08-10T09:46:39Z",
+          "localizedDescription": "fix(债务): 搜索时列表未贴住搜索框,延迟滚顶至布局定型  进搜索分支原本在环折叠与系统搜索栏展开动画进行中就立即 scrollTo, 滚动终点按旧布局计算,导致列表停在半空、与搜索框之间露白。 改为进搜索后先不抢 offset,延迟约 0.4s(环折叠 0.34s + 搜索栏展开 落定)再 scrollTo(topAnchorID, .top),一次算准贴住搜索栏; 延迟期间若已退搜索则放弃滚动,交给退搜索分支处理。同步更正 文件�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10856335,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "20",
           "date": "2026-08-09T15:43:52Z",
           "localizedDescription": "fix(build): 修正记一笔键盘动画 API 名 easeInEaseOut → easeInOut  问题现象: - 上一提交推送后 Bitrise 构建仍失败:   AddRecordView.swift:206 error: type 'Animation' has no member 'easeInEaseOut'  根因: - SwiftUI.Animation 的静态成员名是 easeInOut(duration:),   并不存在 easeInEaseOut 成员——后者是 UIKit/CoreAnimation 概念   (UIView.AnimationOptions / CAMediaTimingFunction); - 上一轮误判为\\\"隐式成员表达式在 Xcode 26 的 Optional 上下�",
