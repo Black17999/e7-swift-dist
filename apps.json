@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "261",
+          "date": "2026-08-14T23:18:09Z",
+          "localizedDescription": "style(records): 优化首页英雄卡片空间比例与子表盘高度  背景与现象： - 用户反馈首页英雄卡片在高度压缩后整体偏矮，子表盘（收入/支出小卡片）过于扁窄局促，且上方结余大数字与标题间略显空旷。  根因分析： - 上方眉栏（TODAY · CHRONO）与居中大结余数字间距偏大，产生空旷感； - 收入/支出小卡片垂直内边距仅 8pt，在包含弧规图标和双行文字数字时略显局促； - 外层与内",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10970706,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "260",
           "date": "2026-08-14T22:43:44Z",
           "localizedDescription": "fix(ci): apps.json 清洗历史脏数据并容错 buildVersion 解析  根因：2026-08-08 两次构建曾把 plutil 报错文本写入 buildVersion， 本次 jq tonumber 解析崩溃导致发布中断（Release 已建、apps.json 未更新）。 - 发布前先剔除 buildVersion 非纯数字的历史脏条目 - MAX_BUILD 计算改用 tonumber? 容错，双保险  ",
