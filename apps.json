@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "37",
+          "date": "2026-08-14T20:32:40Z",
+          "localizedDescription": "feat(records): 首页英雄卡片与日期条重塑为机械精工风格 (Chrono Sub-Dial Hub)  详细说明： - 背景与现象：原首页头部区域缺乏视觉焦点与高级感，日期条样式较为平淡。 - 设计选型：经 8 套高保真原型矩阵探索，选定并落地方案 02 机械精工腕表体系。 - 具体改动：   1. TodayHeroCard: 引入钛金虚线表圈 (Watch Bezel)、眉栏微标 (NET BALANCE · CHRONO)、重磅等宽结余、双子表盘 (INFLOW/OUTFLOW 微规",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10958432,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "36",
           "date": "2026-08-14T19:52:21Z",
           "localizedDescription": "fix(ui): 调优备注栏留白与键盘贴合度并恢复底部导航栏品牌高亮色  详细说明： - 背景与现象：   1. 备注框与日期按钮距离键盘大底板最上方的反光圆角顶边留白依然不足；   2. 弹起系统键盘后，悬浮备注栏距离系统键盘顶边缘间隙仍然偏大；   3. 键盘弹出触发动画时，主内容层发生轻微联动；   4. 底部导航栏选中标签页时未呈现品牌高亮颜色。 - 根因分析：   1. toolbarHeight（58",
