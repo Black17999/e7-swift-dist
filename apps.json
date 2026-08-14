@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "36",
+          "date": "2026-08-14T19:52:21Z",
+          "localizedDescription": "fix(ui): 调优备注栏留白与键盘贴合度并恢复底部导航栏品牌高亮色  详细说明： - 背景与现象：   1. 备注框与日期按钮距离键盘大底板最上方的反光圆角顶边留白依然不足；   2. 弹起系统键盘后，悬浮备注栏距离系统键盘顶边缘间隙仍然偏大；   3. 键盘弹出触发动画时，主内容层发生轻微联动；   4. 底部导航栏选中标签页时未呈现品牌高亮颜色。 - 根因分析：   1. toolbarHeight（58",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10943253,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "35",
           "date": "2026-08-14T19:34:41Z",
           "localizedDescription": "fix(records): 修复 NoteTextField 中非重写方法的编译报错  详细说明： - 背景与现象：Bitrise CI 在构建 Release 包时失败，提示 AddRecordView.swift:530:19 method does not override any method from its superclass。 - 根因分析：scrollRectToVisible 为 UIScrollView 成员方法而非 UITextField 成员方法，在 UITextField 子类中使用 override 导致 Swift 编译器报错。 - 具体改动：移除无效的 NonScrollingTextField 子类定义，直接实例�",
