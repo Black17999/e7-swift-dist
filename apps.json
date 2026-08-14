@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "26",
+          "date": "2026-08-14T15:49:15Z",
+          "localizedDescription": "fix(ui): 修复记一笔备注键盘布局与债务搜索列表间距异常  背景与现象： - 记一笔页面点击备注框后，分类与金额区域被异常上推，备注框无法随系统键盘上推且点击立即弹回收起，无法正常输入。 - 债务页面点击搜索框后圆环折叠，但债务列表未紧贴搜索框底部，存在多余空白间隙。  根因分析： - AddRecordView 中原生 TextField 触发 UIHostingController 全局键盘避让平移导致内容顶推",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10942282,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "25",
           "date": "2026-08-10T12:48:11Z",
           "localizedDescription": "fix(records): 修复 NoteTextField 参数类型无法从 FocusState.Binding 隐式转换问题  背景与现象： - 1. CI / Bitrise 打包编译时在 AddRecordView.swift:346 报错 error: cannot convert value of type 'FocusState<Bool>.Binding' to expected argument type 'Binding<Bool>'  根因分析： - 1. noteFocused 属性为 @FocusState 装饰，在 SwiftUI 中  类型为 FocusState<Bool>.Binding，无法隐式转换为 NoteTextField 所需的 Binding<Bool>  具体改动： - 1. 使用 Bind",
