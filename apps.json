@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "32",
+          "date": "2026-08-14T18:31:57Z",
+          "localizedDescription": "fix(records): 彻底固定金额展示与分类网格区域避免被键盘上推  详细说明： - 背景与现象：点击记一笔页面的备注框唤起系统键盘时，顶部的金额展示区与分类九宫格区域被系统键盘避让逻辑整体向上推移和压缩变形。 - 根因分析：AddRecordView 中设置了动态计算的 activeBottomInset，当键盘弹出时底部 padding 大幅增加，强行压缩了主内容区域的高度，导致金额和分类被动向上让位。 -",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10939923,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "31",
           "date": "2026-08-14T17:43:11Z",
           "localizedDescription": "fix(records): 优化记一笔页面键盘布局与备注栏UI细节  详细说明： - 背景与现象：   1. 自定义键盘最底行按键（00、0、.）过于贴近底部 Home 条；   2. 备注输入框与右侧日期按钮外边框高度不一致；   3. 聚焦备注框唤起系统键盘时，备注栏向上推移量偏大；   4. 键盘顶部边缘线条暗淡单调，缺乏立体反射光线。 - 根因分析：   1. 键盘底部 padding 与 safeArea 缓冲偏小；   2. NoteTextField �",
