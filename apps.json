@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "260",
+          "date": "2026-08-14T22:43:44Z",
+          "localizedDescription": "fix(ci): apps.json 清洗历史脏数据并容错 buildVersion 解析  根因：2026-08-08 两次构建曾把 plutil 报错文本写入 buildVersion， 本次 jq tonumber 解析崩溃导致发布中断（Release 已建、apps.json 未更新）。 - 发布前先剔除 buildVersion 非纯数字的历史脏条目 - MAX_BUILD 计算改用 tonumber? 容错，双保险  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10970659,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "259",
           "date": "2026-08-14T22:37:55Z",
           "localizedDescription": "fix(ci): GH Actions 补齐发布到 e7-swift-dist 分发仓库与软件源更新（修复软件源停更）",
