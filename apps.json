@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "38",
+          "date": "2026-08-14T20:46:36Z",
+          "localizedDescription": "fix(records): 首页英雄卡片与日期条像素级对齐方案 02 (Chrono 精工)  详细说明： - 根因分析：初版实现存在结余靠左未居中、虚线表圈贴边、子卡片过扁、图标全圆描边以及日期条无两端隔断等偏差。 - 具体改动：   1. TodayHeroCard: 结余大字与眉栏微标调整为绝对水平居中；虚线表圈改为内嵌独立层级并留出四周呼吸边距；双子表盘加高；表盘规图标调整为仅顶部弧段高亮。   2. Hom",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10959947,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "37",
           "date": "2026-08-14T20:32:40Z",
           "localizedDescription": "feat(records): 首页英雄卡片与日期条重塑为机械精工风格 (Chrono Sub-Dial Hub)  详细说明： - 背景与现象：原首页头部区域缺乏视觉焦点与高级感，日期条样式较为平淡。 - 设计选型：经 8 套高保真原型矩阵探索，选定并落地方案 02 机械精工腕表体系。 - 具体改动：   1. TodayHeroCard: 引入钛金虚线表圈 (Watch Bezel)、眉栏微标 (NET BALANCE · CHRONO)、重磅等宽结余、双子表盘 (INFLOW/OUTFLOW 微规",
