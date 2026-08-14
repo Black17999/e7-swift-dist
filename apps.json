@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "259",
+          "date": "2026-08-14T22:37:55Z",
+          "localizedDescription": "fix(ci): GH Actions 补齐发布到 e7-swift-dist 分发仓库与软件源更新（修复软件源停更）",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10970661,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "38",
           "date": "2026-08-14T20:46:36Z",
           "localizedDescription": "fix(records): 首页英雄卡片与日期条像素级对齐方案 02 (Chrono 精工)  详细说明： - 根因分析：初版实现存在结余靠左未居中、虚线表圈贴边、子卡片过扁、图标全圆描边以及日期条无两端隔断等偏差。 - 具体改动：   1. TodayHeroCard: 结余大字与眉栏微标调整为绝对水平居中；虚线表圈改为内嵌独立层级并留出四周呼吸边距；双子表盘加高；表盘规图标调整为仅顶部弧段高亮。   2. Hom",
@@ -292,24 +301,6 @@
           "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
           "size": 10374553,
           "minOSVersion": "18.0"
-        },
-        {
-          "version": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600000a64870 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0.0.0",
-          "buildVersion": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600000678090 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0",
-          "date": "2026-08-08T22:56:27Z",
-          "localizedDescription": "docs(ci): 完整记录 CodeMagic 与 GitHub Actions 双平台切换指南",
-          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
-          "size": 324,
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600001e600c0 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0.0.0",
-          "buildVersion": "build/Build/Products/Release-iphoneos/E7.app/Info.plist: file does not exist or is not readable or is not a regular file (Error Domain=NSCocoaErrorDomain Code=260 \"The file “Info.plist” couldn’t be opened because there is no such file.\" UserInfo={NSFilePath=build/Build/Products/Release-iphoneos/E7.app/Info.plist, NSURL=build/Build/Products/Release-iphoneos/E7.app/Info.plist -- file:///Users/runner/work/e7-swift-app/e7-swift-app/, NSUnderlyingError=0x600002fb0870 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}})\n0",
-          "date": "2026-08-08T22:47:44Z",
-          "localizedDescription": "fix(ci): 加固订阅源更新步骤，添加逐行调试与容错降级",
-          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
-          "size": 324,
-          "minOSVersion": "17.0"
         },
         {
           "version": "3.1.0",
