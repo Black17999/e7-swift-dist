@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "29",
+          "date": "2026-08-14T17:14:53Z",
+          "localizedDescription": "fix(records): 修复记一笔数字键盘遮挡与系统键盘回收死循环  背景与现象： - 1. 记一笔页面底部自定义数字键盘被大块灰色区域遮挡（前3排按键不可见）； - 2. 点击备注框弹出系统键盘后，点击键盘「回收」收起时，键盘收起后立刻被重新弹出，形成死循环无法正常退出。  根因分析： - 1. floatingNoteLayer（含160pt下延实色灰色裙边与背景）被赋予 zIndex(2)，高于 keypadLayer 的 zIndex(1)",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10940868,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "28",
           "date": "2026-08-14T16:59:42Z",
           "localizedDescription": "fix(debts): 修复搜索激活时列表间隙与延迟推顶问题  背景与现象： - 债务页面点击搜索框进入搜索时，列表未紧贴搜索框下方，而是先在下方停顿并留有一大段空白区域，随后才缓慢往上推顶，交互割裂卡顿。  根因分析： - 1. onChange(of: isSearchPresented) 中存在 0.42s Task.sleep 延迟，导致点击搜索后列表原地假死近半秒； - 2. 延迟后触发 withAnimation(foldAnimation) scrollTo 二次滚动，造成�",
