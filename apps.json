@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "33",
+          "date": "2026-08-14T18:52:00Z",
+          "localizedDescription": "fix(records): 将主内容重构为顶部绝对锚定杜绝任何键盘微小上移  详细说明： - 背景与现象：点击备注输入框唤起系统键盘时，顶部的金额展示区仍会被极其轻微地向上顶动数个像素，紧贴至收支切换胶囊下方。 - 根因分析：外层容器采用了 ZStack(alignment: .bottom)，将整个主内容区域的参考系绑定在屏幕底部；键盘弹起时底部基准线微动，带动以底为基准的顶层视图发生连锁轻微�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10941565,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "32",
           "date": "2026-08-14T18:31:57Z",
           "localizedDescription": "fix(records): 彻底固定金额展示与分类网格区域避免被键盘上推  详细说明： - 背景与现象：点击记一笔页面的备注框唤起系统键盘时，顶部的金额展示区与分类九宫格区域被系统键盘避让逻辑整体向上推移和压缩变形。 - 根因分析：AddRecordView 中设置了动态计算的 activeBottomInset，当键盘弹出时底部 padding 大幅增加，强行压缩了主内容区域的高度，导致金额和分类被动向上让位。 -",
