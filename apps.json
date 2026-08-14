@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "31",
+          "date": "2026-08-14T17:43:11Z",
+          "localizedDescription": "fix(records): 优化记一笔页面键盘布局与备注栏UI细节  详细说明： - 背景与现象：   1. 自定义键盘最底行按键（00、0、.）过于贴近底部 Home 条；   2. 备注输入框与右侧日期按钮外边框高度不一致；   3. 聚焦备注框唤起系统键盘时，备注栏向上推移量偏大；   4. 键盘顶部边缘线条暗淡单调，缺乏立体反射光线。 - 根因分析：   1. 键盘底部 padding 与 safeArea 缓冲偏小；   2. NoteTextField �",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10941040,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "30",
           "date": "2026-08-14T17:23:28Z",
           "localizedDescription": "fix(records): 彻底移除 NoteTextField 中的 becomeFirstResponder 杜绝键盘回收死循环  背景与现象： - 1. 点击备注框唤起系统键盘后，点击系统键盘右下角/候选栏的向下箭头「回收」键盘时，键盘收起后立即再次被弹起，形成死循环无法收起。  根因分析： - 1. updateUIView 中保留了 becomeFirstResponder() 逻辑。当用户通过键盘向下箭头主动收起时，UIKit 使 UITextField 失焦并发送键盘通知，触发 Swi",
