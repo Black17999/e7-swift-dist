@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "28",
+          "date": "2026-08-14T16:59:42Z",
+          "localizedDescription": "fix(debts): 修复搜索激活时列表间隙与延迟推顶问题  背景与现象： - 债务页面点击搜索框进入搜索时，列表未紧贴搜索框下方，而是先在下方停顿并留有一大段空白区域，随后才缓慢往上推顶，交互割裂卡顿。  根因分析： - 1. onChange(of: isSearchPresented) 中存在 0.42s Task.sleep 延迟，导致点击搜索后列表原地假死近半秒； - 2. 延迟后触发 withAnimation(foldAnimation) scrollTo 二次滚动，造成�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 10940735,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "27",
           "date": "2026-08-14T16:47:16Z",
           "localizedDescription": "fix(ui): 二次修复记一笔备注键盘布局与债务搜索列表间距  5026f5d 未根治，定位回归点后二次修复：  记一笔（AddRecordView） - 删除备注槽 .onTapGesture（吞掉 UITextField 触摸致无法输入/立即弹回），   改由 textFieldDidBeginEditing/DidEndEditing 原生驱动焦点 - 恢复 mainContentLayer 的 .ignoresSafeArea(.keyboard) 隔离罩，防金额/分类被键盘顶推 - 输入框 minHeight 24 → slotHeight，填满槽位保证整槽可点  �",
