@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "266",
+          "date": "2026-08-15T10:55:37Z",
+          "localizedDescription": "fix(quick-entry): 修复 BeijingDate.monthDayLabel 冗余参数标签导致的编译报错  详细说明： - 背景与现象：CI 构建 IPA 时报错 extraneous argument label 'date:' in call。 - 根因分析：BeijingDate.monthDayLabel(_ date: Date) 方法使用匿名形参标签，调用处显式传递了 date: 实参标签导致类型检查失败。 - 具体改动：将 QuickEntryDetailView.swift 中的 BeijingDate.monthDayLabel(date: recordDate) 修正为 BeijingDate.monthDayLabel(recordD",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 11145500,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "265",
           "date": "2026-08-15T10:18:06Z",
           "localizedDescription": "fix(quick-entry): 修复 CategoryPickerSheet 中 CategoryRecord 构造参数类型不匹配的编译错误  详细说明： - 背景与现象：CI 构建 IPA 时报错 CategoryPickerSheet.swift 中构造 CategoryRecord 缺少必填字段（userId、clientId、type、order 等）。 - 根因分析：原先使用了简化的占位参数初始化 CategoryRecord，与数据库持久化结构体实际定义不一致。 - 具体改动：将 CategoryPickerSheet 改为提取分类名称字符串数组�",
