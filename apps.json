@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "264",
+          "date": "2026-08-15T09:40:56Z",
+          "localizedDescription": "fix(quick-entry): 修复 fuzzyMatch 方法 private 访问级别导致的 CI 编译报错  详细说明： - 背景与现象：GitHub Actions 构建 IPA 时报错 'fuzzyMatch' is inaccessible due to 'private' protection level。 - 根因分析：AiQuickEntryService 在水合债务人操作时调用了 QuickEntryParser.fuzzyMatch()，但该方法原先被声明为 private。 - 具体改动：将 QuickEntryParser 中的 fuzzyMatch 方法访问修饰符由 private 调整为 internal (static func)，",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 11101717,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "263",
           "date": "2026-08-15T07:32:40Z",
           "localizedDescription": "feat(quick-entry): 快速记账全面原生化与 Liquid Glass 质感升级并发布 v3.2.0  详细说明： - 背景与现象：快速记账页头部原为手写假导航栏且无法右滑退出；输入解析后右滑或点返回误退主屏幕而非回到快速记账首页；空状态文案需更新为 HELLO 我是 E7 AI；底部输入框浅色模式可见度极低；解析卡片不够原生；债务选择弹窗顶部存在纯白未适配抽屉块；全站全量重构需升级版本并记录 ",
