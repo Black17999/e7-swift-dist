@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.1.0",
+          "buildVersion": "262",
+          "date": "2026-08-15T00:23:37Z",
+          "localizedDescription": "fix(quick-entry): 修复 ThemeManager.colors 与 MoneyFormat.cny 方法名引用  详细说明： - 根因分析：   1. ThemeManager 中获取皮肤颜色属性为 theme.colors（而非 theme.currentSkin）；   2. MoneyFormat 中格式化带人民币符号方法为 MoneyFormat.cny（而非 MoneyFormat.yuan）。 - 具体改动：   - QuickEntryView.swift：将 skin getter 修正为 theme.colors，将三处 MoneyFormat.yuan 修正为 MoneyFormat.cny；   - SmartClipboardRadarCard.swift：将 sk",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 11035379,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.1.0",
           "buildVersion": "261",
           "date": "2026-08-14T23:18:09Z",
           "localizedDescription": "style(records): 优化首页英雄卡片空间比例与子表盘高度  背景与现象： - 用户反馈首页英雄卡片在高度压缩后整体偏矮，子表盘（收入/支出小卡片）过于扁窄局促，且上方结余大数字与标题间略显空旷。  根因分析： - 上方眉栏（TODAY · CHRONO）与居中大结余数字间距偏大，产生空旷感； - 收入/支出小卡片垂直内边距仅 8pt，在包含弧规图标和双行文字数字时略显局促； - 外层与内",
