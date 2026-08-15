@@ -15,6 +15,15 @@
       "tintColor": "4355B9",
       "versions": [
         {
+          "version": "3.2.0",
+          "buildVersion": "263",
+          "date": "2026-08-15T07:32:40Z",
+          "localizedDescription": "feat(quick-entry): 快速记账全面原生化与 Liquid Glass 质感升级并发布 v3.2.0  详细说明： - 背景与现象：快速记账页头部原为手写假导航栏且无法右滑退出；输入解析后右滑或点返回误退主屏幕而非回到快速记账首页；空状态文案需更新为 HELLO 我是 E7 AI；底部输入框浅色模式可见度极低；解析卡片不够原生；债务选择弹窗顶部存在纯白未适配抽屉块；全站全量重构需升级版本并记录 ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 11090193,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "3.1.0",
           "buildVersion": "262",
           "date": "2026-08-15T00:23:37Z",
