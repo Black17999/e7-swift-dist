@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "277",
+          "date": "2026-08-16T22:45:02Z",
+          "localizedDescription": "fix(auth): 迁出 toolbar 自定义项根治认证子页导航栏水平抖动  根因：LoginView/RegisterView/ResetPasswordView 原挂 .principal 与 .topBarTrailing 自定义项，push 转场时触发 UINavigationBar crossfade + _UIHostingView 首帧 size=0 二次测量 + 右侧 item 渐显造成 titleView 可用 宽度变化 → 居中位置左右偏移（水平抖动）。前 8 轮排查均在 toolbar 内容 层调整（玻璃壳/尺寸/系统标题/透明栏/占位对称等），未触及\\\"",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13329339,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "276",
           "date": "2026-08-16T22:30:14Z",
           "localizedDescription": "fix(auth): 欢迎页补空标题 + 导航改直接跳转 + 恢复透明导航栏  - C1：WelcomeView 补 .navigationTitle(\\\"\\\")，让根页也有空标题槽，消除 nil→标题的转场抖动 - C2：认证流从值驱动导航(NavigationLink(value:)+navigationDestination)改为直接   NavigationLink，与全 app 其它 push 方式一致；移除不再使用的 AuthRoute 枚举 - 恢复实验B撤销的 .toolbarBackground(.hidden)，回到沉浸式透明导航栏  ",
