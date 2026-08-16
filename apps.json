@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "274",
+          "date": "2026-08-16T21:54:57Z",
+          "localizedDescription": "test(auth): 实验A——登录页改系统标题以定位导航栏抖动根因  - 登录页移除 .principal 自定义 LOGIN，改用 .navigationTitle(\\\"登录\\\") - 保留原生返回按钮、透明导航栏；注册/重置页作对照不动 - 验证「自定义 .principal 在 iOS 26 转场位移动画」是否为抖动根因：   登录页不抖而注册/重置仍抖 → 确认是自定义 principal；登录页仍抖 → 转向透明栏排查  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13331021,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "273",
           "date": "2026-08-16T21:34:25Z",
           "localizedDescription": "fix(auth): 导航栏自定义项定尺寸稳定化以消除 push 转场左右抖动  - 根因：auth 三页是全项目唯一「被 push 且带自定义导航栏内容」的页面   （.principal 的 LOGIN/步骤圆点 + .topBarTrailing 的 STEP 标签）；iOS 26 转场中   自定义 titleView 宽度晚到，系统二次测量重排导致居中内容左右晃动 - AuthStepIndicator：固定 frame(10*total+6, 5) 锁死总宽 + geometryGroup - AuthStepTag：固定 frame(48, 22) + geometryGroup -",
