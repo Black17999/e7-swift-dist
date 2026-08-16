@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "269",
+          "date": "2026-08-16T17:05:40Z",
+          "localizedDescription": "fix(auth): 修复双重返回按钮、右滑手势、系统深浅双模自适应与Face ID钥匙串集成  - 根因排查与修复：   1. 移除自定义左上角返回按钮与隐藏控制，交由 iOS 官方原生返回键接管，彻底消除按钮重叠，天然 100% 激活屏幕左边缘向右滑动返回手势（Interactive Pop Gesture）；   2. 移除 E7App.swift 顶层强制锁定 preferredColorScheme，使 App 随手机系统深浅色切换秒级实时自适应（深色绑定 midnight",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13328745,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "268",
           "date": "2026-08-16T16:41:33Z",
           "localizedDescription": "fix(auth): 补充缺失的品牌 Logo 组件 AuthLogo 修复构建失败  - 背景与现象：   CI 构建任务（Job 95193271189）失败，报错提示 `AboutSheet.swift:12` 中引用了 `AuthLogo`，但项目中未找到 `AuthLogo` 定义（`cannot find 'AuthLogo' in scope`）。 - 根因分析：   在早前重构认证模块组件库时，AboutSheet 引用了全局认证品牌组件 `AuthLogo()`，但在 `AuthComponents.swift` 中遗漏了该组件的具体定义。 - 具体改动：   在",
