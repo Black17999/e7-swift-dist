@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "271",
+          "date": "2026-08-16T19:54:10Z",
+          "localizedDescription": "fix(auth): 消除页面切换时导航栏水平抖动并彻底移除步骤指示器边框  - 背景与现象：从欢迎页进入登录/注册/重置密码页时头部导航栏出现轻微左右抖动；步骤指示器外层残留胶囊玻璃描边 - 根因分析：子页面未显式声明透明导航栏背景导致转场时外观重建；.principal居中与左侧返回键宽度不对称触发二次偏移重排；AuthStepIndicator中仍保留Capsule描边与填充 - 具体改动：全量子页�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13331922,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "270",
           "date": "2026-08-16T19:31:11Z",
           "localizedDescription": "fix(ci): 删除 prologue 多余的 cd，checkout 已进入项目根  - 上版 cd \\\"${SEMAPHORE_GIT_DIR:-$PWD}\\\" 失败：SEMAPHORE_GIT_DIR 是相对名   （e7-swift-app），checkout 后 CWD 已在项目根内，再 cd 报 No such file or directory - prologue 只留 checkout（官方行为：checkout 后即项目根；每条 commands 也从项目根启动） - 发布脚本 PROJECT_ROOT 加兜底：pwd 非项目根时回退 git rev-parse --show-toplevel  ",
