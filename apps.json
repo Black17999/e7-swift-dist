@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "270",
+          "date": "2026-08-16T19:31:11Z",
+          "localizedDescription": "fix(ci): 删除 prologue 多余的 cd，checkout 已进入项目根  - 上版 cd \\\"${SEMAPHORE_GIT_DIR:-$PWD}\\\" 失败：SEMAPHORE_GIT_DIR 是相对名   （e7-swift-app），checkout 后 CWD 已在项目根内，再 cd 报 No such file or directory - prologue 只留 checkout（官方行为：checkout 后即项目根；每条 commands 也从项目根启动） - 发布脚本 PROJECT_ROOT 加兜底：pwd 非项目根时回退 git rev-parse --show-toplevel  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13330933,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "269",
           "date": "2026-08-16T17:05:40Z",
           "localizedDescription": "fix(auth): 修复双重返回按钮、右滑手势、系统深浅双模自适应与Face ID钥匙串集成  - 根因排查与修复：   1. 移除自定义左上角返回按钮与隐藏控制，交由 iOS 官方原生返回键接管，彻底消除按钮重叠，天然 100% 激活屏幕左边缘向右滑动返回手势（Interactive Pop Gesture）；   2. 移除 E7App.swift 顶层强制锁定 preferredColorScheme，使 App 随手机系统深浅色切换秒级实时自适应（深色绑定 midnight",
