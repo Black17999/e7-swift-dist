@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "276",
+          "date": "2026-08-16T22:30:14Z",
+          "localizedDescription": "fix(auth): 欢迎页补空标题 + 导航改直接跳转 + 恢复透明导航栏  - C1：WelcomeView 补 .navigationTitle(\\\"\\\")，让根页也有空标题槽，消除 nil→标题的转场抖动 - C2：认证流从值驱动导航(NavigationLink(value:)+navigationDestination)改为直接   NavigationLink，与全 app 其它 push 方式一致；移除不再使用的 AuthRoute 枚举 - 恢复实验B撤销的 .toolbarBackground(.hidden)，回到沉浸式透明导航栏  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13333977,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "275",
           "date": "2026-08-16T22:09:16Z",
           "localizedDescription": "test(auth): 实验B——移除透明导航栏背景以定位抖动根因  - 撤销实验A：登录页恢复自定义英文 LOGIN（.principal） - 实验B：欢迎/登录/注册/重置四页临时移除 .toolbarBackground(.hidden)，   导航栏恢复默认玻璃材质（与 app 其它不抖动页面一致） - 验证「透明导航栏背景」是否为 iOS 26 push 抖动根因：   不再抖 → 元凶是透明栏；仍抖 → 转向排查欢迎页源结构  ",
