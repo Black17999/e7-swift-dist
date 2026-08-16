@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "267",
+          "date": "2026-08-16T15:48:39Z",
+          "localizedDescription": "feat(auth): 全量重构认证与向导体系（注册2步流与重置密码3步流）  - 背景与需求：   - 全面贯彻中性奢华黑曜石美学与克制用色原则，消除全屏杂色光晕与廉价感；   - 统一全套认证流（欢迎页、登录页、注册页、找回密码页）的视觉质感与苹果官方原生 SF Symbols 矢量图标；  - 核心改动：   1. 认证组件库 (AuthComponents.swift)：引入 6 位独立 OTP 验证码输入器 AuthOTPField，升级 STEP 01/0",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13322340,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "266",
           "date": "2026-08-15T10:55:37Z",
           "localizedDescription": "fix(quick-entry): 修复 BeijingDate.monthDayLabel 冗余参数标签导致的编译报错  详细说明： - 背景与现象：CI 构建 IPA 时报错 extraneous argument label 'date:' in call。 - 根因分析：BeijingDate.monthDayLabel(_ date: Date) 方法使用匿名形参标签，调用处显式传递了 date: 实参标签导致类型检查失败。 - 具体改动：将 QuickEntryDetailView.swift 中的 BeijingDate.monthDayLabel(date: recordDate) 修正为 BeijingDate.monthDayLabel(recordD",
