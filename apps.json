@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "273",
+          "date": "2026-08-16T21:34:25Z",
+          "localizedDescription": "fix(auth): 导航栏自定义项定尺寸稳定化以消除 push 转场左右抖动  - 根因：auth 三页是全项目唯一「被 push 且带自定义导航栏内容」的页面   （.principal 的 LOGIN/步骤圆点 + .topBarTrailing 的 STEP 标签）；iOS 26 转场中   自定义 titleView 宽度晚到，系统二次测量重排导致居中内容左右晃动 - AuthStepIndicator：固定 frame(10*total+6, 5) 锁死总宽 + geometryGroup - AuthStepTag：固定 frame(48, 22) + geometryGroup -",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13333339,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "272",
           "date": "2026-08-16T21:16:22Z",
           "localizedDescription": "fix(auth): 根治导航栏水平抖动与步骤指示器残留玻璃边框  - 根因：iOS 26 Liquid Glass 自动给导航栏每个 toolbar item 套 shared background 玻璃壳，   转场淡入缩放致水平抖动，也是 STEP 标签与步骤指示器残留玻璃边框的真正来源 - 新增 DesignSystem 共享扩展 hiddenSharedBackground()（sharedBackgroundVisibility(.hidden)），   统一剥离系统玻璃壳，须挂 ToolbarItem 本身生效 - 登录/注册/重置三页 principal 与 t",
