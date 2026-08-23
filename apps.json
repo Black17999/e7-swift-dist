@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "285",
+          "date": "2026-08-23T22:14:51Z",
+          "localizedDescription": "fix(main): 彻底根除中间记一笔按键切页滑跳并重塑浅色模式与大尺寸图标  详细说明： - 根因分析：   1. 中间按键原先仍作为 TabItem 注册在 TabView 中，触发了 SwiftUI 原生触摸手势的 selection 抢先切换与回弹；   2. 原生 UITabBarItem 尺寸紧箍咒将图标压缩至 28~30pt，导致细节局促；   3. 浅色模式下的质感与对比度需进一步精细化。 - 具体改动：   1. 架构升级：在 TabBarInterceptor 中挂载完",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13386236,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "284",
           "date": "2026-08-23T22:01:43Z",
           "localizedDescription": "feat(ui): 落地 08 方案阳极氧化钛灰 CNC 雕刻凹槽纯圆内嵌记账按钮  详细说明： - 背景与需求：将底部导航栏中间的记一笔按钮设计为完全平齐内嵌（0 突出）的纯圆形形态，摒弃艳色与单纯阴影依赖，采用高级质感的 CNC 微雕刻凹槽与阳极氧化钛灰色系。 - 具体改动：   1. 新增 TitaniumAirGapAddIcon 组件，采用 CoreGraphics 高精度绘制 45° CNC 倒角雕刻凹槽底座、2.5pt 物理空气间隙（Air G",
