@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "292",
+          "date": "2026-08-23T23:46:41Z",
+          "localizedDescription": "refactor(tabbar): 彻底移除占位与悬浮覆盖层，升级为 100% 原生单层 UITabBar 架构  详细说明： - 背景与现象：之前的双层结构（底层透明占位 + 顶层 addSubview 悬浮按键）导致冷启动首帧生命周期错位、按钮消失与未选中文本泛白。 - 根因分析：外来悬浮视图与原生 UITabBar 的 layoutSubviews 流程脱节，底层 UITabBarItem 与顶层按钮存在层级和渲染竞争。 - 具体改动：   1. 彻底删除 TitaniumCent",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13385932,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "291",
           "date": "2026-08-23T23:32:22Z",
           "localizedDescription": "fix(tabbar): 彻底修复底部导航栏冷启动生命周期、46pt居中尺寸与未选中文本配色  详细说明： - 背景与现象：1. 中间按钮 44pt 偏小且冷启动首帧因 bounds 为 0 导致消失/偏移；2. 未选中 Tab 文字呈现系统默认白亮色，与图标中性灰脱节；3. 冷启动首帧未选中 Tab 泛白。 - 根因分析：   1. appearance proxy 未能拦截 SwiftUI Label 桥接时首帧的文本属性；   2. 旧方案依赖瞬时 frame 计算，bounds=0 ",
