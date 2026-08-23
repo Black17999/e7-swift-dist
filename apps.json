@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "287",
+          "date": "2026-08-23T22:39:56Z",
+          "localizedDescription": "fix(main): 中间按钮50pt饱满居中对齐，消除冷启动未选中项高亮并升级纯正中性灰与Bold粗体  详细说明： - 根因分析：   1. 中间按钮未居中放大：之前尺寸仅 44pt 且垂直坐标机械置中（24.5pt），与两侧图标基准线（17~18pt）视觉脱节；   2. 冷启动未选中项高亮：TabView 根层级 .tint 覆盖导致首帧所有 TabItem 泛白；   3. 字重区分度不足：Semibold 与 Medium 差异细微；   4. 浅色偏色与亮度�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13385829,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "286",
           "date": "2026-08-23T22:26:03Z",
           "localizedDescription": "fix(main): 彻底清除中间槽位首帧双按钮重叠，升级未选中文本字重至Medium并优化比例  详细说明： - 根因分析：   1. 双按钮重叠根因：MainTabView 中间槽位在首帧仍通过 .tabItem { Image(...) } 渲染了原生底图，随后 TabBarInterceptor 又在其上挂载了 TitaniumCenterButton，导致首次进入时两层叠置；   2. 字体单薄刺眼根因：未选中文本使用 10pt regular 且对比度过低，笔画干瘪发虚，且与选中态 10",
