@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "278",
+          "date": "2026-08-23T18:55:05Z",
+          "localizedDescription": "fix(theme,tabbar,debts,auth): 修复深浅色主题割裂、TabBar选中对比度、债务历史符号与登录输入框聚焦交互  - 背景与现象：   1. 欢迎页/登录页与 App 内部深浅色存在色彩反差撕裂；   2. 底部 TabBar 选中与未选中状态缺乏颜色和形态对比；   3. 债务详情页增加债务时历史记录显示为 -¥500 导致理解矛盾；   4. 登录页输入账号后点击密码框需点两次且边框聚焦动画生硬。 - 根因分析：   1. ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13345901,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "277",
           "date": "2026-08-16T22:45:02Z",
           "localizedDescription": "fix(auth): 迁出 toolbar 自定义项根治认证子页导航栏水平抖动  根因：LoginView/RegisterView/ResetPasswordView 原挂 .principal 与 .topBarTrailing 自定义项，push 转场时触发 UINavigationBar crossfade + _UIHostingView 首帧 size=0 二次测量 + 右侧 item 渐显造成 titleView 可用 宽度变化 → 居中位置左右偏移（水平抖动）。前 8 轮排查均在 toolbar 内容 层调整（玻璃壳/尺寸/系统标题/透明栏/占位对称等），未触及\\\"",
