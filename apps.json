@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "279",
+          "date": "2026-08-23T19:41:44Z",
+          "localizedDescription": "fix(build): 修复 CI 编译报错的可选链语法错误并清理冗余警告  - 背景与现象：CI 构建在 CompileSwift 阶段失败，报错 cannot use optional chaining on non-optional value of type 'TabBarInterceptor.Coordinator' - 根因分析：   1. MainTabView 中 context.coordinator 为非可选值，直接使用可选链 context.coordinator?. 触发 Swift 语法错误；   2. QuickEntryParser 中 tableFee 局部常量声明未被读取产生警告。 - 具体改动：   1. 修复",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13378859,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "278",
           "date": "2026-08-23T18:55:05Z",
           "localizedDescription": "fix(theme,tabbar,debts,auth): 修复深浅色主题割裂、TabBar选中对比度、债务历史符号与登录输入框聚焦交互  - 背景与现象：   1. 欢迎页/登录页与 App 内部深浅色存在色彩反差撕裂；   2. 底部 TabBar 选中与未选中状态缺乏颜色和形态对比；   3. 债务详情页增加债务时历史记录显示为 -¥500 导致理解矛盾；   4. 登录页输入账号后点击密码框需点两次且边框聚焦动画生硬。 - 根因分析：   1. ",
