@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "289",
+          "date": "2026-08-23T23:16:06Z",
+          "localizedDescription": "fix(main): 中间按钮47pt AutoLayout对齐几何中心，根治未选中文本首帧泛白与冷启动按钮消失  彻底重构底部导航栏中间「记一笔」按钮与未选中 Tab 的几何/配色/时序，4 大问题一并解决：  问题 1 · 按钮几何 - 直径 44pt → 47pt，更饱满有分量 - 弃用瞬时 center=(midX,centerY) 计算（首帧 bounds=0 时按钮跑出屏幕左外） - 改用 4 个 Auto Layout 约束：centerX/centerY 对齐 tabBar + width/height 固定 47 - UI",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13387308,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "288",
           "date": "2026-08-23T22:57:06Z",
           "localizedDescription": "fix(main): 彻底解决按钮上下突出与冷启动未选中项泛白高亮  详细说明： - 根因分析：   1. 按钮上方凸出且下方空置：之前按钮盲目设置 50pt 且定位在 y=21pt（半径25pt），导致顶部超出导航栏上边缘 4pt，而底部出现大面积空隙；   2. 冷启动未选中项泛白高亮：暗淡配置原先在异步队列中执行，冷启动首帧被系统默认高亮模板抢先渲染。 - 具体修复：   1. 严格平齐内嵌与垂直居中�",
