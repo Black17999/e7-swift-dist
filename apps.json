@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "288",
+          "date": "2026-08-23T22:57:06Z",
+          "localizedDescription": "fix(main): 彻底解决按钮上下突出与冷启动未选中项泛白高亮  详细说明： - 根因分析：   1. 按钮上方凸出且下方空置：之前按钮盲目设置 50pt 且定位在 y=21pt（半径25pt），导致顶部超出导航栏上边缘 4pt，而底部出现大面积空隙；   2. 冷启动未选中项泛白高亮：暗淡配置原先在异步队列中执行，冷启动首帧被系统默认高亮模板抢先渲染。 - 具体修复：   1. 严格平齐内嵌与垂直居中�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13385952,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "287",
           "date": "2026-08-23T22:39:56Z",
           "localizedDescription": "fix(main): 中间按钮50pt饱满居中对齐，消除冷启动未选中项高亮并升级纯正中性灰与Bold粗体  详细说明： - 根因分析：   1. 中间按钮未居中放大：之前尺寸仅 44pt 且垂直坐标机械置中（24.5pt），与两侧图标基准线（17~18pt）视觉脱节；   2. 冷启动未选中项高亮：TabView 根层级 .tint 覆盖导致首帧所有 TabItem 泛白；   3. 字重区分度不足：Semibold 与 Medium 差异细微；   4. 浅色偏色与亮度�",
