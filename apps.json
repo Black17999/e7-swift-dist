@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "286",
+          "date": "2026-08-23T22:26:03Z",
+          "localizedDescription": "fix(main): 彻底清除中间槽位首帧双按钮重叠，升级未选中文本字重至Medium并优化比例  详细说明： - 根因分析：   1. 双按钮重叠根因：MainTabView 中间槽位在首帧仍通过 .tabItem { Image(...) } 渲染了原生底图，随后 TabBarInterceptor 又在其上挂载了 TitaniumCenterButton，导致首次进入时两层叠置；   2. 字体单薄刺眼根因：未选中文本使用 10pt regular 且对比度过低，笔画干瘪发虚，且与选中态 10",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13386289,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "285",
           "date": "2026-08-23T22:14:51Z",
           "localizedDescription": "fix(main): 彻底根除中间记一笔按键切页滑跳并重塑浅色模式与大尺寸图标  详细说明： - 根因分析：   1. 中间按键原先仍作为 TabItem 注册在 TabView 中，触发了 SwiftUI 原生触摸手势的 selection 抢先切换与回弹；   2. 原生 UITabBarItem 尺寸紧箍咒将图标压缩至 28~30pt，导致细节局促；   3. 浅色模式下的质感与对比度需进一步精细化。 - 具体改动：   1. 架构升级：在 TabBarInterceptor 中挂载完",
