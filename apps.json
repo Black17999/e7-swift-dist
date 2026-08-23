@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "283",
+          "date": "2026-08-23T21:39:49Z",
+          "localizedDescription": "feat(tabbar): 升级底栏为E7品牌活力靛蓝点亮体系与字重双轨层级  - 背景与现象：   1. 底部导航栏纯黑白灰配色在实心图标下视觉对比不够鲜明，难以瞬间获取当前停留页面；   2. 未选中与选中图标字重相同（同为semibold），缺乏粗细与明暗的双重层次。 - 根因分析：   1. 纯黑白灰实心图标在浅色底上色块面积过大、视觉权重偏重，未选中态缺少优雅的退后感；   2. 缺少显式 .alway",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13379632,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "282",
           "date": "2026-08-23T21:09:49Z",
           "localizedDescription": "fix(tabbar): 统一底栏为实心Fill图标并修复页面切换时全量闪烁问题  - 背景与现象：   1. 用户在切换底部导航栏标签页（如记录切债务）时，其他未选中的Tab图标（统计、我的）会在过渡瞬间全部闪烁变深填充一次；   2. 原逻辑采用未选中空心/选中实心的形态切换，与参考设计（全员实心填充、靠明暗灰度与高亮区分）不符。 - 根因分析：   1. SwiftUI tabItem 内部使用了三元表达式",
