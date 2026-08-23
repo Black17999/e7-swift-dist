@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "280",
+          "date": "2026-08-23T20:08:53Z",
+          "localizedDescription": "fix(interaction): 修复TabBarInterceptor代理同步与行按压触感反馈  - 根因排查：   1. MainTabView 中挂载的 TabBarInterceptor (UIKit) 接管了 UITabBarControllerDelegate，但未实现 didSelect 代理回调，导致用户在底栏点击切换到 Tab 1/3/4 时，SwiftUI 的 router.selectedTab 始终停留在 0；一旦触发任何状态变化（如深色切换、弹窗关闭、债务点击），SwiftUI 重新求值立即将页面拉回 Tab 0。   2. RowPressableButtonStyle �",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13379158,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "279",
           "date": "2026-08-23T19:41:44Z",
           "localizedDescription": "fix(build): 修复 CI 编译报错的可选链语法错误并清理冗余警告  - 背景与现象：CI 构建在 CompileSwift 阶段失败，报错 cannot use optional chaining on non-optional value of type 'TabBarInterceptor.Coordinator' - 根因分析：   1. MainTabView 中 context.coordinator 为非可选值，直接使用可选链 context.coordinator?. 触发 Swift 语法错误；   2. QuickEntryParser 中 tableFee 局部常量声明未被读取产生警告。 - 具体改动：   1. 修复",
