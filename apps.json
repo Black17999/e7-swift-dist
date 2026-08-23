@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "291",
+          "date": "2026-08-23T23:32:22Z",
+          "localizedDescription": "fix(tabbar): 彻底修复底部导航栏冷启动生命周期、46pt居中尺寸与未选中文本配色  详细说明： - 背景与现象：1. 中间按钮 44pt 偏小且冷启动首帧因 bounds 为 0 导致消失/偏移；2. 未选中 Tab 文字呈现系统默认白亮色，与图标中性灰脱节；3. 冷启动首帧未选中 Tab 泛白。 - 根因分析：   1. appearance proxy 未能拦截 SwiftUI Label 桥接时首帧的文本属性；   2. 旧方案依赖瞬时 frame 计算，bounds=0 ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13388512,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "290",
           "date": "2026-08-23T23:24:27Z",
           "localizedDescription": "fix(main): 彻底解决按钮上下突出与冷启动未选中项泛白高亮  详细说明： - 根因分析：   1. 按钮上方凸出且下方空置：之前按钮盲目设置 50pt 且定位在 y=21pt（半径25pt），导致顶部超出导航栏上边缘 4pt，而底部出现大面积空隙；   2. 冷启动未选中项泛白高亮：暗淡配置原先在异步队列中执行，冷启动首帧被系统默认高亮模板抢先渲染。 - 具体修复：   1. 严格平齐内嵌与垂直居中�",
