@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "297",
+          "date": "2026-08-24T09:47:25Z",
+          "localizedDescription": "refactor(tabbar): 优化 UITabBar 结构与外观配置，确保冷启动时未选中项呈现暗淡中性灰  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13388013,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "296",
           "date": "2026-08-24T02:37:50Z",
           "localizedDescription": "feat(tabbar): 添加合成图标功能以支持 iOS 26 未选中项颜色自定义，优化 UITabBarItem 配置  ",
