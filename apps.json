@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "294",
+          "date": "2026-08-24T01:29:58Z",
+          "localizedDescription": "fix(tabbar): 修复 UITabBarItemAppearance 不存在 highlighted 属性导致的编译错误  详细说明： - 背景与现象：CI 构建阶段 SwiftCompile 报错，'UITabBarItemAppearance has no member highlighted'。 - 根因分析：UITabBarItemAppearance 仅包含 normal/selected/disabled/focused 状态，未包含 highlighted 属性（highlighted 状态存在于 UITabBarItem 实例本身）。 - 具体改动：移除 layout.highlighted 的错误调用，保留 UITabBarItem.appearance 与",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13386288,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "293",
           "date": "2026-08-24T01:04:59Z",
           "localizedDescription": "fix(tabbar): 采用safeAreaInset纯声明式底栏，彻底根除切页滑跳回弹与冷启动黑字泛白  详细说明： - 背景与现象：从其他标签页点击加号依然会滑过去再弹回；冷启动首帧未选中文字呈现黑色且图标发亮（非中性灰）。 - 根因分析：   1. TabView 包含 tag(2) 时，SwiftUI 内部捕获点击强制触发切页动画，随后 onChange 弹回导致滑跳；   2. SwiftUI Label 模板在内部生成 UITabBarItem 时显式赋予系�",
