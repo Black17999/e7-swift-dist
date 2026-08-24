@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "295",
+          "date": "2026-08-24T02:20:28Z",
+          "localizedDescription": "refactor(tabbar): 优化 UITabBar 结构与外观配置，确保冷启动时未选中项呈现暗淡中性灰  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13388008,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "294",
           "date": "2026-08-24T01:29:58Z",
           "localizedDescription": "fix(tabbar): 修复 UITabBarItemAppearance 不存在 highlighted 属性导致的编译错误  详细说明： - 背景与现象：CI 构建阶段 SwiftCompile 报错，'UITabBarItemAppearance has no member highlighted'。 - 根因分析：UITabBarItemAppearance 仅包含 normal/selected/disabled/focused 状态，未包含 highlighted 属性（highlighted 状态存在于 UITabBarItem 实例本身）。 - 具体改动：移除 layout.highlighted 的错误调用，保留 UITabBarItem.appearance 与",
