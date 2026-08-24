@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "293",
+          "date": "2026-08-24T01:04:59Z",
+          "localizedDescription": "fix(tabbar): 采用safeAreaInset纯声明式底栏，彻底根除切页滑跳回弹与冷启动黑字泛白  详细说明： - 背景与现象：从其他标签页点击加号依然会滑过去再弹回；冷启动首帧未选中文字呈现黑色且图标发亮（非中性灰）。 - 根因分析：   1. TabView 包含 tag(2) 时，SwiftUI 内部捕获点击强制触发切页动画，随后 onChange 弹回导致滑跳；   2. SwiftUI Label 模板在内部生成 UITabBarItem 时显式赋予系�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13377084,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "292",
           "date": "2026-08-23T23:46:41Z",
           "localizedDescription": "refactor(tabbar): 彻底移除占位与悬浮覆盖层，升级为 100% 原生单层 UITabBar 架构  详细说明： - 背景与现象：之前的双层结构（底层透明占位 + 顶层 addSubview 悬浮按键）导致冷启动首帧生命周期错位、按钮消失与未选中文本泛白。 - 根因分析：外来悬浮视图与原生 UITabBar 的 layoutSubviews 流程脱节，底层 UITabBarItem 与顶层按钮存在层级和渲染竞争。 - 具体改动：   1. 彻底删除 TitaniumCent",
