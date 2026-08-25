@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "302",
+          "date": "2026-08-25T16:18:54Z",
+          "localizedDescription": "fix(records): 修复英雄卡片左对齐排版、大字号饱满节奏、3D硬币读取与R28平滑温润切口  详细说明： - 背景与现象：用户真机测试发现文字居中空旷、3D硬币未加载、字体与胶囊偏小、卡片边缘存在生硬割裂感。 - 根因分析：   1. 内容容器未设置 alignment: .leading，导致 VStack 被 ZStack 默认居中；   2. Asset Catalog 目录命名与代码引用不一致导致 3D 硬币未命中；   3. 金额与胶囊字号较小",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15513059,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "301",
           "date": "2026-08-25T16:07:42Z",
           "localizedDescription": "feat(records): 重构首页英雄卡片为 Notch 凹槽与 3D 日元银币（浅色画板2+深色画板4）  详细说明： - 背景与现象：原首页英雄卡片采用纯深色表盘与粗犷子卡片，与现代高质感实体卡片视觉脱节。 - 设计定案：   1. 浅色模式（Skin.light）：采用画板 2 蓝宝石微光实体卡片，独立双胶囊收支微标，纯净清爽无脏影；   2. 深色模式（Skin.defaultDark / midnightBlack）：采用画板 4 极夜曜石暗黑�",
