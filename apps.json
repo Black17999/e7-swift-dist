@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "306",
+          "date": "2026-08-25T19:08:12Z",
+          "localizedDescription": "fix(build): 修正空状态组件中排版 Token 与主题环境上下文引用  详细说明： - 背景与现象：CI 构建中 EmptyStateIllustration.swift 与 RecordsView.swift 报 type AppTypography has no member headline 以及 cannot find theme in scope 错误。 - 根因分析：   1. AppTypography 规范中标准区块标题为 sectionTitle、正文为 body，原代码误用 headline/bodyMedium；   2. RecordsView.dayEmptyRow 未复用已封装好 theme 上下文的 E7EmptyStateView 而",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15840760,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "305",
           "date": "2026-08-25T17:54:51Z",
           "localizedDescription": "fix(tabbar,share): 修复TabBar未选中项异常高亮与分享闭环自动关闭，新增8款高保真TabBar画板  背景与现象： - 首页账单分享完成后返回 App 仍停留在分享面板，需用户手动关闭 - 底部导航栏在切后台、关闭弹窗及切换深色模式时未选中项全部异常变高亮 - 需要为底部导航栏与中央自定义 Tab 按钮探索全新设计方案  根因分析： - SwiftUI ShareLink 缺乏完成态回调，无法自动 dismiss 与反馈 ",
