@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "316",
+          "date": "2026-08-25T22:52:23Z",
+          "localizedDescription": "feat(records): 首页导航分享日历改原生液态玻璃独立胶囊，记账日期弹窗对齐首页手势  - 首页导航栏右侧分享/日历由自定义按钮改为纯原生 Button(纯图标)，   中间插入 ToolbarSpacer(.fixed) 拆成两个独立玻璃胶囊，告别合并为大胶囊；   用 #if compiler(>=6.2) + if #available(iOS 26) 包裹原生分支，   旧 toolchain/OS 走 legacyTrailingButtons(自定义 HeaderButton) 兜底。 - 记账日期弹窗 DatePickerSheet 从 .mediu",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15922382,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "315",
           "date": "2026-08-25T22:17:01Z",
           "localizedDescription": "feat(records): 导航栏采用原生独立圆形玻璃胶囊按钮，记账日期弹窗与首页日历架构手势100%对齐  详细说明： - 背景与现象：1. 导航栏日历与分享此前使用自定义视图丢失原生 Liquid Glass 折射胶囊质感；2. 记账页日期弹窗与手势响应不跟手、滑动关闭动画不如首页流畅 - 根因分析：ToolbarItem 应使用系统原生 .buttonStyle(.bordered) + .buttonBorderShape(.circle) 并挂载 .hiddenSharedBackground() 呈现�",
