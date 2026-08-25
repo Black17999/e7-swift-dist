@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "304",
+          "date": "2026-08-25T17:10:10Z",
+          "localizedDescription": "fix(records): 修复隐藏金额零跳动、纯代码硬币环境光晕融合、悬浮微阴影与清晰双层层叠  详细说明： - 背景与现象：用户反馈隐藏金额时排版发生跳动收缩、硬币缺乏与卡片的环境光融合、卡片边缘略贴地、深色双层层叠可见度不足、字号需回调到黄金比例。 - 具体改动：   1. 零跳动排版（Zero Layout Shift）：主金额行固定 48pt 高度，点击眼睛隐藏/展示金额时，三行排版绝对静�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15515221,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "303",
           "date": "2026-08-25T16:32:22Z",
           "localizedDescription": "feat(records): 首页英雄卡片升级为双重卡片层叠、46pt大金额、独立收支双胶囊与134pt硬币深嵌  详细说明： - 背景与现象：用户反馈卡片单薄缺乏厚度、字号偏小、深色模式收支胶囊连体不够呼吸。 - 具体改动：   1. 双重卡片层叠底座（Stacked Double Card）：在主卡片底部增加微露 6pt 的次级背板底卡与深色阴影，呈现奢华物理分层厚度；   2. 大字版饱满排版：主金额升级至 46pt Heavy�",
