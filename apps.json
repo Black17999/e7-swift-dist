@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "312",
+          "date": "2026-08-25T21:27:13Z",
+          "localizedDescription": "fix(records): 修复回到今天胶囊背景 SkinColors 属性名称错误  详细说明： - 背景与现象：CI/Xcode 编译报错 HomeDateStrip.swift:323 value of type 'SkinColors' has no member 'card' - 根因分析：设计规范 AppSkin.swift 中 SkinColors 的卡片底色属性为 cardBg（浅色为白，深色为对应卡片底色），此前误写为 card - 具体改动：将 theme.colors.card 替换为 theme.colors.cardBg，完全保持实色防透底盾层效果并顺利通过编译 ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15913255,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "311",
           "date": "2026-08-25T21:01:03Z",
           "localizedDescription": "fix(build): 修复 CI 编译报错与 Swift 编译器类型推断超时  详细说明： - 背景与现象：CI/Xcode 编译构建失败，报错显示 AppRouter 缺少 UUID 类型定义，且 RecordsView / StatisticsView 出现 'the compiler is unable to type-check this expression in reasonable time' - 根因分析：1. AppRouter.swift 缺少 Foundation 模块导入；2. 复杂的元组类型作为 @Observable 属性配合 List/ScrollView 内部多重嵌套闭包中的可选链解包，导致 S",
