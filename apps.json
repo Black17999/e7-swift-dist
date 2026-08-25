@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "314",
+          "date": "2026-08-25T22:02:39Z",
+          "localizedDescription": "feat(records): 导航栏日历与分享独立为两颗毛玻璃微胶囊，补齐日期交互三级震动反馈  详细说明： - 背景与现象：1. 首页头部导航栏日历与分享在 iOS 26 下被系统自动套上共享 Liquid Glass 胶囊底，未能展现两颗独立胶囊；2. 记账页点击日期按钮及弹窗内部缺少触感震动反馈 - 根因分析：ToolbarItem 默认继承了 iOS 26 共享背景壳；记账页日期按钮未挂载 UIImpactFeedbackGenerator - 具体改动�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15923428,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "313",
           "date": "2026-08-25T21:49:24Z",
           "localizedDescription": "feat(records): 拆分导航栏日历与纸飞机分享按钮，重构回到今天纯净玻璃态与优化记账日期弹窗  详细说明： - 背景与现象：1. 首页头部导航栏日历与分享被合并在同一个容器且分享图标非纸飞机；2. 回到今天胶囊因原深色靛紫色光晕与彩色阴影显得浑浊发脏；3. 记账页日期弹窗标题居左、按钮为完成且点选拉起有微弱手势延迟 - 根因分析：ToolbarItem 单容器导致系统合并胶囊；回",
