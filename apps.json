@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "305",
+          "date": "2026-08-25T17:54:51Z",
+          "localizedDescription": "fix(tabbar,share): 修复TabBar未选中项异常高亮与分享闭环自动关闭，新增8款高保真TabBar画板  背景与现象： - 首页账单分享完成后返回 App 仍停留在分享面板，需用户手动关闭 - 底部导航栏在切后台、关闭弹窗及切换深色模式时未选中项全部异常变高亮 - 需要为底部导航栏与中央自定义 Tab 按钮探索全新设计方案  根因分析： - SwiftUI ShareLink 缺乏完成态回调，无法自动 dismiss 与反馈 ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15523262,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "304",
           "date": "2026-08-25T17:10:10Z",
           "localizedDescription": "fix(records): 修复隐藏金额零跳动、纯代码硬币环境光晕融合、悬浮微阴影与清晰双层层叠  详细说明： - 背景与现象：用户反馈隐藏金额时排版发生跳动收缩、硬币缺乏与卡片的环境光融合、卡片边缘略贴地、深色双层层叠可见度不足、字号需回调到黄金比例。 - 具体改动：   1. 零跳动排版（Zero Layout Shift）：主金额行固定 48pt 高度，点击眼睛隐藏/展示金额时，三行排版绝对静�",
