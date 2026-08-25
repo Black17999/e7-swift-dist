@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "299",
+          "date": "2026-08-25T06:51:35Z",
+          "localizedDescription": "refactor(tabbar): 中间加号回归原生tabItem，拦截层改挂容器层保留玻璃效果  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13385791,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "298",
           "date": "2026-08-25T06:37:52Z",
           "localizedDescription": "refactor(tabbar): 中间加号改为不可选中占位+悬浮按钮，根除滑跳回弹  ",
