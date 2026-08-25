@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "308",
+          "date": "2026-08-25T20:04:47Z",
+          "localizedDescription": "feat(records): 首页日期条重构为 iOS 26 液态玻璃架构  详细说明： - 背景与现象：将 Figma 原生提取的 iOS 26 Liquid Glass 玻璃液态光学矩阵应用到首页日期条（HomeDateStrip）中。 - 根因与需求：提升日期条通透感与物理层级，增强选中状态的透光折射与弹性交互质感。 - 具体改动：   1. 双向 Fresnel 折射切边：实现 45° 锐利高光切边与顶部光斑，结合右下角环境微反光。   2. 多重透光混�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15899856,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "307",
           "date": "2026-08-25T19:34:37Z",
           "localizedDescription": "fix(ui): 消除空状态与文案冗余间距并增强浅色模式矢量细节能见度  详细说明： - 背景与现象：   1. 空状态插画与下方的文字提醒垂直距离过远；   2. 浅色模式下部分背景底色色块、网格线与装饰星光显得模糊或丢失。 - 根因分析：   1. Figma 源文件画布高度为 216pt，但实际图形仅占前 124pt，底部有 86pt 的透明空白区；   2. 浅色模式原稿背景底板色为 #F2F2F2，与 App 页面底色 #F2F4F8",
