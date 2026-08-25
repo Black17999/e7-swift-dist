@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "310",
+          "date": "2026-08-25T20:38:08Z",
+          "localizedDescription": "feat(records): 首页回到今天交互重构为日期条液态玻璃微胶囊  详细说明： - 背景与现象：原回到今天文字按钮位于交易明细列表区头，存在局部列表标题承载全局时间控制的语义错位，破坏了区头左右呼吸感与排版对称性。 - 根因分析：时间维度切换与重置属于日期控制器的职责，应在日期条组件内部形成操作闭环，而非外溢至列表内容区。 - 具体改动：   1. HomeDateStrip：在右�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15897968,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "309",
           "date": "2026-08-25T20:21:55Z",
           "localizedDescription": "fix(records): 调优液态玻璃日期条边缘对比度、去除多余反光并恢复64pt高度  详细说明： - 背景与现象：1. 浅色模式下日期条底槽下边缘与背景过近导致边缘模糊；2. 深色模式下选中的日期在周几头顶多出一条突兀的反光横线；3. 日期条整体高度被拉高。 - 根因分析：   1. 浅色模式下边框纯白渐变衰减且缺少底部微暗描边与落阴；   2. 药丸内部额外塞入了 1.5pt 的内部白条导致与�",
