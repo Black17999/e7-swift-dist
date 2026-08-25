@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "311",
+          "date": "2026-08-25T21:01:03Z",
+          "localizedDescription": "fix(build): 修复 CI 编译报错与 Swift 编译器类型推断超时  详细说明： - 背景与现象：CI/Xcode 编译构建失败，报错显示 AppRouter 缺少 UUID 类型定义，且 RecordsView / StatisticsView 出现 'the compiler is unable to type-check this expression in reasonable time' - 根因分析：1. AppRouter.swift 缺少 Foundation 模块导入；2. 复杂的元组类型作为 @Observable 属性配合 List/ScrollView 内部多重嵌套闭包中的可选链解包，导致 S",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15913537,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "310",
           "date": "2026-08-25T20:38:08Z",
           "localizedDescription": "feat(records): 首页回到今天交互重构为日期条液态玻璃微胶囊  详细说明： - 背景与现象：原回到今天文字按钮位于交易明细列表区头，存在局部列表标题承载全局时间控制的语义错位，破坏了区头左右呼吸感与排版对称性。 - 根因分析：时间维度切换与重置属于日期控制器的职责，应在日期条组件内部形成操作闭环，而非外溢至列表内容区。 - 具体改动：   1. HomeDateStrip：在右�",
