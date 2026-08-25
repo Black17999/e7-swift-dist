@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "300",
+          "date": "2026-08-25T07:17:32Z",
+          "localizedDescription": "fix(tabbar): 统一图标尺寸并恢复默认选中配色  - 方案A统一图标尺寸：normal/selected 均 17pt，仅 weight 区分（regular vs bold），   消除切换Tab与上推Home条时系统过渡态把未选中项闪成选中态造成的\\\"变大\\\"跳变 - 选中色恢复系统默认：浅色=黑、深色=白（UIColor.label 自适应），不再填充品牌蓝 - 未选中色维持灰色（浅 #8E8E93 / 深 White 35%），遵循 iOS 26 未选中色仅能经 alwaysOriginal 位图控制",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 13386145,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "299",
           "date": "2026-08-25T06:51:35Z",
           "localizedDescription": "refactor(tabbar): 中间加号回归原生tabItem，拦截层改挂容器层保留玻璃效果  ",
