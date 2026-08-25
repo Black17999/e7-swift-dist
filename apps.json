@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "317",
+          "date": "2026-08-25T23:46:49Z",
+          "localizedDescription": "perf(navigation): 优化全局导航架构、转场动效与页面懒加载  背景与现象： - 记一笔界面分类网格（TabView）在左右滑动切换收/支页面或点击 Toggle 时存在轻微抖动和阻滞感； - 进入「我的」页与「股东分账」页时，闭包式 NavigationLink 导致子页面（AI 设置、使用说明、更新历史、分账设置等）被激进全量实例化，占用 CPU 线程并引发潜在掉帧； - 债务列表进入债务详情页采用常规�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15922653,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "316",
           "date": "2026-08-25T22:52:23Z",
           "localizedDescription": "feat(records): 首页导航分享日历改原生液态玻璃独立胶囊，记账日期弹窗对齐首页手势  - 首页导航栏右侧分享/日历由自定义按钮改为纯原生 Button(纯图标)，   中间插入 ToolbarSpacer(.fixed) 拆成两个独立玻璃胶囊，告别合并为大胶囊；   用 #if compiler(>=6.2) + if #available(iOS 26) 包裹原生分支，   旧 toolchain/OS 走 legacyTrailingButtons(自定义 HeaderButton) 兜底。 - 记账日期弹窗 DatePickerSheet 从 .mediu",
