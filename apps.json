@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "309",
+          "date": "2026-08-25T20:21:55Z",
+          "localizedDescription": "fix(records): 调优液态玻璃日期条边缘对比度、去除多余反光并恢复64pt高度  详细说明： - 背景与现象：1. 浅色模式下日期条底槽下边缘与背景过近导致边缘模糊；2. 深色模式下选中的日期在周几头顶多出一条突兀的反光横线；3. 日期条整体高度被拉高。 - 根因分析：   1. 浅色模式下边框纯白渐变衰减且缺少底部微暗描边与落阴；   2. 药丸内部额外塞入了 1.5pt 的内部白条导致与�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15896994,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "308",
           "date": "2026-08-25T20:04:47Z",
           "localizedDescription": "feat(records): 首页日期条重构为 iOS 26 液态玻璃架构  详细说明： - 背景与现象：将 Figma 原生提取的 iOS 26 Liquid Glass 玻璃液态光学矩阵应用到首页日期条（HomeDateStrip）中。 - 根因与需求：提升日期条通透感与物理层级，增强选中状态的透光折射与弹性交互质感。 - 具体改动：   1. 双向 Fresnel 折射切边：实现 45° 锐利高光切边与顶部光斑，结合右下角环境微反光。   2. 多重透光混�",
