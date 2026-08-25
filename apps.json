@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "307",
+          "date": "2026-08-25T19:34:37Z",
+          "localizedDescription": "fix(ui): 消除空状态与文案冗余间距并增强浅色模式矢量细节能见度  详细说明： - 背景与现象：   1. 空状态插画与下方的文字提醒垂直距离过远；   2. 浅色模式下部分背景底色色块、网格线与装饰星光显得模糊或丢失。 - 根因分析：   1. Figma 源文件画布高度为 216pt，但实际图形仅占前 124pt，底部有 86pt 的透明空白区；   2. 浅色模式原稿背景底板色为 #F2F2F2，与 App 页面底色 #F2F4F8",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15893768,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "306",
           "date": "2026-08-25T19:08:12Z",
           "localizedDescription": "fix(build): 修正空状态组件中排版 Token 与主题环境上下文引用  详细说明： - 背景与现象：CI 构建中 EmptyStateIllustration.swift 与 RecordsView.swift 报 type AppTypography has no member headline 以及 cannot find theme in scope 错误。 - 根因分析：   1. AppTypography 规范中标准区块标题为 sectionTitle、正文为 body，原代码误用 headline/bodyMedium；   2. RecordsView.dayEmptyRow 未复用已封装好 theme 上下文的 E7EmptyStateView 而",
