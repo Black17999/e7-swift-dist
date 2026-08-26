@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "323",
+          "date": "2026-08-26T18:21:47Z",
+          "localizedDescription": "fix(records): 优化首页批量删除交互与视觉体验  背景与现象： - 批量删除初版在实际体验中存在 4 项体验痛点：管理图标颜色过重抢焦、区头突变已选0笔导致上下文丢失、底部操作栏滑入时触发 safeArea 重排抖动、单笔打勾按压阻尼过大导致操作粘手迟钝。  根因分析与改动： 1. 图标配色中性化：将区头 checkmark.circle 图标由品牌紫色改为 Color.secondary 中性次级色，底座降低不透明",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15998301,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "322",
           "date": "2026-08-26T17:29:44Z",
           "localizedDescription": "ci(circleci): 接入 CircleCI 构建平台并切换为主力构建（实现一开四关）  背景与原因： - 原有 4 个 CI/CD 平台的构建额度已耗尽，需要接入并启用新的 CircleCI 平台（提供 6000 分钟时长）以恢复每日自动化出包。  具体改动： - 新增 .circleci/config.yml：配置 CircleCI macOS (Xcode 26.6.0 / M4 Pro) 自动化构建流程，涵盖依赖拉取、Release 编译、未签名 IPA 封装、SDK 26 强校验断言及发布到 e7-swift-dist",
