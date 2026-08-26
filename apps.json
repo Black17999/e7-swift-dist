@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "324",
+          "date": "2026-08-26T18:47:29Z",
+          "localizedDescription": "fix(records): 完善批量删除全行触控、丝滑平移、居中液态玻璃弹窗与文案优化  背景与现象： - 批量删除在进阶体验中有 4 项细节需要提升：空白/无备注区域点击不响应、小圈圈推入产生撕裂幻影、全选删除弹窗偏移至日期条上方、多选退出按钮名为「完成」不贴合心智。  根因分析与改动： 1. 全行全域触控：给 RecordRowContent 与 recordRowItem 添加 .contentShape(Rectangle())，确保中间 Sp",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15998558,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "323",
           "date": "2026-08-26T18:21:47Z",
           "localizedDescription": "fix(records): 优化首页批量删除交互与视觉体验  背景与现象： - 批量删除初版在实际体验中存在 4 项体验痛点：管理图标颜色过重抢焦、区头突变已选0笔导致上下文丢失、底部操作栏滑入时触发 safeArea 重排抖动、单笔打勾按压阻尼过大导致操作粘手迟钝。  根因分析与改动： 1. 图标配色中性化：将区头 checkmark.circle 图标由品牌紫色改为 Color.secondary 中性次级色，底座降低不透明",
