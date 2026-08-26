@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "318",
+          "date": "2026-08-26T00:08:23Z",
+          "localizedDescription": "perf(ux): 优化核心页面流体物理手势、数字滚轮与微动效  详细说明： - 背景与现象：结合 Apple Design Principles 深度审查，发现快速记账悬浮球存在抓取跳变与甩动吸附不符合动量惯性、分类网格按压反馈存在120ms固定延时、金额输入缺乏数字滚动滚轮动画、全局 Toast 与眼睛/收支切换缺少 SF Symbol 微动效等体验痛点。 - 根因分析：悬浮球手势直接将坐标赋值为抓取点破坏了 Grab Offs",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15930723,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "317",
           "date": "2026-08-25T23:46:49Z",
           "localizedDescription": "perf(navigation): 优化全局导航架构、转场动效与页面懒加载  背景与现象： - 记一笔界面分类网格（TabView）在左右滑动切换收/支页面或点击 Toggle 时存在轻微抖动和阻滞感； - 进入「我的」页与「股东分账」页时，闭包式 NavigationLink 导致子页面（AI 设置、使用说明、更新历史、分账设置等）被激进全量实例化，占用 CPU 线程并引发潜在掉帧； - 债务列表进入债务详情页采用常规�",
