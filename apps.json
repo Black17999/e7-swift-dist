@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "326",
+          "date": "2026-08-26T19:51:17Z",
+          "localizedDescription": "修复底部导航栏状态高亮与生命周期同步  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15995091,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "325",
           "date": "2026-08-26T19:10:05Z",
           "localizedDescription": "fix(records): 彻底消除多选白光闪烁、平移动画卡顿与弹窗左对齐问题  背景与现象： - 批量删除进入管理模式时存在微秒级白光闪烁，向右推移动效带有离散卡顿感；二次删除弹窗标题靠左未能完美居中。  根因分析与改动： 1. 恒定单一 Button 结构：合并 if/else 的多选/常态 Button 容器，维持 View Identity 稳定，彻底根除重建导致的整行白光闪烁； 2. 连续物理展开槽位 + 刚体子布局�",
