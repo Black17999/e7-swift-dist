@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "321",
+          "date": "2026-08-26T14:41:33Z",
+          "localizedDescription": "fix(debts): 编辑弹窗重构为原生液态玻璃并解决右滑返回误触  背景与现象： - 单笔编辑弹窗先前使用了实体背景且为纯文字按钮，不具备系统原生的液态玻璃透光质感，且存在 NavigationStack 控制器栈带来的轻微弹出/回弹延迟； - 在债务详情页向右滑动触发 iOS 18 Zoom 返回动效时，手指划过左侧日期极易触发整行 Button，粗暴打断返回动效并误开编辑弹窗。  根因分析： - 弹窗透光�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15947516,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "320",
           "date": "2026-08-26T14:06:39Z",
           "localizedDescription": "fix(debts): 根治搜索激活顿挫空白与单笔编辑弹窗下拉卡顿  背景与现象： - 点击搜索框时总览仪表环折叠出现明显卡顿掉帧，且折叠后列表与搜索框之间残留大片空白； - 详情页点击历史记录弹出的「编辑这一笔」弹窗下拉关闭时出现顿挫（停顿一下才往下滑），手感不跟手。  根因分析： - 搜索卡顿与空白：List 上挂载全局 animation 逐帧插值第 0 行高度导致 UICollectionView 疯狂重",
