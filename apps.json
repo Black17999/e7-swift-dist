@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "319",
+          "date": "2026-08-26T13:48:30Z",
+          "localizedDescription": "refactor(debts): 深度优化债务模块流体动效与设计规范  背景与现象： - 债务列表进入搜索态时总览圆环硬切卸载导致突兀跳跃闪烁； - 圆环脉冲依赖异步延时且混用旧代际 Spring； - 详情页存在硬编码魔数偏移且日期列在大字号下易截断； - 新增债务弹窗包含旧版别名与硬编码颜色。  根因分析： - 缺乏声明式高度连续驱动与可打断流体支持； - 动画管线未接入现代 withAnimation comp",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 15934296,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "318",
           "date": "2026-08-26T00:08:23Z",
           "localizedDescription": "perf(ux): 优化核心页面流体物理手势、数字滚轮与微动效  详细说明： - 背景与现象：结合 Apple Design Principles 深度审查，发现快速记账悬浮球存在抓取跳变与甩动吸附不符合动量惯性、分类网格按压反馈存在120ms固定延时、金额输入缺乏数字滚动滚轮动画、全局 Toast 与眼睛/收支切换缺少 SF Symbol 微动效等体验痛点。 - 根因分析：悬浮球手势直接将坐标赋值为抓取点破坏了 Grab Offs",
