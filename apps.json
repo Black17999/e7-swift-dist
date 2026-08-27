@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "328",
+          "date": "2026-08-27T08:33:40Z",
+          "localizedDescription": "fix(ios): 修复 Color 类型不兼容与现代化 API 迁移  背景与现象： - StatsCalendarView 中三元运算符混合了 Color 与 ShapeStyle.tertiary，导致编译报错 member 'tertiary' in 'Color' - DraggableQuickEntryFab 中存在未使用的 finalX 变量引发警告 - MainTabView 中 InterceptorHostView 使用了 iOS 17 废弃的 traitCollectionDidChange  根因分析： - Swift 泛型与类型推断要求三元表达式两分支具有相同具体类型，.tertiary 为 ShapeStyle",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16055719,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "327",
           "date": "2026-08-26T20:18:32Z",
           "localizedDescription": "fix(tabbar): 修复底部导航栏状态高亮、模态返回外观与生命周期同步  背景与现象： - 在深浅色主题切换、打开日历 Sheet、拉起系统分享面板或模态页面关闭返回后，底部导航栏（TabBar）可能出现非选中态图标颜色回退（掉入系统强调色）、文字高亮不同步等视觉瑕疵； - TabBarInterceptor 内部维护 selectedTab 状态镜像在转场时存在跳页隐患； - 转场布局栈中同步调用 layoutIfNeeded 存在",
