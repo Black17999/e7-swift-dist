@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "329",
+          "date": "2026-08-27T08:54:14Z",
+          "localizedDescription": "refactor(statistics): 统计模块 5 大视觉与动效体验深度重构  背景与现象： - 顶部设置按钮被强行赋予紫色品牌色，不符合系统导航栏标准色规范 - 近 12 月趋势图手指滑动探针时高频白帧闪烁 - 日历展开动效存在双重动画冲突与全屏位移拖影（从屏幕中央掉落/回缩） - 收支构成、趋势、日历贴地缺乏视觉边界与层次容器 - 趋势图探针 HUD 在大金额与小数下折行变高，导致图表上下�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16061101,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "328",
           "date": "2026-08-27T08:33:40Z",
           "localizedDescription": "fix(ios): 修复 Color 类型不兼容与现代化 API 迁移  背景与现象： - StatsCalendarView 中三元运算符混合了 Color 与 ShapeStyle.tertiary，导致编译报错 member 'tertiary' in 'Color' - DraggableQuickEntryFab 中存在未使用的 finalX 变量引发警告 - MainTabView 中 InterceptorHostView 使用了 iOS 17 废弃的 traitCollectionDidChange  根因分析： - Swift 泛型与类型推断要求三元表达式两分支具有相同具体类型，.tertiary 为 ShapeStyle",
