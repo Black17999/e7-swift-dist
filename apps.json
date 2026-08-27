@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "338",
+          "date": "2026-08-27T16:41:28Z",
+          "localizedDescription": "fix(profile): 优化头部头像下移放大、解决蓝橙串色并加深全域包裹覆盖  详细说明： - 背景与现象：1. 头像位置偏上且尺寸略小；2. 蓝光光晕过大串色侵入右侧橙色区；3. 真机上极光光幕仅覆盖到数据卡顶端，未覆盖到底部。 - 根因分析：1. 顶部 padding 偏小；2. 蓝色光晕半径过大且底层混合了蓝色；3. 头部高度及渐变 Mask 衰减过早。 - 具体改动：   1. 头像放大至 114pt 并整体沉稳",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16081162,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "337",
           "date": "2026-08-27T16:28:49Z",
           "localizedDescription": "style(profile): 升级我的页为摩根蓝白橙终极版视觉系统  详细说明： - 背景与现象：原我的页顶部无独立渐变背景且包含冗余账号邮箱行，视觉偏素且与私银资产卡缺乏一体化包覆感。 - 根因分析：缺少专属冷暖对撞光幕与高定资产卡包裹层，深色模式缺乏独立极光映射。 - 具体改动：   1. 新增浅色(晴空暖阳)/深色(暗夜极光)/极夜(OLED纯黑)三套蓝白橙高饱和纯光体系   2. 光幕深�",
