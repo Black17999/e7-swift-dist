@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "339",
+          "date": "2026-08-27T21:00:22Z",
+          "localizedDescription": "fix(profile): 缩短渐变高度、消除正中央白色光晕、修复段位与数据面板重叠  详细说明： - 背景与现象：1. 头部渐变色覆盖高度过高向下过度渗透；2. 胶囊段位被数据面板遮挡重叠；3. 渐变色正中央上方存在突兀的白色光晕，与画板设计不一致。 - 根因分析：1. ProfileHeaderGradientView 视觉高度过高且负边距过大；2. ProfileView 中存在负 top padding 强行上提数据面板导致压盖胶囊；3. 原�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16082490,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "338",
           "date": "2026-08-27T16:41:28Z",
           "localizedDescription": "fix(profile): 优化头部头像下移放大、解决蓝橙串色并加深全域包裹覆盖  详细说明： - 背景与现象：1. 头像位置偏上且尺寸略小；2. 蓝光光晕过大串色侵入右侧橙色区；3. 真机上极光光幕仅覆盖到数据卡顶端，未覆盖到底部。 - 根因分析：1. 顶部 padding 偏小；2. 蓝色光晕半径过大且底层混合了蓝色；3. 头部高度及渐变 Mask 衰减过早。 - 具体改动：   1. 头像放大至 114pt 并整体沉稳",
