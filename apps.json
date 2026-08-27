@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "331",
+          "date": "2026-08-27T14:27:38Z",
+          "localizedDescription": "fix(profile): 补齐 ProfileView 内部设置项辅助视图与容器方法定义  详细说明： - 背景与现象：ProfileView.swift 构建报错，提示 cardGroup、syncRow、rowDivider、darkModeRow、skinRow、logoutRow、rowChevron 等标识符未定义。 - 根因分析：在整理分组结构与去除副标题的重构过程中，ProfileView 结构体内部的设置行与辅助视图闭包被误裁。 - 具体改动：   1. 完整补齐 cardGroup 容器定义，遵循 AppRadius.card �",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16088044,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "330",
           "date": "2026-08-27T09:27:56Z",
           "localizedDescription": "fix(statistics): 修复 StatsCalendarView 中的 TransactionRecord 实体类型引用  背景与现象： - StatsCalendarView 中 CalendarRecordRow 将实体类型声明为未定义的 Record，导致编译失败 - 引用了未定义的 RecordType.expense.rawValue 枚举 - ForEach 复杂表达式导致类型检查超时  根因分析： - 本地数据库与 Store 派生的流水模型为 TransactionRecord，类别为 String 类型的 expense / income - 嵌套闭包结构复杂导致 Swift 编译",
