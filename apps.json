@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "335",
+          "date": "2026-08-27T15:39:00Z",
+          "localizedDescription": "refactor(profile): 彻底去除所有背景虚化与高斯模糊，回归原始纯净主题渐变  详细说明： - 背景与现象：根据用户要求，彻底去除【我的】页面的背景虚化、头像虚化和高斯模糊等一切模糊效果，回归最原始纯净的清爽画面。 - 根因与设计：完全废除头像背景渲染与径向模拟光晕，直接使用设计系统 SkinColors.headerGrad* 原生三段式主题渐变（晨雾蓝/深海墨蓝/极夜墨黑）。 - 具体改",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16080778,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "334",
           "date": "2026-08-27T15:29:09Z",
           "localizedDescription": "fix(profile): 彻底清除历史遗留表面二次模糊与顶部黑雾遮罩  详细说明： - 背景与现象：用户反馈【我的】页面原本的背景虚化效果被遮挡无法直接看到，表面像多加了一层模糊，且顶部导航栏区域有一层黑色高斯模糊/雾状遮罩。 - 根因分析：历史设计代码中残留了未删除干净的杂质：底层头像虚化表面叠加了毛玻璃（.ultraThinMaterial / 多重模糊），顶部叠加了自顶向下的深黑高",
