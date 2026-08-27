@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "333",
+          "date": "2026-08-27T15:01:43Z",
+          "localizedDescription": "fix(profile): 彻底移除模糊滤镜与灰雾遮罩，直出高饱和通透摩根蓝白橙极光  详细说明： - 背景与现象：   1. 用户反馈【我的】页面头部依然蒙着一层模糊灰雾效果，导致摩根蓝白橙的真实色彩被严重冲淡、看不清鲜明的蓝白橙三色；   2. 浅色模式下泛白发灰，深色/极夜模式下变成黑灰浑浊块，缺乏一眼可辨的高级极光质感。  - 根因分析：   1. ProfileHeaderAtmosphere 内部使用了 .blu",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16087234,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "332",
           "date": "2026-08-27T14:49:28Z",
           "localizedDescription": "refactor(profile): 优化摩根蓝白橙头部与阶梯卡质感，支持AI设置模型回显  详细说明： - 背景与现象：   1. 用户在 AI 设置中选择模型后，【我的】页面「AI 设置」行右侧未回显当前选中的模型名称；   2. 头部仍残留旧版头像背景高斯模糊与多余灰雾遮罩，未统一为纯净固定的蓝白橙极光；   3. 深色模式下数据卡片三层阶梯露出过小（4px），暗色背景下层叠辨识度不足；   4. 设置�",
