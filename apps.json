@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "334",
+          "date": "2026-08-27T15:29:09Z",
+          "localizedDescription": "fix(profile): 彻底清除历史遗留表面二次模糊与顶部黑雾遮罩  详细说明： - 背景与现象：用户反馈【我的】页面原本的背景虚化效果被遮挡无法直接看到，表面像多加了一层模糊，且顶部导航栏区域有一层黑色高斯模糊/雾状遮罩。 - 根因分析：历史设计代码中残留了未删除干净的杂质：底层头像虚化表面叠加了毛玻璃（.ultraThinMaterial / 多重模糊），顶部叠加了自顶向下的深黑高",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16089221,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "333",
           "date": "2026-08-27T15:01:43Z",
           "localizedDescription": "fix(profile): 彻底移除模糊滤镜与灰雾遮罩，直出高饱和通透摩根蓝白橙极光  详细说明： - 背景与现象：   1. 用户反馈【我的】页面头部依然蒙着一层模糊灰雾效果，导致摩根蓝白橙的真实色彩被严重冲淡、看不清鲜明的蓝白橙三色；   2. 浅色模式下泛白发灰，深色/极夜模式下变成黑灰浑浊块，缺乏一眼可辨的高级极光质感。  - 根因分析：   1. ProfileHeaderAtmosphere 内部使用了 .blu",
