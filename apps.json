@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "330",
+          "date": "2026-08-27T09:27:56Z",
+          "localizedDescription": "fix(statistics): 修复 StatsCalendarView 中的 TransactionRecord 实体类型引用  背景与现象： - StatsCalendarView 中 CalendarRecordRow 将实体类型声明为未定义的 Record，导致编译失败 - 引用了未定义的 RecordType.expense.rawValue 枚举 - ForEach 复杂表达式导致类型检查超时  根因分析： - 本地数据库与 Store 派生的流水模型为 TransactionRecord，类别为 String 类型的 expense / income - 嵌套闭包结构复杂导致 Swift 编译",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16063660,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "329",
           "date": "2026-08-27T08:54:14Z",
           "localizedDescription": "refactor(statistics): 统计模块 5 大视觉与动效体验深度重构  背景与现象： - 顶部设置按钮被强行赋予紫色品牌色，不符合系统导航栏标准色规范 - 近 12 月趋势图手指滑动探针时高频白帧闪烁 - 日历展开动效存在双重动画冲突与全屏位移拖影（从屏幕中央掉落/回缩） - 收支构成、趋势、日历贴地缺乏视觉边界与层次容器 - 趋势图探针 HUD 在大金额与小数下折行变高，导致图表上下�",
