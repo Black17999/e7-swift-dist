@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "340",
+          "date": "2026-08-28T08:36:39Z",
+          "localizedDescription": "feat(profile): 优化头像放大防顶栏、极光高斯虚化与KPI数据面板  详细说明： - 背景与现象：个人中心原头像（84pt）视觉偏小，直接放大易向上侵入导航栏；原极光背景缺失高斯模糊虚化，且底座过早切入死黑导致色块生硬；数据面板原为上数字下标题，缺乏大厂KPI结构质感。 - 根因分析：原前景VStack为居中延展，未做顶部常数锚定；SwiftUI原直接使用裸RadialGradient且基底断层；�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16090213,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "339",
           "date": "2026-08-27T21:00:22Z",
           "localizedDescription": "fix(profile): 缩短渐变高度、消除正中央白色光晕、修复段位与数据面板重叠  详细说明： - 背景与现象：1. 头部渐变色覆盖高度过高向下过度渗透；2. 胶囊段位被数据面板遮挡重叠；3. 渐变色正中央上方存在突兀的白色光晕，与画板设计不一致。 - 根因分析：1. ProfileHeaderGradientView 视觉高度过高且负边距过大；2. ProfileView 中存在负 top padding 强行上提数据面板导致压盖胶囊；3. 原�",
