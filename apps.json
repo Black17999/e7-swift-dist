@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "344",
+          "date": "2026-08-28T09:33:44Z",
+          "localizedDescription": "feat(profile): 恢复纯净主题底色透底并按照Apple原生标准重构头像全屏查看器  详细说明： - 背景与根因：   1. 复杂渐变虚化与线条表现不理想，彻底剔除所有背景装饰，恢复纯净pageBg透底；   2. 原头像放大查看器因 singleTap.require(toFail: doubleTap) 存在系统强制 300ms 双击判定延迟，且二次动画嵌套导致点击空白区域退出极为粘滞迟缓；样式使用粗糙毛玻璃与拉伸大圆，缺乏高级质感�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16086367,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "343",
           "date": "2026-08-28T09:18:39Z",
           "localizedDescription": "feat(profile): 放大头像至94pt、重构右侧三行梯队名片并升级深幅极光与双层柔光3D丝带  详细说明： - 背景与需求：头像尺寸需要进一步放大提升质感；段位胶囊应下移至账号/邮箱下方形成优雅的三行层次；极光覆盖范围需进一步下沉渗透覆盖到数据卡片；3D线条需柔化消除生硬感。 - 具体改动：   1. 头像放大：将横向头像尺寸提升至 94pt（小屏 86pt / 大屏 102pt），视觉冲击力与�",
