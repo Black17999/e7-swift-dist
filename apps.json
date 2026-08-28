@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "342",
+          "date": "2026-08-28T09:08:15Z",
+          "localizedDescription": "feat(profile): 升级左右横向VIP名片排版与3D星轨微光流线极光背景  详细说明： - 背景与需求：自上而下的纵向排版占用高度过大（200pt）易造成顶栏与胶囊距离失调；纯色渐变虚化缺乏立体感；原原型中天数徽章与数据卡片重复；右侧需更饱满真实。 - 具体改动：   1. 横向VIP名片：采用左侧82pt大头像 + 右侧22pt大字昵称紧随Lv.段位胶囊，下方融入 @username · email 账号信息，高度紧�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16096780,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "341",
           "date": "2026-08-28T08:47:14Z",
           "localizedDescription": "fix(profile): 修复头像下移沉降、极光全幅流体虚化与数据面板纯净标题  详细说明： - 背景与现象：上一轮改动中头像位置因顶部对齐计算偏高，导致段位胶囊离数据面板过远；极光光晕因尺寸小、中心浓稠且基底过早断层，真机上呈现生硬色块且名称下方死黑；数据面板微图标略显冗余。 - 根因分析：   1. 前景容器使用 alignment: .top 且 paddingTop 仅约65pt（实际safeAreaTop在98pt以上�",
