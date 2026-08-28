@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "343",
+          "date": "2026-08-28T09:18:39Z",
+          "localizedDescription": "feat(profile): 放大头像至94pt、重构右侧三行梯队名片并升级深幅极光与双层柔光3D丝带  详细说明： - 背景与需求：头像尺寸需要进一步放大提升质感；段位胶囊应下移至账号/邮箱下方形成优雅的三行层次；极光覆盖范围需进一步下沉渗透覆盖到数据卡片；3D线条需柔化消除生硬感。 - 具体改动：   1. 头像放大：将横向头像尺寸提升至 94pt（小屏 86pt / 大屏 102pt），视觉冲击力与�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16095718,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "342",
           "date": "2026-08-28T09:08:15Z",
           "localizedDescription": "feat(profile): 升级左右横向VIP名片排版与3D星轨微光流线极光背景  详细说明： - 背景与需求：自上而下的纵向排版占用高度过大（200pt）易造成顶栏与胶囊距离失调；纯色渐变虚化缺乏立体感；原原型中天数徽章与数据卡片重复；右侧需更饱满真实。 - 具体改动：   1. 横向VIP名片：采用左侧82pt大头像 + 右侧22pt大字昵称紧随Lv.段位胶囊，下方融入 @username · email 账号信息，高度紧�",
