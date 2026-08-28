@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "341",
+          "date": "2026-08-28T08:47:14Z",
+          "localizedDescription": "fix(profile): 修复头像下移沉降、极光全幅流体虚化与数据面板纯净标题  详细说明： - 背景与现象：上一轮改动中头像位置因顶部对齐计算偏高，导致段位胶囊离数据面板过远；极光光晕因尺寸小、中心浓稠且基底过早断层，真机上呈现生硬色块且名称下方死黑；数据面板微图标略显冗余。 - 根因分析：   1. 前景容器使用 alignment: .top 且 paddingTop 仅约65pt（实际safeAreaTop在98pt以上�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16086845,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "340",
           "date": "2026-08-28T08:36:39Z",
           "localizedDescription": "feat(profile): 优化头像放大防顶栏、极光高斯虚化与KPI数据面板  详细说明： - 背景与现象：个人中心原头像（84pt）视觉偏小，直接放大易向上侵入导航栏；原极光背景缺失高斯模糊虚化，且底座过早切入死黑导致色块生硬；数据面板原为上数字下标题，缺乏大厂KPI结构质感。 - 根因分析：原前景VStack为居中延展，未做顶部常数锚定；SwiftUI原直接使用裸RadialGradient且基底断层；�",
