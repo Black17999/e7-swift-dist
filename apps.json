@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "346",
+          "date": "2026-08-30T06:47:47Z",
+          "localizedDescription": "style(tabbar): 底部导航栏改为空心描边与实心填充切换并统一字号与颜色  详细说明： - 背景与现象：此前底部导航栏通过颜色亮度（暗灰 vs 高亮）与字重/字号差异（常规 vs 加粗）区分选中状态，视觉上有图标与文字跳动变大的体感。 - 需求分析：按照原生 iOS 设计规范统一图标尺寸与文本规格，移除选中高亮与未选中暗灰色对比，改用经典的「未选中空心描边，选中实心填充�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16089492,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "345",
           "date": "2026-08-28T09:56:44Z",
           "localizedDescription": "fix(profile): 补充 showInlineTitle 导航栏微缩标题计算属性，修复构建报错  详细说明： - 根因分析：ProfileView.swift 在顶部导航栏 ToolbarItem 中引用了 showInlineTitle 条件变量，但缺少对应的计算属性声明，导致 Swift 编译器报错未定义标识符。 - 具体改动：在 ProfileView 中声明 private var showInlineTitle: Bool { scrollOffsetY < -120 }，当页面向上滚动超过 120pt 时自动触发导航栏微缩头像与用户名的浮",
