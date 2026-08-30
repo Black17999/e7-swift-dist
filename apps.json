@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "358",
+          "date": "2026-08-30T12:59:33Z",
+          "localizedDescription": "feat(profile,categories): 编辑资料页系统级重塑与设计系统构建报错修复  详细说明： - 背景与现象：1. 编辑资料页(EditProfileSheet)原先采用 SwiftUI 毛坯 Form，存在结构倒挂、头像无法直接点击操纵、长邮箱在单行被截断等体验问题；2. 构建时 CategoriesView 与 CategoryEditSheet 引用了已移除或不存在的设计系统属性(SkinColors.textSecondary, brandIndigo, cardBorder, AppTypography.bodyBold)，导致编译报错与 Fo",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16418415,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "357",
           "date": "2026-08-30T11:07:01Z",
           "localizedDescription": "fix(profile): 补齐 ChangelogView 展开内容列表缺失的闭合大括号  - 背景与现象：构建出现编译错误（'private' attribute used in non-local scope 及 expected '}' at line 585），导致 CI 构建失败。 - 根因分析：此前重塑可折叠卡片动效为不对称过渡时，在 ChangelogView 中替换 .transition 处误漏掉了展开条目容器 VStack 的闭合右大括号 }，导致其后的 body 作用域未正常闭合，编译器误将私有属性 cardBackgroun",
