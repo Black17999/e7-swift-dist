@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "359",
+          "date": "2026-08-30T13:18:30Z",
+          "localizedDescription": "feat(profile): 实现蓝白橙背景虚化与下拉防露底并修复资料弹窗样式  背景与现象： - 1. 我的页头部到数据卡片上半部需要与头像描边对齐的蓝白橙柔焦虚化，且下拉屏幕时极易露白露底或在底部产生硬切断黑块断层。 - 2. 编辑资料弹窗右上角保存按钮呈现偏紫色，未能使用系统正常蓝色。 - 3. 编辑资料中登录账号、绑定邮箱与注册档案的副标题左右晃动、上下未对齐。  根因分�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16431510,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "358",
           "date": "2026-08-30T12:59:33Z",
           "localizedDescription": "feat(profile,categories): 编辑资料页系统级重塑与设计系统构建报错修复  详细说明： - 背景与现象：1. 编辑资料页(EditProfileSheet)原先采用 SwiftUI 毛坯 Form，存在结构倒挂、头像无法直接点击操纵、长邮箱在单行被截断等体验问题；2. 构建时 CategoriesView 与 CategoryEditSheet 引用了已移除或不存在的设计系统属性(SkinColors.textSecondary, brandIndigo, cardBorder, AppTypography.bodyBold)，导致编译报错与 Fo",
