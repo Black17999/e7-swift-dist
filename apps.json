@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "361",
+          "date": "2026-08-30T14:49:03Z",
+          "localizedDescription": "fix(tabbar): 位图烘焙深浅判定改用实时 colorScheme 根治回前台首帧取错色滞留  跟随系统模式下 App 退后台期间系统外观变化（定时切换/控制中心）后， 回前台 SwiftUI 重渲染时 theme.skin 同步与首帧绘制存在同帧竞速： 声明层可能拿旧 theme.isDark 烘焙出错误颜色位图，并随每次 body 重算 持续覆盖 UIKit 层的正确装配（第一次取错、一直记着）。  - MainTabView 声明层 6 处深浅判定（4 个�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16432609,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "360",
           "date": "2026-08-30T14:02:51Z",
           "localizedDescription": "fix(profile): 彻底消除下拉硬切线与露底并将保存按钮恢复黑白色  背景与现象： - 1. 编辑资料弹窗右上角保存按钮在浅色模式下呈现蓝色，未能呈现深色纯白、浅色纯黑的高级极简基调。 - 2. 我的页面向下拖动时，渐变色在数据卡片位置被硬切断，能看到底部的颜色，且顶部可能漏出底色。  根因分析： - 1. 保存按钮此前误设为 Color.blue，未跟随当前模式的主字色。 - 2. 背景虚化",
