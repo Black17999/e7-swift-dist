@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "350",
+          "date": "2026-08-30T08:48:50Z",
+          "localizedDescription": "fix(design-system): 补齐 AppSpacing.cardPadding 语义间距并规范卡片内边距  详细说明： - 背景与现象：   Xcode 构建报错，SkinPickerView.swift 第 147 行引用了未在 AppSpacing 中定义的 cardPadding 属性。  - 根因分析：   AppSpacing 规范定义了标准的 md(16pt) 基础间距，但未显式导出 cardPadding 语义别名，导致调用点编译失败。  - 具体改动：   1. 在 AppSpacing 中增加语义化常量 cardPadding = md (16pt)，保持设�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16184901,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "349",
           "date": "2026-08-30T08:21:52Z",
           "localizedDescription": "fix(design-system): 补齐 AppRadius 尺寸规范与 AppTypography 语义字体，修复构建缺失成员  详细说明： - 背景与现象：   Xcode 构建报错，DistributionView 引用了未定义的 AppTypography.caption2 以及 AppRadius.xs/sm/md，以及非标准的 headline 和 title2 字体。  - 根因分析：   1. AppTypography 未暴露 iOS 标准的 caption2 动态字体层级；   2. AppRadius 仅有 small/card/large，未提供更通用的 xs(4)/sm(8)/md(16) 别名；   3. Dis",
