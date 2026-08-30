@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "349",
+          "date": "2026-08-30T08:21:52Z",
+          "localizedDescription": "fix(design-system): 补齐 AppRadius 尺寸规范与 AppTypography 语义字体，修复构建缺失成员  详细说明： - 背景与现象：   Xcode 构建报错，DistributionView 引用了未定义的 AppTypography.caption2 以及 AppRadius.xs/sm/md，以及非标准的 headline 和 title2 字体。  - 根因分析：   1. AppTypography 未暴露 iOS 标准的 caption2 动态字体层级；   2. AppRadius 仅有 small/card/large，未提供更通用的 xs(4)/sm(8)/md(16) 别名；   3. Dis",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16167427,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "348",
           "date": "2026-08-30T07:34:48Z",
           "localizedDescription": "feat(haptics): 全面补齐与优化全 App 触觉震动反馈  背景与现象： - 统计页导航栏点击设置齿轮按钮无触觉震动； - 债务列表中点击债务人卡片进入详情页无触觉震动； - 经全 App 排查，部分二级设置与全局反馈中心缺少统一触觉回馈。  根因分析： - 部分按钮 Action 闭包中未显式调用 UIImpactFeedbackGenerator； - 部分 Segmented 分段选择器未挂载声明式 .sensoryFeedback 视图修饰符； - ToastCent",
