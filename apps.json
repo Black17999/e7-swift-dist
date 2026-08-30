@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "356",
+          "date": "2026-08-30T10:28:32Z",
+          "localizedDescription": "style(profile): 我的页面头部方案 D 空间配平与使用说明导览卡片紧凑化  详细说明： - 背景与现象：1. 我的页面原 94pt 大头像上方悬空 42pt、下方仅留 18pt，导致右上角编辑按钮孤立悬空且整体下坠压迫；2. 使用说明页面顶部紫色渐变卡片底部过高、空旷留白过多 - 根因分析：1. ProfileHeaderGradientView 强行底对齐与高度冗余导致留白倒挂；2. InstructionView 中 Circle 光晕 160x160 作为直接�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16318786,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "355",
           "date": "2026-08-30T10:08:01Z",
           "localizedDescription": "fix(instruction): 修复动画 API 参数形参错误导致的构建失败  详细说明： - 背景与现象：CI 构建失败，报错 cannot call value of non-function type 'Animation' - 根因分析：SwiftUI 中 Animation.snappy 形参标签为 extraBounce 而非 bounce，标签不匹配导致编译器退化匹配到静态属性从而报错 - 具体改动：遵循 iOS 技能 apple-animation-patterns 规范，将 InstructionView 卡片展开折叠动效统一采用现代官方推荐预设 .s",
