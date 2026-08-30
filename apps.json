@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "347",
+          "date": "2026-08-30T07:07:15Z",
+          "localizedDescription": "fix(tabbar): 修复冷启动与多任务手势时TabBar图标误渲染为实心填充的问题  详细说明： - 背景与现象：App 冷启动进入首帧或在底部 Home 条上划退出/悬停预览多任务时，TabBar 未选中的图标会全部突变闪回为实心填充，需手动点击切换一次 Tab 才能恢复空心。 - 根因分析：   1. 声明层动态覆盖冲突：SwiftUI TabView 的 tabItem 声明了包含三元条件判断的动态系统图标，导致冷启动首帧及�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16089598,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "346",
           "date": "2026-08-30T06:47:47Z",
           "localizedDescription": "style(tabbar): 底部导航栏改为空心描边与实心填充切换并统一字号与颜色  详细说明： - 背景与现象：此前底部导航栏通过颜色亮度（暗灰 vs 高亮）与字重/字号差异（常规 vs 加粗）区分选中状态，视觉上有图标与文字跳动变大的体感。 - 需求分析：按照原生 iOS 设计规范统一图标尺寸与文本规格，移除选中高亮与未选中暗灰色对比，改用经典的「未选中空心描边，选中实心填充�",
