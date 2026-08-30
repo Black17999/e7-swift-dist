@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "363",
+          "date": "2026-08-30T15:39:04Z",
+          "localizedDescription": "feat(我的页): 顶部新增左右呼应微光消解状态栏区深色留白  - 顶部左·淡蓝微光 (190pt, 透明度 0.35) 与右·淡橙微光 (185pt, 0.32) - 与下方蓝/橙主光斑同色同构上下呼应，不引入新颜色 - 现有蓝/白/橙三主光斑与氛围层保持不动  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16432945,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "362",
           "date": "2026-08-30T15:29:30Z",
           "localizedDescription": "style(我的页): 极光光斑整体上移50pt修复头部留黑与橙斑压卡片  - 蓝色光斑偏移 -20 → -70，核心收回头像区域 - 白色光斑偏移 -5 → -55 - 橙色光斑偏移 +15 → -35，注册天数卡片仅留自然余晖 - 仅调整光斑垂直偏移，氛围层与卡片布局不变  ",
