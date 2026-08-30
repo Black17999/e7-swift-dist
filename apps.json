@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "355",
+          "date": "2026-08-30T10:08:01Z",
+          "localizedDescription": "fix(instruction): 修复动画 API 参数形参错误导致的构建失败  详细说明： - 背景与现象：CI 构建失败，报错 cannot call value of non-function type 'Animation' - 根因分析：SwiftUI 中 Animation.snappy 形参标签为 extraBounce 而非 bounce，标签不匹配导致编译器退化匹配到静态属性从而报错 - 具体改动：遵循 iOS 技能 apple-animation-patterns 规范，将 InstructionView 卡片展开折叠动效统一采用现代官方推荐预设 .s",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16318992,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "354",
           "date": "2026-08-30T09:43:27Z",
           "localizedDescription": "fix(ui-ux): 优化关于弹窗占高、消除更新历史灰色分割色块并修复股东分账键盘闪退  详细说明： - 背景与现象：   1. 关于 E7 记账弹窗右上角设有关闭按钮并占用了 Toolbar 高度，导致初始弹窗高度过高、顶部留白过大；   2. 更新历史页面（如 V3.2.0）版本说明下方的实线外围被一层浅灰色长条矩形色块包围，破坏了发丝分割线的纯净感；   3. 股东分账页面的金额输入框在输入任意�",
