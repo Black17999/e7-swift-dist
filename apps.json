@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "351",
+          "date": "2026-08-30T09:02:36Z",
+          "localizedDescription": "refactor(profile): 深度重构【关于E7记账】弹窗视觉与信息架构  背景与现象： - 原 AboutSheet 结构单薄，55% 垂直空间存在严重留白与未完工感 - 原 Logo 使用临时绘制代码容易被误认为 17，未采用现有高精官方 Logo 资产 - 缺乏隐私合规背书、技术代际说明与团队署名，寻路交互存在撕裂感  根因分析： - 初始版本仅作为原型快速占位，未遵循 Apple HIG 标准分组卡片与信任资产规范  具�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16227087,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "350",
           "date": "2026-08-30T08:48:50Z",
           "localizedDescription": "fix(design-system): 补齐 AppSpacing.cardPadding 语义间距并规范卡片内边距  详细说明： - 背景与现象：   Xcode 构建报错，SkinPickerView.swift 第 147 行引用了未在 AppSpacing 中定义的 cardPadding 属性。  - 根因分析：   AppSpacing 规范定义了标准的 md(16pt) 基础间距，但未显式导出 cardPadding 语义别名，导致调用点编译失败。  - 具体改动：   1. 在 AppSpacing 中增加语义化常量 cardPadding = md (16pt)，保持设�",
