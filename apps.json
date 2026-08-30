@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "357",
+          "date": "2026-08-30T11:07:01Z",
+          "localizedDescription": "fix(profile): 补齐 ChangelogView 展开内容列表缺失的闭合大括号  - 背景与现象：构建出现编译错误（'private' attribute used in non-local scope 及 expected '}' at line 585），导致 CI 构建失败。 - 根因分析：此前重塑可折叠卡片动效为不对称过渡时，在 ChangelogView 中替换 .transition 处误漏掉了展开条目容器 VStack 的闭合右大括号 }，导致其后的 body 作用域未正常闭合，编译器误将私有属性 cardBackgroun",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16318610,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "356",
           "date": "2026-08-30T10:28:32Z",
           "localizedDescription": "style(profile): 我的页面头部方案 D 空间配平与使用说明导览卡片紧凑化  详细说明： - 背景与现象：1. 我的页面原 94pt 大头像上方悬空 42pt、下方仅留 18pt，导致右上角编辑按钮孤立悬空且整体下坠压迫；2. 使用说明页面顶部紫色渐变卡片底部过高、空旷留白过多 - 根因分析：1. ProfileHeaderGradientView 强行底对齐与高度冗余导致留白倒挂；2. InstructionView 中 Circle 光晕 160x160 作为直接�",
