@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "348",
+          "date": "2026-08-30T07:34:48Z",
+          "localizedDescription": "feat(haptics): 全面补齐与优化全 App 触觉震动反馈  背景与现象： - 统计页导航栏点击设置齿轮按钮无触觉震动； - 债务列表中点击债务人卡片进入详情页无触觉震动； - 经全 App 排查，部分二级设置与全局反馈中心缺少统一触觉回馈。  根因分析： - 部分按钮 Action 闭包中未显式调用 UIImpactFeedbackGenerator； - 部分 Segmented 分段选择器未挂载声明式 .sensoryFeedback 视图修饰符； - ToastCent",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16096723,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "347",
           "date": "2026-08-30T07:07:15Z",
           "localizedDescription": "fix(tabbar): 修复冷启动与多任务手势时TabBar图标误渲染为实心填充的问题  详细说明： - 背景与现象：App 冷启动进入首帧或在底部 Home 条上划退出/悬停预览多任务时，TabBar 未选中的图标会全部突变闪回为实心填充，需手动点击切换一次 Tab 才能恢复空心。 - 根因分析：   1. 声明层动态覆盖冲突：SwiftUI TabView 的 tabItem 声明了包含三元条件判断的动态系统图标，导致冷启动首帧及�",
