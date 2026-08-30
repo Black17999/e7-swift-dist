@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "354",
+          "date": "2026-08-30T09:43:27Z",
+          "localizedDescription": "fix(ui-ux): 优化关于弹窗占高、消除更新历史灰色分割色块并修复股东分账键盘闪退  详细说明： - 背景与现象：   1. 关于 E7 记账弹窗右上角设有关闭按钮并占用了 Toolbar 高度，导致初始弹窗高度过高、顶部留白过大；   2. 更新历史页面（如 V3.2.0）版本说明下方的实线外围被一层浅灰色长条矩形色块包围，破坏了发丝分割线的纯净感；   3. 股东分账页面的金额输入框在输入任意�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16269973,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "353",
           "date": "2026-08-30T09:22:55Z",
           "localizedDescription": "fix(distribution): 优化输入框原生选区与删空归零，去除紫色聚焦描边，放大通俗说明并精简计算结果  详细说明： - 背景与现象：   1. 输入数字退格删减到最后一位时无法彻底删除，且再次点击进入时光标总是停在最左侧（开头）；   2. 点击输入框聚焦时显示明显的紫色描边和光标，色彩突兀破坏整体高级感；   3. 欠款变化的通俗说明字号依然较小，阅读费劲；   4. 计算结果中�",
