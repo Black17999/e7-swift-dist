@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "362",
+          "date": "2026-08-30T15:29:30Z",
+          "localizedDescription": "style(我的页): 极光光斑整体上移50pt修复头部留黑与橙斑压卡片  - 蓝色光斑偏移 -20 → -70，核心收回头像区域 - 白色光斑偏移 -5 → -55 - 橙色光斑偏移 +15 → -35，注册天数卡片仅留自然余晖 - 仅调整光斑垂直偏移，氛围层与卡片布局不变  ",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16433464,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "361",
           "date": "2026-08-30T14:49:03Z",
           "localizedDescription": "fix(tabbar): 位图烘焙深浅判定改用实时 colorScheme 根治回前台首帧取错色滞留  跟随系统模式下 App 退后台期间系统外观变化（定时切换/控制中心）后， 回前台 SwiftUI 重渲染时 theme.skin 同步与首帧绘制存在同帧竞速： 声明层可能拿旧 theme.isDark 烘焙出错误颜色位图，并随每次 body 重算 持续覆盖 UIKit 层的正确装配（第一次取错、一直记着）。  - MainTabView 声明层 6 处深浅判定（4 个�",
