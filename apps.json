@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "364",
+          "date": "2026-09-05T21:57:10Z",
+          "localizedDescription": "fix(首页): 跟随系统模式下英雄卡与日期条错色且切 Tab 不自愈  根因：跟随系统时 App 皮肤（skin）是一份持久化快照，仅由 RootView 的 onChange(of: colorScheme) 单向同步一次。后台期间系统外观被改动再回 前台时该同步不保证触发，皮肤卡在旧值，于是依赖 theme.isDark 的首页 英雄卡与日期条渲染成浅色配色；且二者位于 List 顶部区块，未收到失效 通知，切 Tab 也不恢复，只有在日期�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16458972,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "363",
           "date": "2026-08-30T15:39:04Z",
           "localizedDescription": "feat(我的页): 顶部新增左右呼应微光消解状态栏区深色留白  - 顶部左·淡蓝微光 (190pt, 透明度 0.35) 与右·淡橙微光 (185pt, 0.32) - 与下方蓝/橙主光斑同色同构上下呼应，不引入新颜色 - 现有蓝/白/橙三主光斑与氛围层保持不动  ",
