@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "366",
+          "date": "2026-09-05T22:40:58Z",
+          "localizedDescription": "feat(debts): 重构添加债务弹窗交互与视觉层级  详细说明： - 背景与现象：原 AddDebtSheet 采用冷冰正负数学符号（+增加/-减少）、80pt 单头像点击强制跳出全屏弹窗（Modal-in-Modal 割裂）、字段顺序倒装（意图->金额->姓名导致输入法在数字与中文间来回横跳）、右上角小按钮单手不易触达。 - 架构与设计决策：严格对照 Apple Design Principles、Apple Animation Patterns 与 HIG Modality 规范；确立",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16500840,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "365",
           "date": "2026-09-05T22:11:35Z",
           "localizedDescription": "chore(ci): 停用 CircleCI 云端产物存储以停止消耗 Storage 配额  移除 build-and-publish 末尾的 store_artifacts（改为注释保留，便于日后 临时排查产物时一键恢复）。  原因：每次构建都把 E7-unsigned.ipa 上传保存到 CircleCI 云端，持续累积 Storage 用量（已数百兆）。而分发链路完全不依赖它——步骤 7 已把同一个 IPA 发布到 GitHub Releases，并把下载地址写入 gh-pages 的 apps.json 订阅源，用户安装�",
