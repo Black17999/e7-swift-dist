@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "39",
+          "date": "2026-09-27T08:43:50Z",
+          "localizedDescription": "feat(category): 分类改名自动级联历史记录，空分类统一显示「未分类」  - 台费默认分类改为运行时解析（system_role → 该类型第一个分类），彻底移除写死的分类名 - CategoryRecord / DTO 新增 systemRole，本地 GRDB 新增 v5 迁移同步系统角色 - 改名后本地级联改写历史记录的 category 列（不动 sync_status/updated_at，含 pending 行），   服务端触发器做权威级联，跨端任何端改名均自动生效 - 空�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16462104,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "369",
           "date": "2026-09-05T23:32:03Z",
           "localizedDescription": "fix(debts): 落地方案一实现双子卡片206pt绝对等高，债务人卡片留白扩容解拥挤  详细说明：  - 背景与现象：债务人信息卡片在视觉上明显矮于包含大字展台的金额卡片（~186pt vs ~208pt），导致内部标题、52pt头像与姓名输入框紧密堆叠，视觉局促拥挤。  - 方案权衡：经方案一（扩容拉齐）与方案二（压缩金额）深度评估，采纳治本的方案一，既能实现物理级等高，又从根本上解决",
