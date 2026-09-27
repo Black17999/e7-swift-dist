@@ -16,6 +16,15 @@
       "versions": [
         {
           "version": "3.2.0",
+          "buildVersion": "370",
+          "date": "2026-09-27T08:44:57Z",
+          "localizedDescription": "feat(category): 分类改名自动级联历史记录，空分类统一显示「未分类」  - 台费默认分类改为运行时解析（system_role → 该类型第一个分类），彻底移除写死的分类名 - CategoryRecord / DTO 新增 systemRole，本地 GRDB 新增 v5 迁移同步系统角色 - 改名后本地级联改写历史记录的 category 列（不动 sync_status/updated_at，含 pending 行），   服务端触发器做权威级联，跨端任何端改名均自动生效 - 空�",
+          "downloadURL": "https://github.com/Black17999/e7-swift-dist/releases/latest/download/E7-unsigned.ipa",
+          "size": 16527633,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "3.2.0",
           "buildVersion": "39",
           "date": "2026-09-27T08:43:50Z",
           "localizedDescription": "feat(category): 分类改名自动级联历史记录，空分类统一显示「未分类」  - 台费默认分类改为运行时解析（system_role → 该类型第一个分类），彻底移除写死的分类名 - CategoryRecord / DTO 新增 systemRole，本地 GRDB 新增 v5 迁移同步系统角色 - 改名后本地级联改写历史记录的 category 列（不动 sync_status/updated_at，含 pending 行），   服务端触发器做权威级联，跨端任何端改名均自动生效 - 空�",
